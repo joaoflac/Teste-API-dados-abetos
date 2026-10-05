@@ -1,0 +1,368 @@
+﻿coluna,valor,n_operacoes_BA,valor_desembolsado_BA,n_inovacao_sim,relacao_cti,justificativa
+inovacao,NÃO,80664,80792255616.99,0,Não,
+inovacao,SIM,300,766694634.16,300,Sim (principal),Flag oficial do BNDES
+produto,BNDES AUTOMÁTICO,12530,3776439766.0,1,Contém operações com inovacao=SIM,1 op. SIM
+produto,BNDES CRÉDITO DIRETO MÉDIAS EMPRESAS,6,13300000.0,0,Não,
+produto,BNDES CRÉDITO RURAL,51,94969292.0,0,Não,
+produto,BNDES DEBENTURES SIMPLES,12,0.0,0,Não,
+produto,BNDES EMPRÉSTIMO PONTE,44,3646808177.11,0,Não,
+produto,BNDES FINAME,65710,19729391694.0,268,Contém operações com inovacao=SIM,268 op. SIM
+produto,BNDES FINAME AGRÍCOLA,640,236597356.0,0,Não,
+produto,BNDES FINAME LEASING,929,253897983.0,0,Não,
+produto,BNDES FINEM,671,42469307842.67,26,Contém operações com inovacao=SIM,26 op. SIM
+produto,BNDES GARANTIA,4,0.0,0,Não,
+produto,BNDES LIMITE DE CRÉDITO,155,5030663801.42,4,Contém operações com inovacao=SIM,4 op. SIM
+produto,BNDES MICROCRÉDITO,1,19999999.98,0,Não,
+produto,BNDES MÁQUINAS E SERVIÇOS,3,172212000.0,0,Não,
+produto,BNDES NÃO REEMBOLSÁVEL,59,138768360.57,1,Contém operações com inovacao=SIM,1 op. SIM
+produto,BNDES PROJECT FINANCE,148,5962093978.42,0,Não,
+produto,OPERAÇÃO FINANCEIRA,1,14499999.98,0,Não,
+instrumento_financeiro,AGENTES FINANCEIROS - MICROCRÉDITO,1,19999999.98,0,Não,
+instrumento_financeiro,APOIO A CULTURA,10,1404515.71,0,Não,
+instrumento_financeiro,"AQUISIÇÃO DE BENS DE CAPITAL: INDÚSTRIA, COMÉRCIO E SERVIÇOS",20,5429932.0,0,Não,
+instrumento_financeiro,BK AQUISIÇÃO E COMERCIALIZAÇÃO - DEMAIS,19480,4604427965.62,0,Não,
+instrumento_financeiro,BK AQUISIÇÃO E COMERCIALIZAÇÃO – BAIXO CARBONO,6,5999971.0,0,Não,
+instrumento_financeiro,BK AQUISIÇÃO E COMERCIALIZAÇÃO – ENERGIA RENOVÁVEL,1,1000000.0,0,Não,
+instrumento_financeiro,BK AQUISIÇÃO E COMERCIALIZAÇÃO – MÁQUINAS 4.0,22,6572073.0,22,Sim (principal),Máquinas 4.0 (difusão tecnológica)
+instrumento_financeiro,BK AQUISIÇÃO E COMERCIALIZAÇÃO – ÔNIBUS E CAMINHÃO,8549,3424987937.0,0,Não,
+instrumento_financeiro,BNDES BK USADOS,1,291200.0,0,Não,
+instrumento_financeiro,BNDES CEREALISTAS,1,3015060.22,0,Não,
+instrumento_financeiro,BNDES CEREALISTAS - Equalizado,1,9082000.0,0,Não,
+instrumento_financeiro,BNDES CRÉDITO DIRETO MÉDIAS EMPRESAS - GIRO,3,5320000.0,0,Não,
+instrumento_financeiro,BNDES CRÉDITO DIRETO MÉDIAS EMPRESAS - INVESTIMENTO,3,7980000.0,0,Não,
+instrumento_financeiro,BNDES CRÉDITO RURAL,52,29353497.0,0,Não,
+instrumento_financeiro,BNDES CRÉDITO RURAL MÁQUINAS E EQUIPAMENTOS,51,94969292.0,0,Não,
+instrumento_financeiro,BNDES EMERGENCIAL SAÚDE,1,20250000.0,0,Não,
+instrumento_financeiro,BNDES ESTADOS,1,563772000.0,0,Não,
+instrumento_financeiro,BNDES FINAME COMPONENTES,9,33457042.0,0,Não,
+instrumento_financeiro,BNDES FINAME FUNTTEL,1,0.0,0,Sim (principal),FUNTTEL via FINAME
+instrumento_financeiro,BNDES FINAME MODERNIZA BK,1,273980.0,0,Não,
+instrumento_financeiro,BNDES FLORESTAL,2,26103657.37,0,Não,
+instrumento_financeiro,BNDES FRD,1,4062106.12,0,Não,
+instrumento_financeiro,BNDES FUNDO SOCIOAMBIENTAL,24,50341324.43,0,Não,
+instrumento_financeiro,BNDES FUNTTEL,6,15000000.0,6,Sim (principal),Fundo p/ Desenv. Tecnológico das Telecom.
+instrumento_financeiro,BNDES GIRO,4113,1439053938.31,0,Não,
+instrumento_financeiro,BNDES INOVAÇÃO,1,13559000.0,1,Sim (principal),Linha de inovação
+instrumento_financeiro,BNDES INSTRUMENTO DE GARANTIA,4,0.0,0,Não,
+instrumento_financeiro,BNDES MICROCRÉDITO,2,26548451.48,0,Não,
+instrumento_financeiro,BNDES P&G,2,30000000.0,0,Não,
+instrumento_financeiro,BNDES PASS,1,5000000.0,0,Não,
+instrumento_financeiro,BNDES PER BR,44,12349538.0,0,Não,
+instrumento_financeiro,BNDES PMAT,8,55825007.67,0,Não,
+instrumento_financeiro,BNDES PMAT AUTOMÁTICO,7,27895132.0,0,Não,
+instrumento_financeiro,BNDES PROCAMINHONEIRO,27,3654601.0,0,Não,
+instrumento_financeiro,BNDES PROCAMINHONEIRO - Equalizado,519,99427568.0,0,Não,
+instrumento_financeiro,BNDES PROCAPCRED,1,0.0,0,Não,
+instrumento_financeiro,BNDES PROCER,7,56700000.0,0,Não,
+instrumento_financeiro,BNDES PROCOPA ARENAS,1,323628999.97,0,Não,
+instrumento_financeiro,BNDES PROCOPA TURISMO,3,22874818.89,0,Não,
+instrumento_financeiro,BNDES PROCULT,3,4734815.63,0,Não,
+instrumento_financeiro,BNDES PRODESIGN,2,20003861.3,2,Sim (principal),Design/inovação
+instrumento_financeiro,BNDES PROENGENHARIA,2,215081832.0,2,Sim (principal),Engenharia/P&D
+instrumento_financeiro,BNDES PRORENOVA,1,3154760.0,0,Não,
+instrumento_financeiro,BNDES PROSOFT,4,5237773.87,3,Sim (principal),Software e serviços de TI
+instrumento_financeiro,BNDES QUALIFICAÇÃO,7,127333939.98,2,Contém operações com inovacao=SIM,2 op. SIM
+instrumento_financeiro,BNDES REVITALIZA,14,98587604.0,0,Não,
+instrumento_financeiro,BNDES SAÚDE,13,217585484.87,0,Não,
+instrumento_financeiro,"CAPACIDADE PRODUTIVA - Comércio,Turismo,Demais Segmentos Serviços",4,132241973.53,0,Não,
+instrumento_financeiro,CAPACIDADE PRODUTIVA - DEMAIS INDÚSTRIA E SERVIÇOS,4,576261455.46,0,Não,
+instrumento_financeiro,CAPACIDADE PRODUTIVA - Demais Indústrias e Agropecuária,123,2978187142.93,0,Não,
+instrumento_financeiro,"CAPACIDADE PRODUTIVA NA INDÚSTRIA,AGRICULTURA,COMÉRCIO E SERVIÇOS",76,2751545663.09,0,Não,
+instrumento_financeiro,DEBENTURES - OFERTAS PÚBLICAS PADRÃO,4,0.0,0,Não,
+instrumento_financeiro,DEMAIS INVESTIMENTOS,1,5436577.83,0,Não,
+instrumento_financeiro,DISTRIBUIÇÃO DE GÁS E BIOCOMBUSTÍVEIS CONVENCIONAIS,5,29999947.45,0,Não,
+instrumento_financeiro,ECONOMIA DA CULTURA,7,33442209.28,0,Não,
+instrumento_financeiro,ENERGIA - Distribuição de Energia Elétrica,30,4695542327.78,0,Não,
+instrumento_financeiro,"ENERGIA - GERAÇÃO DE ENERGIAS ALTERNATIVAS A PARTIR DE BIOMASSA, EÓLICA E PEQUENAS CENTRAIS HIDRELÉTRICAS",69,9889792228.57,0,Não,
+instrumento_financeiro,ENERGIA - Geração de Energia Elétrica,68,1405703310.03,0,Não,
+instrumento_financeiro,ENERGIA - Transmissão de Energia Elétrica,3,240226915.0,0,Não,
+instrumento_financeiro,ENERGIA – GERAÇÃO DE ENERGIA SOLAR,8,1334197387.42,0,Não,
+instrumento_financeiro,ENERGIAS ALTERNATIVAS,109,2617832038.08,0,Não,
+instrumento_financeiro,ENGENHARIA AUTOMOTIVA,1,78169141.21,1,Sim (principal),Engenharia automotiva (P&D)
+instrumento_financeiro,FEP,1,17250.0,0,Não,
+instrumento_financeiro,FUNDO AMAZÔNIA,1,31671000.0,0,Não,
+instrumento_financeiro,FUNDO CULTURAL,2,235673.99,0,Não,
+instrumento_financeiro,FUNDO DA MARINHA MERCANTE,27,342647430.13,0,Não,
+instrumento_financeiro,FUNTEC,1,1930000.0,1,Sim (principal),Fundo Tecnológico (não reembolsável)
+instrumento_financeiro,IMPORTAÇÃO DE BENS DE CAPITAL,1,233309.62,0,Não,
+instrumento_financeiro,INDÚSTRIA E SERVIÇOS DIFUSORES DE TECNOLOGIA,1,40157000.0,0,Sim (principal),Difusão tecnológica
+instrumento_financeiro,"INDÚSTRIA, AGROPECUÁRIA E INFRAESTRUTURA",37,70523172.0,0,Não,
+instrumento_financeiro,INOVAGRO,1,339000.0,1,Sim (principal),Inovação tecnológica agropecuária
+instrumento_financeiro,INOVAÇÃO,1,8981000.0,1,Sim (principal),Linha de inovação
+instrumento_financeiro,INTERNACIONALIZAÇÃO,1,1231540291.95,0,Não,
+instrumento_financeiro,INVESTIMENTO SOCIAL DE EMPRESAS (ISE),44,99695002.48,0,Não,
+instrumento_financeiro,LEILÃO DE INFRAESTRUTURA,147,6420921122.63,0,Não,
+instrumento_financeiro,LINHA CRÉDITO PEQUENAS E MÉDIAS EMPRESAS,3410,813974412.0,0,Não,
+instrumento_financeiro,LINHA DE APOIO À AGROPECUÁRIA 3,5,90081710.03,0,Não,
+instrumento_financeiro,LINHA DE APOIO À INDÚSTRIA 2,4,13559947.61,0,Não,
+instrumento_financeiro,LINHA DE APOIO À INDÚSTRIA 3,3,10791157.61,0,Não,
+instrumento_financeiro,"LOGÍSTICA - Modal Hidroviário, Portuário e Demais Investimentos",8,168976706.73,0,Não,
+instrumento_financeiro,LOGÍSTICA - Modal Rodoviário,29,1137867832.16,0,Não,
+instrumento_financeiro,LOGÍSTICA – PORTOS E TERMINAIS OPERADORES LOGÍSTICOS,3,263129000.0,0,Não,
+instrumento_financeiro,MATERIAIS INDUSTRIALIZADOS,980,1987465890.0,0,Não,
+instrumento_financeiro,MEIO AMBIENTE,13,74465352.79,0,Não,
+instrumento_financeiro,MERCADO DE CAPITAIS,3,0.0,0,Não,
+instrumento_financeiro,"MICRO, PEQUENAS E MÉDIAS EMPRESAS",50,124099851.0,0,Não,
+instrumento_financeiro,MOBILIDADE URBANA,3,2429457231.31,0,Não,
+instrumento_financeiro,MOBILIDADE – SISTEMA SOB TRILHOS OU BRTS,1,640681283.54,0,Não,
+instrumento_financeiro,MODERAGRO,1508,183881107.0,0,Não,
+instrumento_financeiro,MODERFROTA,369,122881940.0,0,Não,
+instrumento_financeiro,MODERINFRA,145,57579362.0,0,Não,
+instrumento_financeiro,MODERMAQ,232,98376052.0,0,Não,
+instrumento_financeiro,"MODERNIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA ESTADUAL, DISTRITAL E MUNICIPAL",1,29375256.56,0,Não,
+instrumento_financeiro,MÉDIAS-GRANDES E GRANDES EMPRESAS – DEMAIS SETORES,1,996964.0,0,Não,
+instrumento_financeiro,MÉDIAS-GRANDES E GRANDES EMPRESAS – SETORES PRIORITÁRIOS,1,988000.0,0,Não,
+instrumento_financeiro,OUTROS,6797,5749840386.2,7,Contém operações com inovacao=SIM,7 op. SIM
+instrumento_financeiro,PEC BNDES,66,66535676.0,0,Não,
+instrumento_financeiro,PEF BNDES,2,375847999.99,0,Não,
+instrumento_financeiro,"PETROLEO E GÁS NATURAL - Desenvolv,Produção Refino Petróleo",6,109605510.46,0,Não,
+instrumento_financeiro,"PETROLEO E GÁS NATURAL - Desenvolv,Produção,Proces de Gás Natural",4,9042924.1,0,Não,
+instrumento_financeiro,"PETROLEO E GÁS NATURAL-Transp Dist Petróleo,Gás Natural e Biocomb",7,6180393951.41,0,Não,
+instrumento_financeiro,PMAE,1,9905399.93,0,Não,
+instrumento_financeiro,PROCAP-AGRO,10,62100000.0,0,Não,
+instrumento_financeiro,PROCAPCRED,140,1504900.0,0,Não,
+instrumento_financeiro,PRODECOOP,2,20000000.0,0,Não,
+instrumento_financeiro,PRODUSA,188,33001195.0,0,Não,
+instrumento_financeiro,PRODUÇÃO DE ALIMENTOS E BIOCOMBUSTÍVEIS,1,469236828.59,0,Não,
+instrumento_financeiro,PRODUÇÃO DE BENS DE CAPITAL,6,22844697.0,0,Não,
+instrumento_financeiro,PROGRAMA ABC,13,38476390.0,0,Não,
+instrumento_financeiro,PROGRAMA BNDES BRASIL SOBERANO,11,120770000.0,0,Não,
+instrumento_financeiro,PROGRAMA BNDES BRASIL SOBERANO COMPETITIVIDADE,4,50000000.0,0,Não,
+instrumento_financeiro,PROGRAMA BNDES FUST,2,30000000.0,0,Sim (principal),FUST — conectividade/telecom
+instrumento_financeiro,PROGRAMA BNDES FUST AUTOMÁTICO,9,11856331.0,0,Sim (principal),FUST — conectividade/telecom
+instrumento_financeiro,PROGRAMA BNDES MAIS INOVAÇÃO,245,130950999.0,245,Sim (principal),Programa Mais Inovação (ver ressalva no .md)
+instrumento_financeiro,PROGRAMA BNDES MAIS MOBILIDADE,587,105186494.0,0,Não,
+instrumento_financeiro,PROGRAMA BNDES RENOVA FROTA,263,234324031.0,0,Não,
+instrumento_financeiro,PROGRAMA BNDES SANEAMENTO PARA TODOS,5,0.0,0,Não,
+instrumento_financeiro,PROGRAMA CAMINHO DA ESCOLA,7,3365400.0,0,Não,
+instrumento_financeiro,PROGRAMA CRÉDITO AGROPECUÁRIO EMPRESARIAL INVESTIMENTO,6,3132090.0,0,Não,
+instrumento_financeiro,PROGRAMA FUNDO CLIMA,9,805975000.0,0,Não,
+instrumento_financeiro,PROGRAMA FUNDO NACIONAL DE INVESTIMENTO EM INFRAESTRUTURA SOCIAL,1,0.0,0,Não,
+instrumento_financeiro,PROGRAMA PARA CONSTRUÇÃO E AMPLIAÇÃO DE ARMAZÉNS - PCA,11,50043351.0,0,Não,
+instrumento_financeiro,PROINVESTE,1,1493038252.93,0,Não,
+instrumento_financeiro,PRONAF INVESTIMENTO,1317,12819805.0,0,Não,
+instrumento_financeiro,PRONAMP INVESTIMENTO,3,338560.0,0,Não,
+instrumento_financeiro,PROPFLORA,5,831609.0,0,Não,
+instrumento_financeiro,PROVIAS,25,17460306.0,0,Não,
+instrumento_financeiro,PRÓ-CDD ESTIAGEM,3,235111.0,0,Não,
+instrumento_financeiro,PSI - BK - Demais Itens,6619,3952476409.19,0,Não,
+instrumento_financeiro,PSI - BK - Rural,273,144144720.0,0,Não,
+instrumento_financeiro,PSI - BK - Tecnologia Nacional,1,919578.0,1,Sim (principal),BK com tecnologia nacional
+instrumento_financeiro,PSI - BK - Ônibus e Caminhão,23698,5579301378.0,0,Não,
+instrumento_financeiro,PSI - Inovação,4,38292676.0,4,Sim (principal),PSI linha Inovação
+instrumento_financeiro,PSI - Proengenharia,1,151533000.0,1,Sim (principal),Engenharia/P&D
+instrumento_financeiro,SANEAMENTO,2,9700000.0,0,Não,
+instrumento_financeiro,SANEAMENTO AMBIENTAL E RECURSOS HÍDRICOS,15,436303593.13,0,Não,
+instrumento_financeiro,"TURISMO, COMÉRCIO E SERVIÇOS",15,20186391.0,0,Não,
+modalidade_de_apoio,NÃO REEMBOLSÁVEL,59,138768360.57,1,Contém operações com inovacao=SIM,1 op. SIM
+modalidade_de_apoio,REEMBOLSÁVEL,80905,81420181890.58,299,Contém operações com inovacao=SIM,299 op. SIM
+forma_de_apoio,DIRETA,916,55216545393.98,25,Contém operações com inovacao=SIM,25 op. SIM
+forma_de_apoio,INDIRETA,80048,26342404857.17,275,Contém operações com inovacao=SIM,275 op. SIM
+area_operacional,AREA DE DESENVOLVIMENTO PRODUTIVO E INOVACAO,352,12474197107.1,29,Auxiliar,Área ampla (inclui crédito produtivo não-inovador)
+area_operacional,AREA DE DESENVOLVIMENTO SOCIAL E GESTAO PUBLICA,73,2775728459.37,2,Contém operações com inovacao=SIM,2 op. SIM
+area_operacional,AREA DE INFRAESTRUTURA,92,6207702893.6,0,Não,
+area_operacional,AREA DE MEIO AMBIENTE,6,65184522.21,0,Não,
+area_operacional,"AREA DE MERC DE CAPITAIS, INVEST, PARTICIP E REESTRUT DE EMPRESAS",1,0.0,0,Não,
+area_operacional,AREA DE OPERACOES E CANAIS DIGITAIS,79862,24125796090.96,269,Contém operações com inovacao=SIM,269 op. SIM
+area_operacional,AREA DE PLANEJAMENTO E PESQUISA ECONOMICA,1,17250.0,0,Não,
+area_operacional,"AREA DE RELACIONAMENTO, MARKETING E CULTURA",30,50391480.02,0,Não,
+area_operacional,AREA DE TRANSICAO ENERGETICA E CLIMA,6,0.0,0,Não,
+area_operacional,AREA DE TRANSICAO ENERGETICA E CLIMATICA,541,35859932447.89,0,Não,
+setor_bndes,AGROPECUÁRIA,6196,2341157873.74,7,Contém operações com inovacao=SIM,7 op. SIM
+setor_bndes,COMERCIO/SERVICOS,28847,11328885291.49,219,Contém operações com inovacao=SIM,219 op. SIM
+setor_bndes,INDUSTRIA,7983,16108265623.77,49,Contém operações com inovacao=SIM,49 op. SIM
+setor_bndes,INFRA-ESTRUTURA,37274,10423360406.0,19,Contém operações com inovacao=SIM,19 op. SIM
+setor_bndes,INFRAESTRUTURA,664,41357281056.15,6,Contém operações com inovacao=SIM,6 op. SIM
+subsetor_bndes,AGROPECUÁRIA,6196,2341157873.74,7,Contém operações com inovacao=SIM,7 op. SIM
+subsetor_bndes,ALIMENTO E BEBIDA,2418,1473497972.19,4,Contém operações com inovacao=SIM,4 op. SIM
+subsetor_bndes,ATV. AUX. TRANSPORTES,709,2064546679.21,2,Contém operações com inovacao=SIM,2 op. SIM
+subsetor_bndes,CELULOSE E PAPEL,304,3864295169.33,0,Não,
+subsetor_bndes,COMÉRCIO E SERVIÇOS,28847,11328885291.49,219,Contém operações com inovacao=SIM,219 op. SIM
+subsetor_bndes,CONSTRUÇÃO,49,582262315.59,0,Não,
+subsetor_bndes,ENERGIA ELÉTRICA,576,29332895519.44,0,Não,
+subsetor_bndes,EXTRATIVA,572,953034092.98,10,Contém operações com inovacao=SIM,10 op. SIM
+subsetor_bndes,MATERIAL DE TRANSPORTE,96,507087414.52,3,Contém operações com inovacao=SIM,3 op. SIM
+subsetor_bndes,MECÂNICA,282,441198746.63,4,Contém operações com inovacao=SIM,4 op. SIM
+subsetor_bndes,METALURGIA E PRODUTOS,534,335449902.37,6,Contém operações com inovacao=SIM,6 op. SIM
+subsetor_bndes,OUTRAS,2481,2162280886.91,13,Contém operações com inovacao=SIM,13 op. SIM
+subsetor_bndes,OUTROS,25,6774753.0,0,Não,
+subsetor_bndes,OUTROS TRANSPORTES,46,9237748791.7,0,Não,
+subsetor_bndes,QUÍMICA E PETROQUÍMICA,964,6114009523.35,9,Contém operações com inovacao=SIM,9 op. SIM
+subsetor_bndes,SERV. UTILIDADE PÚBLICA,606,659635729.78,5,Contém operações com inovacao=SIM,5 op. SIM
+subsetor_bndes,TELECOMUNICAÇÕES,101,79165208.0,6,Auxiliar,Infraestrutura TIC
+subsetor_bndes,TRANSPORTE FERROVIÁRIO,1,11000.0,0,Não,
+subsetor_bndes,TRANSPORTE RODOVIÁRIO,35825,9817601465.43,12,Contém operações com inovacao=SIM,12 op. SIM
+subsetor_bndes,TÊXTIL E VESTUÁRIO,332,257411915.49,0,Não,
+setor_cnae,AGROPECUÁRIA E PESCA,6163,1465228098.0,1,Contém operações com inovacao=SIM,1 op. SIM
+setor_cnae,AGROPECUÁRIA E PESCA          ,33,875929775.74,6,Contém operações com inovacao=SIM,6 op. SIM
+setor_cnae,COMERCIO E SERVICOS,65982,17564472055.0,229,Contém operações com inovacao=SIM,229 op. SIM
+setor_cnae,COMERCIO E SERVICOS           ,803,45545054698.64,15,Contém operações com inovacao=SIM,15 op. SIM
+setor_cnae,INDUSTRIA DE TRANSFORMAÇÃO,7161,4819253851.0,29,Contém operações com inovacao=SIM,29 op. SIM
+setor_cnae,INDUSTRIA DE TRANSFORMAÇÃO    ,250,10335977679.79,10,Contém operações com inovacao=SIM,10 op. SIM
+setor_cnae,INDUSTRIA EXTRATIVA,554,242342087.0,10,Contém operações com inovacao=SIM,10 op. SIM
+setor_cnae,INDUSTRIA EXTRATIVA           ,18,710692005.98,0,Não,
+subsetor_cnae_agrupado,ADMINISTRAÇÃO PÚBLICA,19,2735709023.2,0,Não,
+subsetor_cnae_agrupado,AGROPECUÁRIA,33,875929775.74,6,Contém operações com inovacao=SIM,6 op. SIM
+subsetor_cnae_agrupado,ALOJAMENTO E ALIMENTAÇÃO,6,29565630.9,0,Não,
+subsetor_cnae_agrupado,"ARTES, CULTURA E ESPORTE",31,374020479.99,0,Não,
+subsetor_cnae_agrupado,ATIV AUX TRANSPORTE E ENTREGA,52,1797780356.21,0,Não,
+subsetor_cnae_agrupado,ATIV FINANCEIRA E SEGURO,3,46548451.46,0,Não,
+subsetor_cnae_agrupado,"ATIV IMOBIL, PROFISSIONAL E ADM",17,181902497.73,1,Contém operações com inovacao=SIM,1 op. SIM
+subsetor_cnae_agrupado,Administração Pública,7,27895132.0,0,Não,
+subsetor_cnae_agrupado,Agropecuária,6163,1465228098.0,1,Contém operações com inovacao=SIM,1 op. SIM
+subsetor_cnae_agrupado,Alojamento e alimentação,474,95064192.0,0,Não,
+subsetor_cnae_agrupado,"Artes, cultura e esporte",95,26409554.0,0,Não,
+subsetor_cnae_agrupado,Ativ aux transporte e entrega,682,273541076.0,2,Contém operações com inovacao=SIM,2 op. SIM
+subsetor_cnae_agrupado,Ativ financeira e seguro,32,7628599.0,0,Não,
+subsetor_cnae_agrupado,"Ativ imobil, profissional e adm",3346,974266795.0,45,Contém operações com inovacao=SIM,45 op. SIM
+subsetor_cnae_agrupado,BEBIDAS,1,80203596.14,0,Não,
+subsetor_cnae_agrupado,BORRACHA E PLÁSTICO,26,766046853.82,0,Não,
+subsetor_cnae_agrupado,Bebidas,301,271668602.0,0,Não,
+subsetor_cnae_agrupado,Borracha e plástico,686,630028491.0,5,Contém operações com inovacao=SIM,5 op. SIM
+subsetor_cnae_agrupado,CELULOSE E PAPEL,46,3726114280.33,0,Não,
+subsetor_cnae_agrupado,COMÉRCIO,27,437541177.08,0,Não,
+subsetor_cnae_agrupado,"CONFEC, VESTUÁRIO E ACESSÓRIOS",3,59420131.97,0,Não,
+subsetor_cnae_agrupado,CONSTRUÇÃO,11,540462548.59,0,Não,
+subsetor_cnae_agrupado,"COQUE, PETRÓLEO E COMBUSTÍVEL",3,745236828.59,0,Não,
+subsetor_cnae_agrupado,Celulose e papel,258,138180889.0,0,Não,
+subsetor_cnae_agrupado,Comércio,18462,3800217752.0,41,Contém operações com inovacao=SIM,41 op. SIM
+subsetor_cnae_agrupado,"Confec, vestuário e acessórios",180,49888527.0,0,Não,
+subsetor_cnae_agrupado,Construção,5074,1717788738.0,122,Contém operações com inovacao=SIM,122 op. SIM
+subsetor_cnae_agrupado,"Coque, petróleo e combustível",87,629889531.0,4,Contém operações com inovacao=SIM,4 op. SIM
+subsetor_cnae_agrupado,"Couro, artefato e calçado",308,379085678.0,0,Não,
+subsetor_cnae_agrupado,EDUCAÇÃO,14,165148692.95,4,Contém operações com inovacao=SIM,4 op. SIM
+subsetor_cnae_agrupado,ELETRICIDADE E GÁS,536,29235743165.62,0,Não,
+subsetor_cnae_agrupado,Educação,203,81380907.0,0,Não,
+subsetor_cnae_agrupado,Eletricidade e gás,54,104389159.0,0,Não,
+subsetor_cnae_agrupado,"Equip info, eletronico, ótico",66,58561431.0,0,Auxiliar,Setor intensivo em tecnologia (não inferir inovação só pelo CNAE)
+subsetor_cnae_agrupado,"Farmoquímico, farmacêutico",58,18818101.0,0,Auxiliar,Setor intensivo em tecnologia (não inferir inovação só pelo CNAE)
+subsetor_cnae_agrupado,Fumo,1,78876.0,0,Não,
+subsetor_cnae_agrupado,Gráfica,97,11167744.0,0,Não,
+subsetor_cnae_agrupado,INDÚSTRIA EXTRATIVA,18,710692005.98,0,Não,
+subsetor_cnae_agrupado,INFORMAÇÃO E COMUNICAÇÃO,4,2549997.38,3,Auxiliar,Setor intensivo em tecnologia (não inferir inovação só pelo CNAE)
+subsetor_cnae_agrupado,Indústria Extrativa,554,242342087.0,10,Contém operações com inovacao=SIM,10 op. SIM
+subsetor_cnae_agrupado,Informação e comunicação,315,33897652.0,1,Auxiliar,Setor intensivo em tecnologia (não inferir inovação só pelo CNAE)
+subsetor_cnae_agrupado,METALURGIA,2,26103657.37,0,Não,
+subsetor_cnae_agrupado,MINERAL NÃO METÁLICO,8,47081409.09,0,Não,
+subsetor_cnae_agrupado,Madeira,92,14645944.0,0,Não,
+subsetor_cnae_agrupado,"Manutenção, reparação, instal.",153,32781253.0,3,Contém operações com inovacao=SIM,3 op. SIM
+subsetor_cnae_agrupado,Metalurgia,192,68586026.0,0,Não,
+subsetor_cnae_agrupado,Mineral não metálico,850,212332743.0,5,Contém operações com inovacao=SIM,5 op. SIM
+subsetor_cnae_agrupado,"MÁQ, APARELHO ELETRICO",1,3245447.17,0,Não,
+subsetor_cnae_agrupado,MÁQUINAS E EQUIPAMENTOS,4,15627240.46,2,Contém operações com inovacao=SIM,2 op. SIM
+subsetor_cnae_agrupado,"Máq, aparelho eletrico",87,274694649.0,0,Não,
+subsetor_cnae_agrupado,Máquinas e equipamentos,124,89069979.0,2,Contém operações com inovacao=SIM,2 op. SIM
+subsetor_cnae_agrupado,Móveis,180,54558778.0,0,Não,
+subsetor_cnae_agrupado,Outras ativ serviços,138,28480524.0,1,Contém operações com inovacao=SIM,1 op. SIM
+subsetor_cnae_agrupado,Outros equip transporte,11,1045930.0,0,Não,
+subsetor_cnae_agrupado,PRODUTOS ALIMENTÍCIOS,21,386061588.05,0,Não,
+subsetor_cnae_agrupado,Produto de metal,340,240760219.0,6,Contém operações com inovacao=SIM,6 op. SIM
+subsetor_cnae_agrupado,Produtos Alimentícios,2095,735564186.0,4,Contém operações com inovacao=SIM,4 op. SIM
+subsetor_cnae_agrupado,Produtos diversos,80,14473117.0,0,Não,
+subsetor_cnae_agrupado,QUÍMICA,127,4087281460.76,5,Contém operações com inovacao=SIM,5 op. SIM
+subsetor_cnae_agrupado,Química,689,632783602.0,0,Não,
+subsetor_cnae_agrupado,SAÚDE E SERV SOCIAL,18,214787691.8,1,Contém operações com inovacao=SIM,1 op. SIM
+subsetor_cnae_agrupado,Saúde e serv social,600,389881571.0,0,Não,
+subsetor_cnae_agrupado,TELECOMUNICAÇÕES,8,45000000.0,6,Auxiliar,Setor intensivo em tecnologia (não inferir inovação só pelo CNAE)
+subsetor_cnae_agrupado,TRANSPORTE AQUAVIÁRIO,20,112732712.84,0,Não,
+subsetor_cnae_agrupado,TRANSPORTE TERRESTRE,12,9174630074.29,0,Não,
+subsetor_cnae_agrupado,Telecomunicações,93,34165208.0,0,Auxiliar,Setor intensivo em tecnologia (não inferir inovação só pelo CNAE)
+subsetor_cnae_agrupado,Transporte aquaviário,10,2747284.0,0,Não,
+subsetor_cnae_agrupado,Transporte aéreo,3,8146189.0,0,Não,
+subsetor_cnae_agrupado,Transporte terrestre,35827,9757104997.0,12,Contém operações com inovacao=SIM,12 op. SIM
+subsetor_cnae_agrupado,TÊXTIL,2,5024370.52,0,Não,
+subsetor_cnae_agrupado,Têxtil,147,143078886.0,0,Não,
+subsetor_cnae_agrupado,"VEÍCULO, REBOQUE E CARROCERIA",6,388530815.52,3,Contém operações com inovacao=SIM,3 op. SIM
+subsetor_cnae_agrupado,"Veículo, reboque e carroceria",79,117510669.0,0,Não,
+subsetor_cnae_agrupado,"ÁGUA, ESGOTO E LIXO",25,450932198.6,0,Não,
+subsetor_cnae_agrupado,"Água, esgoto e lixo",567,201466726.0,5,Contém operações com inovacao=SIM,5 op. SIM
+porte_do_cliente,GRANDE,12332,64634416950.07,54,Contém operações com inovacao=SIM,54 op. SIM
+porte_do_cliente,MICRO,30754,3872004920.47,22,Contém operações com inovacao=SIM,22 op. SIM
+porte_do_cliente,MÉDIA,17117,8838986414.03,145,Contém operações com inovacao=SIM,145 op. SIM
+porte_do_cliente,PEQUENA,20761,4213541966.58,79,Contém operações com inovacao=SIM,79 op. SIM
+natureza_do_cliente,ADMINISTRAÇÃO PÚBLICA DIRETA - GOVERNO ESTADUAL,16,2847403459.96,0,Não,
+natureza_do_cliente,ADMINISTRAÇÃO PÚBLICA DIRETA - GOVERNO MUNICIPAL,53,307435242.72,0,Não,
+natureza_do_cliente,PRIVADA,79813,23529468502.0,269,Contém operações com inovacao=SIM,269 op. SIM
+natureza_do_cliente,PRIVADA             ,1042,51573297047.75,31,Contém operações com inovacao=SIM,31 op. SIM
+natureza_do_cliente,PÚBLICA INDIRETA,40,3301345998.72,0,Não,
+fonte_de_recurso_desembolsos,-,2450,1864376515.0,253,Contém operações com inovacao=SIM,253 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT,10330,5889191877.0,14,Contém operações com inovacao=SIM,14 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL,295,23138407389.56,4,Contém operações com inovacao=SIM,4 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS,98,2941805830.26,1,Contém operações com inovacao=SIM,1 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS LIVRES - TESOURO,193,5298131832.15,6,Contém operações com inovacao=SIM,6 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,27,211932959.95,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS / RECURSOS VINCULADOS - FND,6,87449952.21,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS / RECURSOS VINCULADOS - FND / RECURSOS VINCULADOS - PIS/PASEP,5,1493444864.02,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FND,9,220685714.42,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,8,207073253.82,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS / RECURSOS VINCULADOS - FND,1,12745130.74,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - FND,7,571913117.09,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - FND / RECURSOS VINCULADOS - PIS/PASEP,3,251799806.08,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - PIS/PASEP,19,1856736555.12,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - TESOURO,54,2341660921.67,1,Contém operações com inovacao=SIM,1 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,3,310582103.12,1,Contém operações com inovacao=SIM,1 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS / RECURSOS VINCULADOS - FND,1,26083275.94,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FI-FGTS,2,3169598519.25,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - RECURSOS EXTERNOS,30,270603128.65,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,61,1989349491.93,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS / RECURSOS VINCULADOS - PIS/PASEP,2,229606418.11,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS VINCULADOS - FMM,9,77935906.06,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS VINCULADOS - FUNDO CLIMA,2,650000000.0,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS VINCULADOS - PIS/PASEP / RECURSOS VINCULADOS - RECURSOS EXTERNOS,5,187266562.93,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FAT CONSTITUCIONAL / RECURSOS VINCULADOS - RECURSOS EXTERNOS,59,3588211478.78,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - FND,9,11244344.0,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - ORGANISMOS,1604,392258685.0,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - PRÓPRIOS,16853,6424464247.72,3,Contém operações com inovacao=SIM,3 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - PRÓPRIOS / RECURSOS LIVRES - TESOURO,13,76760177.04,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,10,224709941.92,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - PRÓPRIOS / RECURSOS VINCULADOS - FUNDO CLIMA,2,745236828.59,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - TESOURO,43074,12670162407.74,10,Contém operações com inovacao=SIM,10 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS LIVRES - TESOURO / RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,3,70399999.97,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FAT DEPÓSITOS ESPECIAIS,5064,1021666885.14,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FMM,19,264911524.07,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FND,1,3245447.17,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FRD,1,4062106.12,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FUNDO AMAZÔNIA,1,31671000.0,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FUNDO CLIMA,2,26255000.0,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FUNTTEL,6,15000000.0,6,Sim (principal),Fundo setorial de tecnologia
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - FUST,2,30000000.0,0,Sim (principal),Fundo setorial de tecnologia
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - PIS/PASEP,562,447295373.8,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - PRÓPRIOS ESTATUTÁRIOS,52,101400156.22,1,Contém operações com inovacao=SIM,1 op. SIM
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - RECURSOS EXTERNOS,1,1246722499.99,0,Não,
+fonte_de_recurso_desembolsos,RECURSOS VINCULADOS - TESOURO,6,864891022.8,0,Não,
+custo_financeiro,"103,5% do CDI",1,0.0,0,Não,
+custo_financeiro,75% da SELIC,3,5000000.0,0,Não,
+custo_financeiro,IPCA,21,87790439.11,0,Não,
+custo_financeiro,OUTROS,1,0.0,0,Não,
+custo_financeiro,SELIC,3064,2204365525.76,10,Contém operações com inovacao=SIM,10 op. SIM
+custo_financeiro,SEM CUSTO,63,138768360.57,1,Contém operações com inovacao=SIM,1 op. SIM
+custo_financeiro,TAXA FIXA,43205,15500518307.87,253,Contém operações com inovacao=SIM,253 op. SIM
+custo_financeiro,TAXA REFERENCIAL (TR,6,3942070.0,6,Contém operações com inovacao=SIM,6 op. SIM
+custo_financeiro,TAXA REFERENCIAL (TR),9,45000000.0,7,Contém operações com inovacao=SIM,7 op. SIM
+custo_financeiro,TJ453,202,112297086.91,0,Não,
+custo_financeiro,TJ462,7129,2766342933.01,0,Não,
+custo_financeiro,TJ6,1,163962563.25,0,Não,
+custo_financeiro,TJLP,23074,37287793014.36,10,Contém operações com inovacao=SIM,10 op. SIM
+custo_financeiro,TLP,3882,17482678537.77,13,Contém operações com inovacao=SIM,13 op. SIM
+custo_financeiro,US$ / CESTA,303,5760491412.54,0,Não,
+situacao_do_contrato,-,9,0.0,0,Não,
+situacao_do_contrato,ATIVO,419,29475287866.32,15,Contém operações com inovacao=SIM,15 op. SIM
+situacao_do_contrato,LIQUIDADO,676,27992366293.83,16,Contém operações com inovacao=SIM,16 op. SIM
+situacao_da_operacao,ATIVA,6266,4340759123.0,265,Contém operações com inovacao=SIM,265 op. SIM
+situacao_da_operacao,LIQUIDADA,73594,19750536968.0,4,Contém operações com inovacao=SIM,4 op. SIM
+tipo_de_garantia,COMPROMISSO DE DESEMPENHO FINANCEIRO ('COVENANTS'),3,540462548.59,0,Não,
+tipo_de_garantia,"COMPROMISSO DE DESEMPENHO FINANCEIRO ('COVENANTS') / OUTRA, DE NATUREZA ESPECÍFICA OU MISTA",8,238641655.3,0,Não,
+tipo_de_garantia,DEFINIDA PELO AGENTE FINANCEIRO,188,2251108766.17,6,Contém operações com inovacao=SIM,6 op. SIM
+tipo_de_garantia,NÃO SE APLICA,59,138768360.57,1,Contém operações com inovacao=SIM,1 op. SIM
+tipo_de_garantia,"OUTRA, DE NATUREZA ESPECÍFICA OU MISTA",27,3295704916.98,0,Não,
+tipo_de_garantia,PESSOAL,244,21219974540.56,11,Contém operações com inovacao=SIM,11 op. SIM
+tipo_de_garantia,"PESSOAL / OUTRA, DE NATUREZA ESPECÍFICA OU MISTA",3,302530999.99,0,Não,
+tipo_de_garantia,REAL,124,7519279199.67,4,Contém operações com inovacao=SIM,4 op. SIM
+tipo_de_garantia,"REAL / OUTRA, DE NATUREZA ESPECÍFICA OU MISTA",8,2138188967.25,1,Contém operações com inovacao=SIM,1 op. SIM
+tipo_de_garantia,REAL / PESSOAL,435,19619520664.03,8,Contém operações com inovacao=SIM,8 op. SIM
+tipo_de_garantia,SEM REGISTRO DE GARANTIA,5,203473541.04,0,Não,
+tipo_de_excepcionalidade,----------,1084,55210803160.15,31,Contém operações com inovacao=SIM,31 op. SIM
+tipo_de_excepcionalidade,COBRANÇA DE COMISSÕES,2,1596733000.0,0,Não,
+tipo_de_excepcionalidade,COBRANÇA DE COMISSÕES /CONDIÇÕES DE CRÉDITO,1,0.0,0,Não,
+tipo_de_excepcionalidade,CONDIÇÕES DE CRÉDITO,3,5118000.0,0,Não,
+tipo_de_excepcionalidade,CONDIÇÕES FINANCEIRAS E OPERACIONAIS,14,655000000.0,0,Não,

@@ -1,0 +1,28 @@
+fonte,dataset_recurso,campo,operador,valores,nivel,justificativa,validado_nos_dados
+BNDES,Operações não automáticas + indiretas automáticas,inovacao,igual,SIM,Principal,Flag oficial do BNDES para operações de inovação,Sim (31 + 269 operações BA)
+BNDES,Operações não automáticas + indiretas automáticas,instrumento_financeiro,em,"BNDES INOVAÇÃO; INOVAÇÃO; PSI - Inovação; PROGRAMA BNDES MAIS INOVAÇÃO; FUNTEC; BNDES FUNTTEL; BNDES FINAME FUNTTEL; BNDES PROSOFT; BNDES PROENGENHARIA; PSI - Proengenharia; ENGENHARIA AUTOMOTIVA; BNDES PRODESIGN; INDÚSTRIA E SERVIÇOS DIFUSORES DE TECNOLOGIA; PSI - BK - Tecnologia Nacional; BK AQUISIÇÃO E COMERCIALIZAÇÃO – MÁQUINAS 4.0; INOVAGRO; PROGRAMA BNDES FUST; PROGRAMA BNDES FUST AUTOMÁTICO",Principal,Linhas/programas cujo objeto é inovação, P&D, software, engenharia ou difusão tecnológica (pega casos com inovacao=NÃO como FUST e Difusores de Tecnologia),Sim
+BNDES,Operações não automáticas + indiretas automáticas,fonte_de_recurso_desembolsos,contém,FUNTTEL | FUST | FNDCT,Principal,Fundos setoriais de tecnologia (FNDCT não aparece na BA),Sim (FUNTTEL e FUST)
+BNDES,Operações não automáticas,descricao_do_projeto,regex,INOVA|PESQUISA|P&D|PD&I|DESENVOLVIMENTO TECNOL|TECNOLOGIA|SOFTWARE|CIENT|LABORAT,Auxiliar (revisar),Texto livre; só existe nas não automáticas; exige revisão manual,Sim
+BNDES,Operações não automáticas + indiretas automáticas,subsetor_cnae_codigo (3 primeiros caracteres),em,C21; C26; J61; J62; J63; M72 (+ P853 educação superior),Auxiliar (revisar),Setores intensivos em tecnologia — a regra do catálogo proíbe inferir inovação só pelo CNAE,Sim
+BNDES,Operações não automáticas,area_operacional,igual,AREA DE DESENVOLVIMENTO PRODUTIVO E INOVACAO,Auxiliar (contexto),Área ampla: contém muito crédito produtivo sem inovação; não usar como filtro,Sim
+BNDES,Ambos,"produto, setor_bndes, porte_do_cliente, forma_de_apoio, modalidade_de_apoio",—,—,Dimensão de recorte,Não identificam CT&I; usar para quebrar o conjunto CT&I (porte; direto x indireto; reembolsável x não reembolsável),Sim
+INEP,MICRODADOS_CADASTRO_CURSOS_2024,CO_CINE_AREA_GERAL,em,05; 06; 07,Principal (CT&I núcleo / STEM),"Ciências naturais, matemática e estatística; Computação e TIC; Engenharia, produção e construção",Sim
+INEP,MICRODADOS_CADASTRO_CURSOS_2024,CO_CINE_AREA_GERAL,em,08; 09,Ampliado (confirmar com lista SECTI),"Agricultura/veterinária e Saúde: base científica, mas incluem cursos de perfil assistencial",Sim
+INEP,MICRODADOS_CADASTRO_CURSOS_2024,CO_CINE_ROTULO / CO_CURSO,em,lista de 642 cursos CT&I da SECTI,Principal (preferencial),A planilha registra correspondência 641/642 em 2023; a lista SECTI não estava nesta pasta — aplicar como camada separada,Não (lista ausente)
+INEP,MICRODADOS_CADASTRO_CURSOS_2024,TP_GRAU_ACADEMICO,igual,3 (Tecnológico),Auxiliar,Cursos superiores de tecnologia; cruzar com CINE,Sim
+INEP,MICRODADOS_CADASTRO_CURSOS_2024,TP_DIMENSAO,igual,1 (presencial) — separar 2/3/4 (EAD),Regra obrigatória,Não somar polo EAD com presencial; vagas/inscritos EAD não são calculados por município,Sim
+INEP,MICRODADOS_ED_SUP_IES_2024,TP_ORGANIZACAO_ACADEMICA,em,4 (IF); 5 (CEFET),Auxiliar,Instituições de educação tecnológica,Sim
+INEP,MICRODADOS_ED_SUP_IES_2024,"QT_DOC_EX_DOUT, QT_DOC_EX_MEST, IN_REPOSITORIO_INSTITUCIONAL, IN_ACESSO_PORTAL_CAPES",—,—,Variável de capacidade CT&I,Titulação docente e infraestrutura de pesquisa por IES (sem município de lotação),Sim
+SICONFI,DCA Anexo I-E (despesa por função),conta,começa com,"19 - (Função 19 Ciência e Tecnologia, total)",Principal,Função orçamentária oficial de C&T (Portaria MOG 42/1999),Sim (8 municípios BA em 2024)
+SICONFI,DCA Anexo I-E (despesa por função),conta,regex,"^\d{2}\.(571|572|573)",Principal (detalhe),Subfunções Desenvolvimento Científico / Tecnológico e Engenharia / Difusão do Conhecimento — o DCA agrupa subfunções pequenas em 'FUxx - Demais Subfunções',Sim (572 e 573)
+SICONFI,DCA Anexo I-E (despesa por função),conta,regex,"^\d{2}\.126",Auxiliar,Tecnologia da Informação do próprio ente (gestão; não é fomento a CT&I),Sim (39 municípios)
+SICONFI,DCA Anexo I-E (despesa por função),conta,regex,"^12\.(363|364)",Auxiliar,Ensino profissional e superior,Sim
+SICONFI,DCA Anexo I-E (despesa por função),conta,começa com,24 - (Comunicações),Auxiliar,Inclui 24.722 Telecomunicações,Sim
+SICONFI,RREO Anexo 02,conta,igual,Ciência e Tecnologia,Principal (com ressalva),RREO não traz código da função na linha; subfunções como 'Desenvolvimento Tecnológico e Engenharia' aparecem sem a função-mãe — preferir DCA,Sim (Salvador)
+ANATEL,Acessos_Banda_Larga_Fixa_AAAA_Colunas.csv,Meio de Acesso,igual,Fibra,Infraestrutura TIC (auxiliar),Conectividade avançada,Sim
+ANATEL,Acessos_Banda_Larga_Fixa_AAAA_Colunas.csv,Tecnologia,em,FTTH; FTTB,Infraestrutura TIC (auxiliar),Fibra até a casa/prédio,Sim
+ANATEL,Acessos_Banda_Larga_Fixa_AAAA_Colunas.csv,Faixa de Velocidade,igual,> 34Mbps,Infraestrutura TIC (auxiliar),Alta velocidade,Sim
+ANATEL,Densidade_Banda_Larga_Fixa.csv,—,—,—,Sem categorias,Arquivo só tem Ano/Mês/UF/Município/Código IBGE/Densidade/Nível; o indicador inteiro é de infraestrutura TIC,Sim
+IBGE,Agregados 6579 / 5938 / 4709 / malhas,—,—,—,Sem categorias CT&I,As tabelas do catálogo não têm classificação setorial de CT&I (5938 só abre VAB em agropecuária/indústria/serviços/adm. pública),Sim
+ANEEL,P&D ANEEL,(dataset inteiro),—,—,Principal,Todo o dataset é de P&D regulado — filtrar só por UF/município da executora,Não (bloqueio de rede)
+ANEEL,SIGA,fonte/tipo de geração (nome do campo a confirmar no dicionário),em,solar fotovoltaica (UFV); eólica (EOL),Auxiliar (transição energética),Separar solar e eólica conforme regra 4.2,Não (bloqueio de rede)

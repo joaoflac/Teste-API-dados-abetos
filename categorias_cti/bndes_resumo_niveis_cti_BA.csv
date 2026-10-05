@@ -1,0 +1,7 @@
+﻿base,cti_nivel,n,desembolsado,desembolsado_bi
+indiretas_automaticas,Auxiliar (revisar),297,150666241.0,0.151
+indiretas_automaticas,CT&I (regra explícita),280,154106931.0,0.154
+indiretas_automaticas,Fora de CT&I,79283,23786522919.0,23.787
+nao_automaticas,Auxiliar (revisar),18,150106182.41,0.15
+nao_automaticas,CT&I (regra explícita),34,697069984.16,0.697
+nao_automaticas,Fora de CT&I,1052,56620477993.58,56.62

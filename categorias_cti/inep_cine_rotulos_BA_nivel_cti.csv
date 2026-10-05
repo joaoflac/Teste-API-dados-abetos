@@ -1,0 +1,241 @@
+﻿CO_CINE_ROTULO,NO_CINE_ROTULO,CO_CINE_AREA_GERAL,nivel_cti,cursos_distintos,matriculas_BA
+"""0913E01""",Enfermagem,09,CT&I ampliado,97,31119
+"""0912M01""",Medicina,09,CT&I ampliado,40,20315
+"""0915F01""",Fisioterapia,09,CT&I ampliado,103,15443
+"""0915E01""",Educação física,09,CT&I ampliado,80,14764
+"""0916F01""",Farmácia,09,CT&I ampliado,92,14404
+"""0915N01""",Nutrição,09,CT&I ampliado,94,10564
+"""0911O01""",Odontologia,09,CT&I ampliado,48,10548
+"""0914B01""",Biomedicina,09,CT&I ampliado,81,9180
+"""0841M01""",Medicina veterinária,08,CT&I ampliado,32,7033
+"""0923S01""",Serviço social,09,CT&I ampliado,81,6541
+"""0811A04""",Agronomia,08,CT&I ampliado,45,6460
+"""0914R01""",Radiologia,09,CT&I ampliado,32,2041
+"""0915T01""",Terapia ocupacional,09,CT&I ampliado,17,1635
+"""0988P01""",Programas interdisciplinares abrangendo saúde e bem-estar,09,CT&I ampliado,14,1423
+"""0915F02""",Fonoaudiologia,09,CT&I ampliado,11,899
+"""0811Z01""",Zootecnia,08,CT&I ampliado,6,799
+"""0915P01""",Podologia,09,CT&I ampliado,14,671
+"""0917P01""",Práticas integrativas,09,CT&I ampliado,21,621
+"""0914O02""",Optometria,09,CT&I ampliado,7,355
+"""0821E01""",Engenharia florestal,08,CT&I ampliado,4,348
+"""0921G01""",Gerontologia,09,CT&I ampliado,17,315
+"""0918S01""",Saúde coletiva,09,CT&I ampliado,4,254
+"""0831E01""",Engenharia de pesca,08,CT&I ampliado,3,186
+"""0811A02""",Agroindústria,08,CT&I ampliado,4,130
+"""0811A01""",Agroecologia,08,CT&I ampliado,4,123
+"""0811E01""",Engenharia agrícola,08,CT&I ampliado,2,73
+"""0918S02""",Saúde pública,09,CT&I ampliado,1,68
+"""0811A05""",Agropecuária,08,CT&I ampliado,4,40
+"""0914O01""",Oftálmica,09,CT&I ampliado,1,19
+"""0914A01""",Análises clínicas e toxicológicas,09,CT&I ampliado,1,11
+"""0831A01""",Aquicultura,08,CT&I ampliado,1,4
+"""0613S01""",Sistemas de informação,06,CT&I núcleo (STEM),170,14162
+"""0732E01""",Engenharia civil,07,CT&I núcleo (STEM),104,8202
+"""0731A02""",Arquitetura e urbanismo,07,CT&I núcleo (STEM),47,4959
+"""0713E05""",Engenharia elétrica,07,CT&I núcleo (STEM),75,4871
+"""0715E02""",Engenharia mecânica,07,CT&I núcleo (STEM),66,4524
+"""0725E02""",Engenharia de produção,07,CT&I núcleo (STEM),91,3688
+"""0613C01""",Ciência da computação,06,CT&I núcleo (STEM),43,3453
+"""0613E01""",Engenharia de software,06,CT&I núcleo (STEM),43,2996
+"""0588P01""","Programas interdisciplinares abrangendo ciências naturais, matemática e estatística",05,CT&I núcleo (STEM),17,2585
+"""0714E04""",Engenharia de computação,07,CT&I núcleo (STEM),41,2322
+"""0612G01""",Gestão da tecnologia da informação,06,CT&I núcleo (STEM),63,1840
+"""0712G01""",Gestão ambiental,07,CT&I núcleo (STEM),49,1549
+"""0511B01""",Biologia,05,CT&I núcleo (STEM),26,1509
+"""0711E05""",Engenharia química,07,CT&I núcleo (STEM),19,1261
+"""0712E02""",Engenharia ambiental e sanitária,07,CT&I núcleo (STEM),24,1217
+"""0612R01""",Redes de computadores,06,CT&I núcleo (STEM),33,894
+"""0712E01""",Engenharia ambiental,07,CT&I núcleo (STEM),22,676
+"""0681C01""",Ciência de dados,06,CT&I núcleo (STEM),30,557
+"""0714E05""",Engenharia de controle e automação,07,CT&I núcleo (STEM),17,550
+"""0721E01""",Engenharia de alimentos,07,CT&I núcleo (STEM),6,469
+"""0531Q01""",Química,05,CT&I núcleo (STEM),17,444
+"""0512B02""",Biotecnologia,05,CT&I núcleo (STEM),2,321
+"""0532G02""",Geologia,05,CT&I núcleo (STEM),3,303
+"""0612D01""",Defesa cibernética,06,CT&I núcleo (STEM),25,299
+"""0681J01""",Jogos digitais,06,CT&I núcleo (STEM),25,269
+"""0713E02""",Energias renováveis,07,CT&I núcleo (STEM),4,249
+"""0613S02""",Sistemas para internet,06,CT&I núcleo (STEM),32,243
+"""0533F01""",Física,05,CT&I núcleo (STEM),9,200
+"""0713E04""",Engenharia de energia,07,CT&I núcleo (STEM),2,189
+"""0612S01""",Segurança da informação,06,CT&I núcleo (STEM),20,179
+"""0714A01""",Automação industrial,07,CT&I núcleo (STEM),9,174
+"""0724E01""",Engenharia de minas,07,CT&I núcleo (STEM),3,173
+"""0542E01""",Estatística,05,CT&I núcleo (STEM),4,171
+"""0541M01""",Matemática,05,CT&I núcleo (STEM),13,150
+"""0724E02""",Engenharia de petróleo,07,CT&I núcleo (STEM),6,149
+"""0532O01""",Oceanografia,05,CT&I núcleo (STEM),2,148
+"""0721A01""",Alimentos,07,CT&I núcleo (STEM),3,138
+"""0612B01""",Banco de dados,06,CT&I núcleo (STEM),27,125
+"""0531Q02""",Química industrial e tecnológica,05,CT&I núcleo (STEM),3,105
+"""0731E03""",Engenharia de agrimensura e cartográfica,07,CT&I núcleo (STEM),1,98
+"""0715M01""",Manutenção industrial,07,CT&I núcleo (STEM),3,93
+"""0711E02""",Engenharia de bioprocessos,07,CT&I núcleo (STEM),1,83
+"""0613I01""",Inteligência artificial,06,CT&I núcleo (STEM),9,80
+"""0532G01""",Geofísica,05,CT&I núcleo (STEM),1,65
+"""0714E09""",Engenharia mecatrônica,07,CT&I núcleo (STEM),8,64
+"""0732E03""",Engenharia de transportes,07,CT&I núcleo (STEM),1,56
+"""0711E03""",Engenharia de biotecnologia,07,CT&I núcleo (STEM),1,52
+"""0716S01""",Sistemas automotivos,07,CT&I núcleo (STEM),1,52
+"""0712S01""",Saneamento ambiental,07,CT&I núcleo (STEM),3,51
+"""0681C02""",Computação e Tecnologias da Informação e Comunicação (TIC) em biociências e saúde,06,CT&I núcleo (STEM),2,39
+"""0619P01""",Programas abrangendo Computação e Tecnologias da Informação e Comunicação (TIC) em processo de definição da classificação,06,CT&I núcleo (STEM),9,36
+"""0681A01""",Agrocomputação,06,CT&I núcleo (STEM),2,31
+"""0688P01""",Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC),06,CT&I núcleo (STEM),12,30
+"""0714S01""",Sistemas biomédicos,07,CT&I núcleo (STEM),1,26
+"""0716E03""",Engenharia automotiva,07,CT&I núcleo (STEM),1,24
+"""0732C01""",Construção de edifícios,07,CT&I núcleo (STEM),2,24
+"""0714E03""",Engenharia biomédica,07,CT&I núcleo (STEM),1,20
+"""0721P04""",Produção de cerveja,07,CT&I núcleo (STEM),6,20
+"""0788P01""","Programas interdisciplinares abrangendo engenharia, produção e construção",07,CT&I núcleo (STEM),2,16
+"""0532G03""",Geoprocessamento,05,CT&I núcleo (STEM),1,14
+"""0521E01""",Ecologia,05,CT&I núcleo (STEM),1,9
+"""0722E01""",Engenharia de materiais,07,CT&I núcleo (STEM),2,8
+"""0732C02""",Controle de obras,07,CT&I núcleo (STEM),2,7
+"""0613I02""",Internet das coisas,06,CT&I núcleo (STEM),4,5
+"""0714M01""",Mecatrônica industrial,07,CT&I núcleo (STEM),1,3
+"""0714E07""",Engenharia de telecomunicações,07,CT&I núcleo (STEM),1,2
+"""0715F01""",Fabricação mecânica,07,CT&I núcleo (STEM),1,2
+"""0712G02""",Gestão de resíduos,07,CT&I núcleo (STEM),1,1
+"""0724P01""",Petróleo e gás,07,CT&I núcleo (STEM),1,1
+"""0714E08""",Engenharia eletrônica,07,CT&I núcleo (STEM),1,0
+"""0732M01""",Material de construção,07,CT&I núcleo (STEM),1,0
+"""0113P01""",Pedagogia,01,Fora de CT&I,189,51113
+"""0421D01""",Direito,04,Fora de CT&I,113,37763
+"""0413A01""",Administração,04,Fora de CT&I,188,32353
+"""0313P01""",Psicologia,03,Fora de CT&I,76,18901
+"""0411C01""",Contabilidade,04,Fora de CT&I,138,14976
+"""0413G07""",Gestão de pessoas,04,Fora de CT&I,115,8730
+"""0413L01""",Logística,04,Fora de CT&I,80,6366
+"""0114E03""",Educação física formação de professor,01,Fora de CT&I,66,5808
+"""0114H01""",História formação de professor,01,Fora de CT&I,80,5180
+"""0115L13""",Letras português formação de professor,01,Fora de CT&I,69,4667
+"""0114M01""",Matemática formação de professor,01,Fora de CT&I,78,4609
+"""0114B01""",Biologia formação de professor,01,Fora de CT&I,67,3601
+"""1012E01""",Estética e cosmética,10,Fora de CT&I,53,3542
+"""0416G01""",Gestão comercial,04,Fora de CT&I,79,3262
+"""0414M01""",Marketing,04,Fora de CT&I,116,2869
+"""0414P01""",Publicidade e propaganda,04,Fora de CT&I,50,2763
+"""0413G12""",Gestão pública,04,Fora de CT&I,56,2761
+"""0412G01""",Gestão financeira,04,Fora de CT&I,83,2669
+"""0114G01""",Geografia formação de professor,01,Fora de CT&I,54,2664
+"""1032S03""",Segurança pública,10,Fora de CT&I,38,2211
+"""1032I01""",Investigação e perícia,10,Fora de CT&I,23,2205
+"""0321J01""",Jornalismo,03,Fora de CT&I,41,2185
+"""0311E01""",Economia,03,Fora de CT&I,42,2020
+"""1013G01""",Gastronomia,10,Fora de CT&I,49,1992
+"""0221T01""",Teologia,02,Fora de CT&I,49,1884
+"""0111P02""",Psicopedagogia,01,Fora de CT&I,21,1620
+"""0115L04""",Letras inglês formação de professor,01,Fora de CT&I,27,1547
+"""0115L15""",Letras português inglês formação de professor,01,Fora de CT&I,41,1410
+"""0011A02""",ABI Artes e humanidades,00,Fora de CT&I,5,1405
+"""0212D03""",Design de interiores,02,Fora de CT&I,39,1391
+"""0399P01""","Programas abrangendo ciências sociais, comunicação e informação em processo de definição da classificação",03,Fora de CT&I,22,1373
+"""0388P01""","Programas interdisciplinares abrangendo ciências sociais, comunicação e informação",03,Fora de CT&I,12,1348
+"""0188P01""",Programas interdisciplinares abrangendo educação,01,Fora de CT&I,18,1337
+"""0114Q01""",Química formação de professor,01,Fora de CT&I,30,1310
+"""1022S01""",Segurança no trabalho,10,Fora de CT&I,22,1302
+"""0211D01""",Design gráfico,02,Fora de CT&I,30,1299
+"""0413G05""",Gestão de negócios,04,Fora de CT&I,63,1254
+"""0413A02""",Administração pública,04,Fora de CT&I,25,1245
+"""0421S01""",Serviços jurídicos e cartoriais,04,Fora de CT&I,45,1228
+"""1032S02""",Segurança privada,10,Fora de CT&I,28,1164
+"""0114F01""",Filosofia formação de professor,01,Fora de CT&I,35,1141
+"""0011A05""","ABI Ciências naturais, matemática e estatística",00,Fora de CT&I,4,1114
+"""0114M02""",Música formação de professor,01,Fora de CT&I,16,1077
+"""0288P01""",Programas interdisciplinares abrangendo artes e humanidades,02,Fora de CT&I,6,1051
+"""0213A01""",Artes,02,Fora de CT&I,4,1004
+"""0413G02""",Gestão da qualidade,04,Fora de CT&I,39,1001
+"""0114F02""",Física formação de professor,01,Fora de CT&I,30,983
+"""0413G11""",Gestão hospitalar,04,Fora de CT&I,37,976
+"""0114A02""",Artes visuais formação de professor,01,Fora de CT&I,29,916
+"""0114C03""",Ciências sociais formação de professor,01,Fora de CT&I,31,889
+"""0114C05""",Computação formação de professor,01,Fora de CT&I,22,863
+"""0113E02""",Educação especial formação de professor,01,Fora de CT&I,27,817
+"""0212D02""",Design,02,Fora de CT&I,5,745
+"""0413G01""",Gestão da produção,04,Fora de CT&I,27,704
+"""0312R01""",Relações internacionais,03,Fora de CT&I,21,661
+"""0114E06""",Ensino profissionalizante em área específica formação de professor,01,Fora de CT&I,14,639
+"""1015T01""",Turismo,10,Fora de CT&I,26,591
+"""0413G03""",Gestão da saúde,04,Fora de CT&I,14,582
+"""0211C01""",Cinema e audiovisual,02,Fora de CT&I,6,577
+"""0212M01""",Moda,02,Fora de CT&I,19,570
+"""0114T01""",Teatro formação de professor,01,Fora de CT&I,6,568
+"""0011A09""",ABI Saúde e bem-estar,00,Fora de CT&I,10,544
+"""0011A03""","ABI Ciências sociais, comunicação e informação",00,Fora de CT&I,2,538
+"""0413G09""",Gestão do agronegócio,04,Fora de CT&I,25,523
+"""0415S01""",Secretariado,04,Fora de CT&I,24,517
+"""0416N01""",Negócios imobiliários,04,Fora de CT&I,33,508
+"""0115L07""",Letras língua brasileira de sinais formação de professor,01,Fora de CT&I,10,481
+"""0114D01""",Dança formação de professor,01,Fora de CT&I,5,479
+"""0213A03""",Artes visuais,02,Fora de CT&I,11,441
+"""0114E02""",Educação do campo em áreas de conhecimento da educação básica formação de professor,01,Fora de CT&I,2,373
+"""0115L18""",Letras português língua brasileira de sinais formação de professor,01,Fora de CT&I,9,372
+"""0413E01""",Empreendedorismo,04,Fora de CT&I,36,370
+"""0312G01""",Geografia,03,Fora de CT&I,14,349
+"""0011A01""",ABI Educação,00,Fora de CT&I,4,346
+"""0322B01""",Biblioteconomia,03,Fora de CT&I,10,336
+"""0215M01""",Música,02,Fora de CT&I,6,326
+"""0115L12""",Letras português espanhol formação de professor,01,Fora de CT&I,15,323
+"""0321R01""","Rádio, TV e internet",03,Fora de CT&I,3,320
+"""0114C02""",Ciências naturais formação de professor,01,Fora de CT&I,5,315
+"""0413G04""",Gestão de cooperativas,04,Fora de CT&I,14,282
+"""0321P01""",Produção editorial,03,Fora de CT&I,2,280
+"""0322M01""",Museologia,03,Fora de CT&I,5,274
+"""0114A01""",Artes formação de professor,01,Fora de CT&I,7,261
+"""0322A01""",Arquivologia,03,Fora de CT&I,3,258
+"""0413C01""",Comércio exterior,04,Fora de CT&I,28,254
+"""0414R01""",Relações públicas,04,Fora de CT&I,16,248
+"""0413G08""",Gestão de serviços,04,Fora de CT&I,4,247
+"""0223F01""",Filosofia,02,Fora de CT&I,9,238
+"""0312C02""",Ciências sociais,03,Fora de CT&I,8,198
+"""0211F01""",Fotografia,02,Fora de CT&I,11,191
+"""0211P05""",Produção multimídia,02,Fora de CT&I,8,179
+"""0215A01""",Artes cênicas,02,Fora de CT&I,2,164
+"""1041T02""",Transporte terrestre,10,Fora de CT&I,5,164
+"""0312C01""",Ciência política,03,Fora de CT&I,18,158
+"""0231L11""",Letras outras línguas estrangeiras modernas,02,Fora de CT&I,2,149
+"""1015E01""",Eventos,10,Fora de CT&I,14,149
+"""0211A01""",Animação,02,Fora de CT&I,12,148
+"""0222H01""",História,02,Fora de CT&I,10,146
+"""1032S01""",Segurança no trânsito,10,Fora de CT&I,8,140
+"""0113E01""",Educação do campo formação de professor,01,Fora de CT&I,3,137
+"""0114C01""",Ciências agrárias formação de professor,01,Fora de CT&I,2,127
+"""0211P03""",Produção cultural,02,Fora de CT&I,5,118
+"""0113E03""",Educação indígena formação de professor,01,Fora de CT&I,2,80
+"""0231L12""",Letras português,02,Fora de CT&I,6,79
+"""1041C01""",Ciências aeronáuticas,10,Fora de CT&I,6,79
+"""0312A01""",Antropologia,03,Fora de CT&I,2,76
+"""0421M01""",Mediação,04,Fora de CT&I,14,74
+"""0115L02""",Letras espanhol formação de professor,01,Fora de CT&I,9,69
+"""0211P01""",Produção audiovisual,02,Fora de CT&I,14,68
+"""1032S04""",Serviços penais,10,Fora de CT&I,8,66
+"""0115L03""",Letras francês formação de professor,01,Fora de CT&I,1,59
+"""0231L08""",Letras língua brasileira de sinais,02,Fora de CT&I,1,59
+"""0115L20""",Letras português outras línguas estrangeiras modernas formação de professor,01,Fora de CT&I,3,58
+"""0321C01""",Comunicação social,03,Fora de CT&I,3,56
+"""0212D04""",Design de produto,02,Fora de CT&I,8,52
+"""0111P01""",Processos escolares,01,Fora de CT&I,9,48
+"""0114E07""",Ensino religioso formação de professor,01,Fora de CT&I,3,41
+"""0115L10""",Letras outras línguas estrangeiras modernas formação de professor,01,Fora de CT&I,1,41
+"""1015H01""",Hotelaria,10,Fora de CT&I,4,40
+"""0488P01""","Programas interdisciplinares abrangendo negócios, administração e direito",04,Fora de CT&I,13,35
+"""0211P04""",Produção fonográfica,02,Fora de CT&I,1,31
+"""0222A01""",Arqueologia,02,Fora de CT&I,2,31
+"""1041G01""",Gestão portuária,10,Fora de CT&I,8,30
+"""1014G01""",Gestão desportiva e de lazer,10,Fora de CT&I,10,23
+"""0215D01""",Dança,02,Fora de CT&I,1,22
+"""0231L22""",Letras tradutor e intérprete,02,Fora de CT&I,2,21
+"""0113F01""",Formação pedagógica de professor para a educação básica,01,Fora de CT&I,3,20
+"""0413G10""",Gestão estratégica,04,Fora de CT&I,1,18
+"""0411G01""",Gestão fiscal e tributária,04,Fora de CT&I,1,17
+"""0011A06""",ABI Computação e Tecnologias da Informação e Comunicação (TIC),00,Fora de CT&I,1,16
+"""0211P02""",Produção cênica,02,Fora de CT&I,1,16
+"""0412S01""",Seguros,04,Fora de CT&I,2,14
+"""0231L02""",Letras escrita criativa,02,Fora de CT&I,1,13
+"""0115L01""",Letras alemão formação de professor,01,Fora de CT&I,1,11
+"""0312S01""",Sociologia,03,Fora de CT&I,1,8
+"""0115L14""",Letras português francês formação de professor,01,Fora de CT&I,1,5
+"""0115L17""",Letras português japonês formação de professor,01,Fora de CT&I,2,5
+"""0119P01""",Programas abrangendo educação em processo de definição da classificação,01,Fora de CT&I,1,2

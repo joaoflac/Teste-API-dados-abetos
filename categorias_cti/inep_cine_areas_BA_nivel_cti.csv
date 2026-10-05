@@ -1,0 +1,81 @@
+﻿CO_CINE_AREA_GERAL,NO_CINE_AREA_GERAL,CO_CINE_AREA_ESPECIFICA,NO_CINE_AREA_ESPECIFICA,CO_CINE_AREA_DETALHADA,NO_CINE_AREA_DETALHADA,nivel_cti,linhas_curso_municipio,cursos_distintos,matriculas_BA
+00,Programas básicos,001,Programas básicos,0011,Programas básicos,Fora de CT&I,101,26,3963
+01,Educação,011,Educação,0111,Ciência da educação,Fora de CT&I,506,30,1668
+01,Educação,011,Educação,0113,Formação de professores sem áreas específicas,Fora de CT&I,1643,224,52167
+01,Educação,011,Educação,0114,Formação de professores em áreas específicas (exceto Letras),Fora de CT&I,5014,582,31844
+01,Educação,011,Educação,0115,Formação de professores de letras,Fora de CT&I,1553,189,9048
+01,Educação,011,Educação,0119,Programas abrangendo educação em processo de definição da classificação,Fora de CT&I,8,1,2
+01,Educação,018,Programas interdisciplinares abrangendo educação,0188,Programas interdisciplinares abrangendo educação,Fora de CT&I,188,18,1337
+02,Artes e humanidades,021,Artes,0211,"Produção audiovisual, de mídia e cultural",Fora de CT&I,776,88,2627
+02,Artes e humanidades,021,Artes,0212,"Moda, design de interiores e desenho industrial",Fora de CT&I,673,71,2758
+02,Artes e humanidades,021,Artes,0213,Belas artes,Fora de CT&I,82,15,1445
+02,Artes e humanidades,021,Artes,0215,Música e artes cênicas,Fora de CT&I,34,9,512
+02,Artes e humanidades,022,Humanidades (exceto línguas),0221,Religião e teologia,Fora de CT&I,479,49,1884
+02,Artes e humanidades,022,Humanidades (exceto línguas),0222,História e arqueologia,Fora de CT&I,71,12,177
+02,Artes e humanidades,022,Humanidades (exceto línguas),0223,Filosofia e ética,Fora de CT&I,44,9,238
+02,Artes e humanidades,023,Línguas,0231,Letras,Fora de CT&I,124,12,321
+02,Artes e humanidades,028,Programas interdisciplinares abrangendo artes e humanidades,0288,Programas interdisciplinares abrangendo artes e humanidades,Fora de CT&I,6,6,1051
+03,"Ciências sociais, comunicação e informação",031,Ciências sociais e comportamentais,0311,Economia,Fora de CT&I,336,42,2020
+03,"Ciências sociais, comunicação e informação",031,Ciências sociais e comportamentais,0312,Ciências sociais e políticas,Fora de CT&I,466,64,1450
+03,"Ciências sociais, comunicação e informação",031,Ciências sociais e comportamentais,0313,Psicologia,Fora de CT&I,78,76,18901
+03,"Ciências sociais, comunicação e informação",032,Comunicação e informação,0321,Comunicação e reportagem,Fora de CT&I,317,49,2841
+03,"Ciências sociais, comunicação e informação",032,Comunicação e informação,0322,Ciência da informação e museologia,Fora de CT&I,121,18,868
+03,"Ciências sociais, comunicação e informação",038,"Programas interdisciplinares abrangendo ciências sociais, comunicação e informação",0388,"Programas interdisciplinares abrangendo ciências sociais, comunicação e informação",Fora de CT&I,31,12,1348
+03,"Ciências sociais, comunicação e informação",039,"Programas abrangendo ciências sociais, comunicação e informação em processo de definição da classificação",0399,"Programas abrangendo ciências sociais, comunicação e informação em processo de definição da classificação",Fora de CT&I,428,22,1373
+04,"Negócios, administração e direito",041,Negócios e administração,0411,Contabilidade e tributação,Fora de CT&I,959,139,14993
+04,"Negócios, administração e direito",041,Negócios e administração,0412,"Finanças, bancos e seguros",Fora de CT&I,766,85,2683
+04,"Negócios, administração e direito",041,Negócios e administração,0413,Gestão e administração,Fora de CT&I,6402,752,57666
+04,"Negócios, administração e direito",041,Negócios e administração,0414,Marketing e propaganda,Fora de CT&I,1508,182,5880
+04,"Negócios, administração e direito",041,Negócios e administração,0415,Secretariado e trabalhos de escritório,Fora de CT&I,295,24,517
+04,"Negócios, administração e direito",041,Negócios e administração,0416,Gestão comercial,Fora de CT&I,917,112,3770
+04,"Negócios, administração e direito",042,Direito,0421,Direito,Fora de CT&I,701,172,39065
+04,"Negócios, administração e direito",048,"Programas interdisciplinares abrangendo negócios, administração e direito",0488,"Programas interdisciplinares abrangendo negócios, administração e direito",Fora de CT&I,50,13,35
+05,"Ciências naturais, matemática e estatística",051,Ciências biológicas e correlatas,0511,Biologia,CT&I núcleo (STEM),159,26,1509
+05,"Ciências naturais, matemática e estatística",051,Ciências biológicas e correlatas,0512,Bioquímica e biotecnologia,CT&I núcleo (STEM),2,2,321
+05,"Ciências naturais, matemática e estatística",052,Meio ambiente,0521,Ciências ambientais,CT&I núcleo (STEM),1,1,9
+05,"Ciências naturais, matemática e estatística",053,Ciências físicas,0531,Química,CT&I núcleo (STEM),146,20,549
+05,"Ciências naturais, matemática e estatística",053,Ciências físicas,0532,Ciências da terra,CT&I núcleo (STEM),23,7,530
+05,"Ciências naturais, matemática e estatística",053,Ciências físicas,0533,Física,CT&I núcleo (STEM),41,9,200
+05,"Ciências naturais, matemática e estatística",054,Matemática e estatística,0541,Matemática,CT&I núcleo (STEM),68,13,150
+05,"Ciências naturais, matemática e estatística",054,Matemática e estatística,0542,Estatística,CT&I núcleo (STEM),12,4,171
+05,"Ciências naturais, matemática e estatística",058,"Programas interdisciplinares abrangendo ciências naturais, matemática e estatística",0588,"Programas interdisciplinares abrangendo ciências naturais, matemática e estatística",CT&I núcleo (STEM),55,17,2585
+06,Computação e Tecnologias da Informação e Comunicação (TIC),061,Computação e Tecnologias da Informação e Comunicação (TIC),0612,Infraestrutura e gestão de TIC,CT&I núcleo (STEM),1191,168,3337
+06,Computação e Tecnologias da Informação e Comunicação (TIC),061,Computação e Tecnologias da Informação e Comunicação (TIC),0613,Análise e desenvolvimento de algoritmos e aplicações,CT&I núcleo (STEM),2150,301,20939
+06,Computação e Tecnologias da Informação e Comunicação (TIC),061,Computação e Tecnologias da Informação e Comunicação (TIC),0619,Programas abrangendo Computação e Tecnologias da Informação e Comunicação (TIC) em processo de definição da classificação,CT&I núcleo (STEM),71,9,36
+06,Computação e Tecnologias da Informação e Comunicação (TIC),068,Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC),0681,Soluções computacionais para domínios específicos,CT&I núcleo (STEM),377,59,896
+06,Computação e Tecnologias da Informação e Comunicação (TIC),068,Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC),0688,Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC),CT&I núcleo (STEM),25,12,30
+07,"Engenharia, produção e construção",071,Engenharia e profissões correlatas,0711,Engenharia química e de processos,CT&I núcleo (STEM),37,21,1396
+07,"Engenharia, produção e construção",071,Engenharia e profissões correlatas,0712,Tecnologia de proteção ambiental,CT&I núcleo (STEM),890,99,3494
+07,"Engenharia, produção e construção",071,Engenharia e profissões correlatas,0713,Eletricidade e energia,CT&I núcleo (STEM),472,81,5309
+07,"Engenharia, produção e construção",071,Engenharia e profissões correlatas,0714,Eletrônica e automação,CT&I núcleo (STEM),367,80,3161
+07,"Engenharia, produção e construção",071,Engenharia e profissões correlatas,0715,Engenharia mecânica e metalurgia,CT&I núcleo (STEM),314,70,4619
+07,"Engenharia, produção e construção",071,Engenharia e profissões correlatas,0716,"Veículos a motor, construção naval, aeronáutica, ferroviária e metroviária",CT&I núcleo (STEM),19,2,76
+07,"Engenharia, produção e construção",072,Produção e processamento,0721,Processamento de alimentos,CT&I núcleo (STEM),99,15,627
+07,"Engenharia, produção e construção",072,Produção e processamento,0722,Materiais,CT&I núcleo (STEM),2,2,8
+07,"Engenharia, produção e construção",072,Produção e processamento,0724,Mineração e extração,CT&I núcleo (STEM),10,10,323
+07,"Engenharia, produção e construção",072,Produção e processamento,0725,Produção e processos de fabricação,CT&I núcleo (STEM),450,91,3688
+07,"Engenharia, produção e construção",073,Arquitetura e construção,0731,Arquitetura e planejamento urbano,CT&I núcleo (STEM),210,48,5057
+07,"Engenharia, produção e construção",073,Arquitetura e construção,0732,Engenharia civil e construção,CT&I núcleo (STEM),526,110,8289
+07,"Engenharia, produção e construção",078,"Programas interdisciplinares abrangendo engenharia, produção e construção",0788,"Programas interdisciplinares abrangendo engenharia, produção e construção",CT&I núcleo (STEM),16,2,16
+08,"Agricultura, silvicultura, pesca e veterinária",081,Agricultura,0811,"Produção agrícola, agropecuária e zootecnia",CT&I ampliado,367,65,7625
+08,"Agricultura, silvicultura, pesca e veterinária",082,Silvicultura,0821,Silvicultura,CT&I ampliado,4,4,348
+08,"Agricultura, silvicultura, pesca e veterinária",083,Pesca,0831,Pesca,CT&I ampliado,4,4,190
+08,"Agricultura, silvicultura, pesca e veterinária",084,Veterinária,0841,Veterinária,CT&I ampliado,41,32,7033
+09,Saúde e bem-estar,091,Saúde,0911,Odontologia,CT&I ampliado,48,48,10548
+09,Saúde e bem-estar,091,Saúde,0912,Medicina,CT&I ampliado,40,40,20315
+09,Saúde e bem-estar,091,Saúde,0913,Enfermagem,CT&I ampliado,320,97,31119
+09,Saúde e bem-estar,091,Saúde,0914,Tecnologia de diagnóstico e tratamento médico,CT&I ampliado,814,122,11606
+09,Saúde e bem-estar,091,Saúde,0915,"Promoção, prevenção, terapia e reabilitação",CT&I ampliado,1779,319,43976
+09,Saúde e bem-estar,091,Saúde,0916,Farmácia,CT&I ampliado,454,92,14404
+09,Saúde e bem-estar,091,Saúde,0917,Medicina e terapia tradicional e complementar,CT&I ampliado,299,21,621
+09,Saúde e bem-estar,091,Saúde,0918,Saúde pública e saúde coletiva,CT&I ampliado,65,5,322
+09,Saúde e bem-estar,092,Bem-estar,0921,Assistência a idosos e a deficientes,CT&I ampliado,203,17,315
+09,Saúde e bem-estar,092,Bem-estar,0923,Serviço social,CT&I ampliado,762,81,6541
+09,Saúde e bem-estar,098,Programas interdisciplinares abrangendo saúde e bem-estar,0988,Programas interdisciplinares abrangendo saúde e bem-estar,CT&I ampliado,150,14,1423
+10,Serviços,101,Serviços pessoais,1012,Serviços de beleza,Fora de CT&I,399,53,3542
+10,Serviços,101,Serviços pessoais,1013,Serviços de alimentação,Fora de CT&I,398,49,1992
+10,Serviços,101,Serviços pessoais,1014,Esportes e lazer,Fora de CT&I,35,10,23
+10,Serviços,101,Serviços pessoais,1015,Turismo e hotelaria,Fora de CT&I,275,44,780
+10,Serviços,102,Higiene e serviços de saúde ocupacional,1022,Saúde e segurança no trabalho,Fora de CT&I,362,22,1302
+10,Serviços,103,Serviços de segurança,1032,Proteção de pessoas e de propriedades,Fora de CT&I,1413,105,5786
+10,Serviços,104,Serviços de transporte,1041,Serviços de transporte,Fora de CT&I,73,19,273

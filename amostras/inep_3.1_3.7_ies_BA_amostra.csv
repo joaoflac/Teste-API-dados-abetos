@@ -1,0 +1,41 @@
+﻿NU_ANO_CENSO,CO_IES,NO_IES,SG_IES,CO_MUNICIPIO_IES,NO_MUNICIPIO_IES,SG_UF_IES,organizacao_academica,categoria_administrativa,ies_tecnologica_if_cefet,IN_REPOSITORIO_INSTITUCIONAL,IN_ACESSO_PORTAL_CAPES,QT_DOC_TOTAL,QT_DOC_EXE,QT_DOC_EX_DOUT,QT_DOC_EX_MEST,QT_DOC_EX_ESP,QT_DOC_EX_GRAD,QT_DOC_EX_INT_DE,QT_TEC_DOUTORADO_FEM,QT_TEC_DOUTORADO_MASC
+2024,578,UNIVERSIDADE FEDERAL DA BAHIA,UFBA,2927408,Salvador,BA,Universidade,Pública Federal,False,1,1,3131,3131,2466,400,63,202,2127,74,45
+2024,40,UNIVERSIDADE DO ESTADO DA BAHIA,UNEB,2927408,Salvador,BA,Universidade,Pública Estadual,False,1,1,1681,1681,1093,583,5,0,911,37,10
+2024,688,UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA,UESB,2933307,Vitória da Conquista,BA,Universidade,Pública Estadual,False,1,1,1034,1034,708,235,89,2,742,9,9
+2024,4503,UNIVERSIDADE FEDERAL DO RECÔNCAVO DA BAHIA,UFRB,2909802,Cruz das Almas,BA,Universidade,Pública Federal,False,1,1,1020,1020,702,243,31,44,859,16,14
+2024,666,UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA,UEFS,2910800,Feira de Santana,BA,Universidade,Pública Estadual,False,0,1,851,851,611,199,40,1,447,30,20
+2024,24,UNIVERSIDADE ESTADUAL DE SANTA CRUZ,UESC,2913606,Ilhéus,BA,Universidade,Pública Estadual,False,0,1,820,820,603,176,38,3,642,11,6
+2024,599,"INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA",IFBA,2927408,Salvador,BA,"Instituto Federal de Educação, Ciência e Tecnologia",Pública Federal,True,1,1,895,895,370,418,107,0,756,17,6
+2024,18506,UNIVERSIDADE FEDERAL DO OESTE DA BAHIA,UFOB,2903201,Barreiras,BA,Universidade,Pública Federal,False,1,1,411,411,296,72,29,14,328,3,0
+2024,534,ESCOLA BAHIANA DE MEDICINA E SAÚDE PÚBLICA,EBMSP,2927408,Salvador,BA,Faculdade,Privada sem fins lucrativos,False,1,1,518,518,274,193,51,0,0,1,1
+2024,18812,UNIVERSIDADE FEDERAL DO SUL DA BAHIA,UFSB,2914802,Itabuna,BA,Universidade,Pública Federal,False,0,1,335,335,266,43,26,0,261,5,4
+2024,14509,"INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA BAIANO",IFBAIANO,2927408,Salvador,BA,"Instituto Federal de Educação, Ciência e Tecnologia",Pública Federal,True,1,1,434,434,217,170,31,16,405,18,13
+2024,1883,CENTRO UNIVERSITÁRIO UNIME,UNIME,2919207,Lauro de Freitas,BA,Centro Universitário,Privada com fins lucrativos,False,1,0,441,441,124,152,165,0,0,0,0
+2024,385,UNIVERSIDADE SALVADOR,UNIFACS,2927408,Salvador,BA,Universidade,Privada com fins lucrativos,False,1,1,424,424,107,158,159,0,0,4,4
+2024,519,UNIVERSIDADE CATÓLICA DO SALVADOR,UCSAL,2927408,Salvador,BA,Universidade,Privada sem fins lucrativos,False,1,1,216,216,82,107,27,0,1,0,0
+2024,1185,CENTRO UNIVERSITÁRIO JORGE AMADO,UNIJORGE,2927408,Salvador,BA,Centro Universitário,Privada com fins lucrativos,False,0,0,309,309,80,182,47,0,0,2,3
+2024,1058,Centro Universitário Estácio da Bahia,Estácio Bahia,2927408,Salvador,BA,Centro Universitário,Privada com fins lucrativos,False,0,0,216,216,77,115,24,0,0,1,0
+2024,19408,Faculdade AGES de Jacobina,Faculdade AGES,2917508,Jacobina,BA,Faculdade,Privada com fins lucrativos,False,1,0,290,290,72,162,56,0,0,1,0
+2024,3962,UNIVERSIDADE SENAI CIMATEC,SENAI CIMATEC,2927408,Salvador,BA,Universidade,Privada sem fins lucrativos,False,1,1,144,144,71,71,2,0,0,4,6
+2024,1461,Centro Universitário Zarns - Salvador,ZARNS SALVADOR,2927408,Salvador,BA,Centro Universitário,Privada com fins lucrativos,False,1,0,122,122,66,55,1,0,0,2,0
+2024,3034,Faculdade Anhanguera Unime de Salvador,,2927408,Salvador,BA,Faculdade,Privada com fins lucrativos,False,1,0,188,188,61,74,53,0,0,0,0
+2024,18708,Faculdade AGES de Senhor do Bonfim,Faculdade AGES,2930105,Senhor do Bonfim,BA,Faculdade,Privada com fins lucrativos,False,1,0,232,232,57,128,47,0,0,0,0
+2024,2402,Centro Universitário UNIFTC,,2927408,Salvador,BA,Centro Universitário,Privada com fins lucrativos,False,1,1,239,239,52,125,62,0,0,0,0
+2024,2560,FACULDADE DE ENSINO SUPERIOR DA CIDADE DE FEIRA DE SANTANA,FAESF/UNEF,2910800,Feira de Santana,BA,Faculdade,Privada com fins lucrativos,False,1,0,122,122,50,72,0,0,1,0,0
+2024,2944,FACULDADE ANHANGUERA DE ITABUNA,,2914802,Itabuna,BA,Faculdade,Privada com fins lucrativos,False,1,0,141,141,50,41,50,0,0,0,0
+2024,2437,FACULDADE ANHANGUERA DE TEIXEIRA DE FREITAS,,2931350,Teixeira de Freitas,BA,Faculdade,Privada com fins lucrativos,False,1,0,109,109,46,25,38,0,0,0,0
+2024,1718,CENTRO UNIVERSITÁRIO NOBRE DE FEIRA DE SANTANA,,2910800,Feira de Santana,BA,Centro Universitário,Privada com fins lucrativos,False,1,0,127,127,45,82,0,0,0,2,0
+2024,396,Centro Universitário Ruy Barbosa Wyden,UniRuy Wyden,2927408,Salvador,BA,Centro Universitário,Privada com fins lucrativos,False,0,0,98,98,45,42,11,0,0,1,0
+2024,1053,Centro Universitário de Excelência,UNEX,2910800,Feira de Santana,BA,Centro Universitário,Privada com fins lucrativos,False,1,1,147,147,43,68,36,0,0,1,0
+2024,3588,CENTRO UNIVERSITÁRIO DOM PEDRO II,UNIDOMPEDRO,2927408,Salvador,BA,Centro Universitário,Privada com fins lucrativos,False,0,0,209,209,38,68,103,0,0,1,1
+2024,4959,FACULDADE ANHANGUERA DE FEIRA DE SANTANA,,2910800,Feira de Santana,BA,Faculdade,Privada com fins lucrativos,False,1,0,61,61,38,10,13,0,0,0,0
+2024,18625,Faculdade Anhanguera De Vitória Da Conquista,,2933307,Vitória da Conquista,BA,Faculdade,Privada com fins lucrativos,False,1,0,74,74,37,16,21,0,0,0,0
+2024,2023,Centro Universitário FG,UNIFG,2911709,Guanambi,BA,Centro Universitário,Privada com fins lucrativos,False,1,1,131,131,36,46,49,0,0,1,1
+2024,19260,FACULDADE ANHANGUERA DE JEQUIÉ,FPJ,2918001,Jequié,BA,Faculdade,Privada com fins lucrativos,False,1,0,65,65,35,9,21,0,0,0,0
+2024,21553,FACULDADE ANHANGUERA DE SANTO ANTÔNIO DE JESUS,,2928703,Santo Antônio de Jesus,BA,Faculdade,Privada com fins lucrativos,False,1,0,67,67,34,8,25,0,0,0,0
+2024,2474,CENTRO UNIVERSITÁRIO MARIA MILZA,UNIMAM,2909802,Cruz das Almas,BA,Centro Universitário,Privada com fins lucrativos,False,1,1,220,220,33,126,61,0,0,9,3
+2024,1055,Centro Universitário Maurício de Nassau de Salvador,Uninassau Salvador,2927408,Salvador,BA,Centro Universitário,Privada sem fins lucrativos,False,1,0,114,114,31,62,21,0,0,4,0
+2024,1643,FACULDADE ANÍSIO TEIXEIRA DE FEIRA DE SANTANA,FAT,2910800,Feira de Santana,BA,Centro Universitário,Privada sem fins lucrativos,False,1,1,191,191,30,104,57,0,0,1,2
+2024,2222,Centro Universitário do Rio São Francisco Unirios,UNIRIOS,2924009,Paulo Afonso,BA,Centro Universitário,Privada com fins lucrativos,False,1,0,108,108,29,58,21,0,3,0,0
+2024,3365,Faculdade UniBRAS Juazeiro,FACBRAS,2918407,Juazeiro,BA,Faculdade,Privada com fins lucrativos,False,0,0,41,41,26,15,0,0,0,1,0
+2024,3864,Centro Universitário UNIRB - Alagoinhas,,2900702,Alagoinhas,BA,Centro Universitário,Privada com fins lucrativos,False,1,1,52,52,25,27,0,0,0,0,0

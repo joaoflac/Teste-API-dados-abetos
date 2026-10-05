@@ -1,0 +1,22 @@
+﻿campo,codigo,descricao,linhas_BA,uso_cti
+TP_ORGANIZACAO_ACADEMICA,1,Universidade,18233,
+TP_ORGANIZACAO_ACADEMICA,2,Centro Universitário,20956,
+TP_ORGANIZACAO_ACADEMICA,3,Faculdade,1425,
+TP_ORGANIZACAO_ACADEMICA,4,"Instituto Federal de Educação, Ciência e Tecnologia",101,Auxiliar CT&I: instituição tecnológica
+TP_ORGANIZACAO_ACADEMICA,5,Centro Federal de Educação Tecnológica,0,Auxiliar CT&I: instituição tecnológica
+TP_CATEGORIA_ADMINISTRATIVA,1,Pública Federal,521,
+TP_CATEGORIA_ADMINISTRATIVA,2,Pública Estadual,394,
+TP_CATEGORIA_ADMINISTRATIVA,3,Pública Municipal,0,
+TP_CATEGORIA_ADMINISTRATIVA,4,Privada com fins lucrativos,38419,
+TP_CATEGORIA_ADMINISTRATIVA,5,Privada sem fins lucrativos,1379,
+TP_CATEGORIA_ADMINISTRATIVA,7,Especial,2,
+TP_DIMENSAO,1,Presencial (município de oferta),1851,
+TP_DIMENSAO,2,EAD ofertado no Brasil (por município/polo),38864,Separar de presencial (regra 3.3)
+TP_DIMENSAO,3,EAD só nível Brasil,0,Separar de presencial (regra 3.3)
+TP_DIMENSAO,4,EAD no exterior,0,Separar de presencial (regra 3.3)
+TP_GRAU_ACADEMICO,1,Bacharelado,13685,
+TP_GRAU_ACADEMICO,2,Licenciatura,8222,
+TP_GRAU_ACADEMICO,3,Tecnológico,18707,Auxiliar CT&I: cruzar com CINE 05/06/07
+TP_GRAU_ACADEMICO,4,Bacharelado e Licenciatura,0,
+TP_MODALIDADE_ENSINO,1,Presencial,1851,
+TP_MODALIDADE_ENSINO,2,EAD,38864,
