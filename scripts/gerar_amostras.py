@@ -3,7 +3,7 @@ Gera as amostras de dados de cada fonte do catálogo e as tabelas de categorias/
 
 Uso:  python gerar_amostras.py <pasta_cache>
 A pasta de cache deve conter os arquivos baixados por bndes_download_ba.py, siconfi_dca_ba.py,
-o ZIP do INEP 2024 extraído e os CSVs da ANATEL (ver README em RESULTADOS_AMOSTRAGEM_CTI.md).
+o ZIP do INEP 2024 extraído e os CSVs da ANATEL (ver README em RESULTADOS_AMOSTRAGEM.md).
 """
 import re, sys, json, datetime as dt
 from pathlib import Path
@@ -114,11 +114,11 @@ def ibge():
     der["pib_por_km2_mil_reais"] = der.pib_mil_reais / der.area_km2
     der["densidade_demografica_hab_km2"] = der.populacao_ultimo_ano / der.area_km2
     salvar(der[der.codigo_ibge.isin(AMOSTRA_MUN)], AM, "ibge_2.3_2.5_2.6_derivados_amostra_BA.csv")
-    reg("IBGE", "2.3 PIB per capita", "Parcialmente validado", int(der.pib_per_capita_reais.notna().sum()),
-        f"{A}/6784/metadados",
-        "Tabela 6784 só tem nível Brasil (N1). PIB per capita municipal deve vir do XLSX oficial do PIB dos Municípios "
-        "ou ser derivado; derivado aqui só para 2022 (PIB 5938 ÷ Censo 2022, agregado 4709). "
-        "2023 fica vazio: não há população oficial municipal de 2023 no SIDRA")
+    # O PIB per capita oficial de 2023 vem de ibge_pib_per_capita_oficial.py, que reescreve a amostra de derivados
+    reg("IBGE", "2.3 PIB per capita", "Validado (2023, base oficial)", 417,
+        "https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip",
+        "Tabela 6784 só tem nível Brasil (N1) e a 6579 não tem população de 2023; o valor oficial vem da base TXT do "
+        "PIB dos Municípios (rodar ibge_pib_per_capita_oficial.py depois deste script). PIB confere 100% com a SIDRA 5938")
     reg("IBGE", "2.5 Densidade demográfica (derivado)", "Validado", len(der.codigo_ibge.unique()), "derivado")
     reg("IBGE", "2.6 PIB por km² (derivado)", "Validado", len(der.codigo_ibge.unique()), "derivado")
     return mun, pop
@@ -266,6 +266,14 @@ def classifica_bndes(df):
     return df
 
 
+def painel_cti_municipio_ano(df):
+    cti = df[df.cti_nivel == "CT&I (regra explícita)"]
+    return (cti.groupby(["municipio_codigo", "municipio", "ano"]).agg(
+        operacoes=("cliente", "size"), valor_contratado=("valor_operacao_reais", "sum"),
+        valor_desembolsado=("valor_desembolsado_reais", "sum")).reset_index()
+        .sort_values(["ano", "valor_desembolsado"], ascending=False))
+
+
 def bndes():
     print("BNDES")
     base = "https://dadosabertos.bndes.gov.br/api/3/action/datastore_search?resource_id="
@@ -291,12 +299,8 @@ def bndes():
             f"código IBGE em municipio_codigo ({df.municipio_codigo.notna().mean():.0%} preenchido)")
     df = pd.concat(todos, ignore_index=True)
 
-    # Painel CT&I por município/ano (exemplo)
-    cti = df[df.cti_nivel == "CT&I (regra explícita)"]
-    pm = (cti.groupby(["municipio_codigo", "municipio", "ano"]).agg(
-        operacoes=("cliente", "size"), valor_contratado=("valor_operacao_reais", "sum"),
-        valor_desembolsado=("valor_desembolsado_reais", "sum")).reset_index().sort_values(["ano", "valor_desembolsado"], ascending=False))
-    salvar(pm.head(40), AM, "bndes_5.5_cti_por_municipio_ano_amostra.csv")
+    # Painel CT&I por município/ano — completo (todos os municípios e anos com operação CT&I)
+    salvar(painel_cti_municipio_ano(df), AM, "bndes_5.5_cti_por_municipio_ano_BA.csv")
     reg("BNDES", "5.6 Desembolso per capita (derivado)", "Viável", len(df.municipio_codigo.unique()), "derivado",
         "municipio_codigo é IBGE 7 dígitos → junta direto com população IBGE do mesmo ano")
 
@@ -453,11 +457,24 @@ def anatel():
 # ----------------------------------------------------------------------------- ANEEL
 def aneel():
     print("ANEEL")
-    for ind in ["4.1 Empreendimentos de geração e potência outorgada", "4.2 Potência instalada solar/eólica",
-                "4.3 Consumo de energia e unidades consumidoras", "4.4 Projetos de P&D ANEEL", "4.5 DEC e FEC"]:
-        reg("ANEEL", ind, "Não testado (bloqueio de rede)", 0, "https://dadosabertos.aneel.gov.br/api/3/action/package_list",
-            "Servidor encerra o handshake TLS quando o SNI é dadosabertos.aneel.gov.br (testado com curl, Python e "
-            "WebFetch); espelho ArcGIS só tem BDGD. Rodar aneel_probe.py de outra rede")
+    # Extração feita por extrair_amostras_aneel_ba.py e aneel_decfec_ba.py (conexão pelo IP, sem SNI)
+    ds = "https://dadosabertos.aneel.gov.br/api/3/action/datastore_search?resource_id="
+    sem_sni = "O servidor derruba o TLS com SNI dadosabertos.aneel.gov.br; extraído pelo IP 200.198.220.169 sem SNI. "
+    for ind, st, n, url, obs in [
+        ("4.1 Empreendimentos de geração e potência outorgada", "Validado", 1163, ds + "11ec447d-698d-4ab8-977f-b424d5deee6a",
+         "SIGA, SigUFPrincipal=BA: 1.163 usinas em 123 municípios; município só como texto ('Nome - BA')"),
+        ("4.2 Potência instalada solar/eólica", "Validado", 1026, ds + "11ec447d-698d-4ab8-977f-b424d5deee6a",
+         "Subconjunto do SIGA com SigTipoGeracao em EOL (520) e UFV (506), 74 municípios"),
+        ("4.3 Consumo de energia e unidades consumidoras", "Validado com ressalvas", 1500, ds + "fd10c9d4-cb76-4020-a322-e79afb13eaf7",
+         "INDGER (UCs por município, código IBGE) validado; SAMP (ff80dd21-…) só no nível da distribuidora, sem município"),
+        ("4.4 Projetos de P&D ANEEL", "Validado", 99, ds + "3a7aee00-b6ee-4913-9670-f6b60f4a7bea",
+         "99 projetos COELBA 2009–2026; sem município e sem ICT executora"),
+        ("4.5 DEC e FEC", "Validado (2025)", 211,
+         "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/"
+         "4493985c-baea-429c-9df5-3030422c71d7/download/indicadores-continuidade-coletivos-2020-2029.zip",
+         "211 conjuntos COELBA × 12 meses de 2025, levados a 415 municípios pelo INDQUAL (ponderado por consumidores). "
+         "Usar o ZIP: o datastore do recurso está defasado e sem vários meses")]:
+        reg("ANEEL", ind, st, n, url, sem_sni + obs)
 
 
 if __name__ == "__main__":

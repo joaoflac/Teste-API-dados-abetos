@@ -1,0 +1,418 @@
+﻿codigo_ibge,municipio,ano_referencia,pib_mil_reais,pib_per_capita_reais,populacao_implicita,fonte,url_fonte
+2900207,Abaré,2023,224238.542,12712.66,17639,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900108,Abaíra,2023,84853.976,11622.24,7301,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900306,Acajutiba,2023,186446.172,13515.49,13795,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900355,Adustina,2023,275493.875,19399.61,14201,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900603,Aiquara,2023,75418.036,16959.31,4447,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900702,Alagoinhas,2023,5705227.49,37769.21,151055,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900801,Alcobaça,2023,439081.541,17899.78,24530,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900900,Almadina,2023,79710.606,15276.08,5218,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901007,Amargosa,2023,608765.198,16668.91,36521,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901106,Amélia Rodrigues,2023,521349.037,21598.68,24138,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901155,América Dourada,2023,198616.016,13121.23,15137,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901205,Anagé,2023,299894.814,11789.24,25438,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901304,Andaraí,2023,178408.467,13639.79,13080,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901353,Andorinha,2023,252205.76,16800.28,15012,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901403,Angical,2023,229298.219,16698.09,13732,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901502,Anguera,2023,118551.884,10747.16,11031,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901601,Antas,2023,197869.627,13413.07,14752,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901700,Antônio Cardoso,2023,138792.627,12452.24,11146,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901809,Antônio Gonçalves,2023,108499.704,9988.93,10862,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901908,Aporá,2023,191757.869,12043.58,15922,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2901957,Apuarema,2023,90728.526,13124.33,6913,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902005,Aracatu,2023,174004.348,12485.96,13936,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902104,Araci,2023,642812.114,13310.39,48294,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902203,Aramari,2023,138749.091,14110.56,9833,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902252,Arataca,2023,135073.021,13254.15,10191,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902302,Aratuípe,2023,107370.357,12374.13,8677,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902054,Araçás,2023,325621.667,28175.28,11557,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902401,Aurelino Leal,2023,180021.295,16103.52,11179,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902500,Baianópolis,2023,362686.108,26640.67,13614,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902609,Baixa Grande,2023,226703.817,12442.58,18220,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902658,Banzaê,2023,152080.651,12717.9,11958,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902708,Barra,2023,558492.724,10931.12,51092,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902807,Barra da Estiva,2023,589438.511,22648.06,26026,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2902906,Barra do Choça,2023,540749.955,14799.25,36539,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903003,Barra do Mendes,2023,143355.927,10361.08,13836,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903102,Barra do Rocha,2023,107926.635,18688.59,5775,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903201,Barreiras,2023,9499498.974,59470.74,159734,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903235,Barro Alto,2023,137538.062,10223.6,13453,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903300,Barro Preto,2023,112869.346,19350.14,5833,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903276,Barrocas,2023,289667.896,19053.34,15203,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903409,Belmonte,2023,432367.576,21488.37,20121,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903508,Belo Campo,2023,217595.873,11818.16,18412,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903607,Biritinga,2023,234654.242,15492.82,15146,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903706,Boa Nova,2023,144910.467,10585.13,13690,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903805,Boa Vista do Tupim,2023,187248.715,11097.54,16873,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903904,Bom Jesus da Lapa,2023,1554154.439,23709.45,65550,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2903953,Bom Jesus da Serra,2023,92366.046,9492.91,9730,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904001,Boninal,2023,146375.553,10745.53,13622,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904050,Bonito,2023,265008.82,16726.13,15844,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904100,Boquira,2023,221071.153,11441.42,19322,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904209,Botuporã,2023,132224.667,11994.26,11024,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904407,Brejolândia,2023,146903.266,16129.04,9108,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904308,Brejões,2023,168676.087,13032.22,12943,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904506,Brotas de Macaúbas,2023,141253.088,12006.21,11765,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904605,Brumado,2023,1931839.323,27398.09,70510,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904704,Buerarema,2023,237932.104,16072.15,14804,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904753,Buritirama,2023,191820.251,9792.24,19589,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904803,Caatiba,2023,97532.131,15718.31,6205,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904852,Cabaceiras do Paraguaçu,2023,186027.975,11234.25,16559,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2904902,Cachoeira,2023,521415.95,17826.19,29250,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905008,Caculé,2023,429993.372,19143.15,22462,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905156,Caetanos,2023,114112.66,10128.94,11266,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905206,Caetité,2023,1216743.242,23393.51,52012,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905305,Cafarnaum,2023,277213.977,15871.63,17466,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905404,Cairu,2023,1442324.551,81207.4,17761,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905503,Caldeirão Grande,2023,138754.744,10608.16,13080,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905602,Camacan,2023,470759.707,20849.45,22579,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905800,Camamu,2023,557661.535,18302.59,30469,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905701,Camaçari,2023,27418877.532,91283.07,300372,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905909,Campo Alegre de Lourdes,2023,383421.237,12501.1,30671,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906006,Campo Formoso,2023,1617786.003,22665.37,71377,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906204,Canarana,2023,305655.738,12627.27,24206,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906303,Canavieiras,2023,510979.086,15634.4,32683,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906402,Candeal,2023,84961.221,10931.71,7772,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906501,Candeias,2023,5750025.525,79439.99,72382,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906600,Candiba,2023,170087.646,13067.58,13016,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906808,Cansanção,2023,510493.321,13635.34,37439,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906824,Canudos,2023,203666.771,12646.18,16105,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906105,Canápolis,2023,110069.158,10764.71,10225,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906857,Capela do Alto Alegre,2023,164342.354,15296.2,10744,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906873,Capim Grosso,2023,801015.808,24101.57,33235,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906907,Caravelas,2023,413319.456,20083.55,20580,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906899,Caraíbas,2023,123402.399,12414.73,9940,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907004,Cardeal da Silva,2023,140042.098,16741.43,8365,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907103,Carinhanha,2023,377035.401,13060.22,28869,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907202,Casa Nova,2023,1135275.591,15748.91,72086,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907301,Castro Alves,2023,431937.994,17478.88,24712,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907400,Catolândia,2023,93082.334,27106.1,3434,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907509,Catu,2023,928641.003,19287.22,48148,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907558,Caturama,2023,105133.773,11891.62,8841,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2905107,Caém,2023,127401.113,12268.98,10384,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907608,Central,2023,180701.476,11053.43,16348,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907707,Chorrochó,2023,137581.262,13005.13,10579,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907905,Cipó,2023,214615.596,12455.93,17230,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908002,Coaraci,2023,256642.839,14806.6,17333,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908101,Cocos,2023,733216.57,38286.07,19151,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908200,Conceição da Feira,2023,430602.157,20702.03,20800,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908309,Conceição do Almeida,2023,236506.602,14974.46,15794,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908408,Conceição do Coité,2023,1122063.228,16543.51,67825,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908507,Conceição do Jacuípe,2023,2634469.119,74613.94,35308,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908606,Conde,2023,365281.648,15442.7,23654,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908705,Condeúba,2023,203310.521,11922.27,17053,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908804,Contendas do Sincorá,2023,63627.246,14684.34,4333,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2908903,Coração de Maria,2023,325844.013,12207.55,26692,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909000,Cordeiros,2023,79050.184,10475.77,7546,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909109,Coribe,2023,207786.048,14852.47,13990,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909208,Coronel João Sá,2023,258087.826,15131.79,17056,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909307,Correntina,2023,3806363.285,117274.03,32457,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909406,Cotegipe,2023,214456.773,16417.11,13063,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909505,Cravolândia,2023,57702.745,13069.7,4415,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909703,Cristópolis,2023,218524.996,15616.74,13993,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909604,Crisópolis,2023,262119.649,13286.01,19729,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909802,Cruz das Almas,2023,1279175.071,21196.64,60348,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2909901,Curaçá,2023,499931.719,14626.44,34180,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2906709,Cândido Sales,2023,289056.859,11449.16,25247,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2907806,Cícero Dantas,2023,503222.235,16365.48,30749,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910057,Dias d'Ávila,2023,2377818.192,33263.18,71485,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910107,Dom Basílio,2023,177242.569,14914.39,11884,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910206,Dom Macedo Costa,2023,60840.322,13805.38,4407,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910008,Dário Meira,2023,155286.969,14351.85,10820,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910305,Elísio Medrado,2023,104130.141,13336.34,7808,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910404,Encruzilhada,2023,254827.772,13336.88,19107,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910503,Entre Rios,2023,790786.138,20756.63,38098,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910602,Esplanada,2023,810979.757,24911.83,32554,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910701,Euclides da Cunha,2023,959547.942,15613.58,61456,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910727,Eunápolis,2023,4264492.925,37503.24,113710,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910776,Feira da Mata,2023,83140.366,14764.76,5631,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910800,Feira de Santana,2023,21846454.667,35449.37,616272,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910859,Filadélfia,2023,201628.08,11266.03,17897,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910909,Firmino Alves,2023,88592.155,18180.21,4873,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911006,Floresta Azul,2023,134078.706,12123.94,11059,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911105,Formosa do Rio Preto,2023,5334932.831,205989.92,25899,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2910750,Fátima,2023,298891.354,16701.57,17896,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911204,Gandu,2023,598642.986,18604.11,32178,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911253,Gavião,2023,64348.661,14758.87,4360,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911303,Gentio do Ouro,2023,563487.092,51772.06,10884,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911402,Glória,2023,297614.829,19171.27,15524,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911501,Gongogi,2023,91564.455,16483.25,5555,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911600,Governador Mangabeira,2023,284847.183,13824.18,20605,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911659,Guajeru,2023,86286.262,10718.79,8050,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911709,Guanambi,2023,2028013.245,23093.63,87817,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911808,Guaratinga,2023,318836.843,16737.72,19049,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911857,Heliópolis,2023,170531.034,13441.4,12687,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2911907,Iaçu,2023,309737.081,12587.36,24607,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912004,Ibiassucê,2023,121229.529,11624.27,10429,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912103,Ibicaraí,2023,265631.847,12260.87,21665,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912202,Ibicoara,2023,517754.214,24909.99,20785,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912301,Ibicuí,2023,224503.022,16111.89,13934,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912400,Ibipeba,2023,201180.984,12117.15,16603,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912509,Ibipitanga,2023,155050.168,11184.46,13863,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912608,Ibiquera,2023,48873.515,13120.41,3725,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912707,Ibirapitanga,2023,385351.271,15204.83,25344,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912806,Ibirapuã,2023,486181.66,54651.72,8896,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2912905,Ibirataia,2023,274185.068,14590.52,18792,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913002,Ibitiara,2023,145139.883,9915.96,14637,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913101,Ibititá,2023,181670.057,10706.0,16969,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913200,Ibotirama,2023,544229.386,20686.05,26309,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913309,Ichu,2023,72148.171,11655.6,6190,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913408,Igaporã,2023,237185.761,15275.7,15527,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913457,Igrapiúna,2023,248014.796,18859.01,13151,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913507,Iguaí,2023,282578.114,13148.67,21491,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913606,Ilhéus,2023,7234380.827,40494.94,178649,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913705,Inhambupe,2023,728056.798,21546.52,33790,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913804,Ipecaetá,2023,141403.755,10314.67,13709,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2913903,Ipiaú,2023,714937.605,17563.45,40706,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914000,Ipirá,2023,799164.101,14050.99,56876,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914109,Ipupiara,2023,138063.549,13896.68,9935,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914208,Irajuba,2023,81309.529,13327.25,6101,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914307,Iramaia,2023,128687.776,11968.73,10752,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914406,Iraquara,2023,695112.51,29109.78,23879,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914505,Irará,2023,385665.422,13752.64,28043,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914604,Irecê,2023,1963173.351,26348.84,74507,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914653,Itabela,2023,669662.547,23776.41,28165,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914703,Itaberaba,2023,1267186.907,19473.31,65073,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914802,Itabuna,2023,5152367.087,27595.86,186708,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2914901,Itacaré,2023,563115.494,20326.14,27704,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915007,Itaeté,2023,151141.5,11218.94,13472,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915106,Itagi,2023,162850.098,11798.17,13803,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915205,Itagibá,2023,746823.176,48780.09,15310,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915304,Itagimirim,2023,153619.497,24203.48,6347,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915353,Itaguaçu da Bahia,2023,173900.568,14125.62,12311,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915403,Itaju do Colônia,2023,110196.786,18253.57,6037,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915502,Itajuípe,2023,382794.967,20382.03,18781,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915601,Itamaraju,2023,1395505.741,23412.56,59605,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915700,Itamari,2023,118905.574,16863.65,7051,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915809,Itambé,2023,403897.7,16557.26,24394,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2915908,Itanagra,2023,110577.394,18697.56,5914,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916005,Itanhém,2023,341095.515,19148.68,17813,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916104,Itaparica,2023,298513.763,15084.83,19789,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916302,Itapebi,2023,329115.871,35874.85,9174,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916401,Itapetinga,2023,1938472.475,29416.7,65897,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916500,Itapicuru,2023,534862.537,16883.82,31679,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916609,Itapitanga,2023,124198.931,12082.78,10279,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916203,Itapé,2023,135711.734,13123.66,10341,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916708,Itaquara,2023,105757.568,12971.61,8153,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916807,Itarantim,2023,375539.977,22023.22,17052,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916856,Itatim,2023,513400.981,32623.82,15737,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2916906,Itiruçu,2023,152011.102,13820.45,10999,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917003,Itiúba,2023,429677.861,12685.34,33872,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917102,Itororó,2023,281111.572,16917.11,16617,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917201,Ituaçu,2023,341991.049,19090.71,17914,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917300,Ituberá,2023,420872.854,19216.18,21902,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917334,Iuiu,2023,179352.803,16131.75,11118,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917359,Jaborandi,2023,1527844.705,164727.19,9275,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917409,Jacaraci,2023,150695.59,10438.87,14436,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917508,Jacobina,2023,2030142.295,24580.97,82590,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917607,Jaguaquara,2023,807068.769,17558.71,45964,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917706,Jaguarari,2023,805703.944,24637.0,32703,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917805,Jaguaripe,2023,261120.545,14786.83,17659,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2917904,Jandaíra,2023,217807.116,23457.96,9285,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918001,Jequié,2023,3882706.96,24448.29,158813,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918100,Jeremoabo,2023,623856.272,16580.46,37626,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918209,Jiquiriçá,2023,195942.717,14376.9,13629,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918308,Jitaúna,2023,253022.524,17626.09,14355,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918357,João Dourado,2023,347834.875,13995.13,24854,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918407,Juazeiro,2023,6159603.827,25900.17,237821,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918456,Jucuruçu,2023,152424.112,15787.06,9655,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918506,Jussara,2023,151838.486,9284.49,16354,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918555,Jussari,2023,90404.1,15353.96,5888,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918605,Jussiape,2023,87227.64,11821.07,7379,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918704,Lafaiete Coutinho,2023,70953.286,17411.85,4075,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918753,Lagoa Real,2023,147332.4,10445.4,14105,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918803,Laje,2023,344541.365,16366.21,21052,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919009,Lajedinho,2023,66279.945,18792.16,3527,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919058,Lajedo do Tabocal,2023,102349.698,13657.55,7494,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2918902,Lajedão,2023,132125.986,34363.07,3845,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919108,Lamarão,2023,83252.481,9234.88,9015,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919157,Lapão,2023,381812.078,14835.72,25736,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919207,Lauro de Freitas,2023,8918479.61,43861.88,203331,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919306,Lençóis,2023,210369.84,19525.7,10774,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919405,Licínio de Almeida,2023,165211.987,13960.79,11834,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919504,Livramento de Nossa Senhora,2023,705491.381,16069.32,43903,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919553,Luís Eduardo Magalhães,2023,11559024.195,107118.26,107909,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919603,Macajuba,2023,108591.993,10387.6,10454,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919702,Macarani,2023,269681.394,12485.83,21599,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919801,Macaúbas,2023,549585.766,13129.45,41859,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919900,Macururé,2023,80971.997,11159.32,7256,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919926,Madre de Deus,2023,710438.473,38393.78,18504,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2919959,Maetinga,2023,81860.129,11739.59,6973,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920007,Maiquinique,2023,210895.572,24154.8,8731,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920106,Mairi,2023,211982.299,11994.02,17674,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920205,Malhada,2023,238292.949,15475.58,15398,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920304,Malhada de Pedras,2023,111364.731,12844.84,8670,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920403,Manoel Vitorino,2023,165431.588,11935.9,13860,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920452,Mansidão,2023,117786.924,8462.31,13919,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920502,Maracás,2023,692348.658,25066.93,27620,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920601,Maragogipe,2023,479211.8,13363.78,35859,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920700,Maraú,2023,434712.147,17723.82,24527,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920809,Marcionílio Souza,2023,119537.686,12899.29,9267,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2920908,Mascote,2023,193316.501,14273.22,13544,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921005,Mata de São João,2023,1734856.86,40756.87,42566,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921054,Matina,2023,123261.011,11932.33,10330,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921104,Medeiros Neto,2023,505591.94,22780.57,22194,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921203,Miguel Calmon,2023,340199.632,13795.05,24661,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921302,Milagres,2023,181064.199,16354.82,11071,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921401,Mirangaba,2023,167190.994,10626.1,15734,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921450,Mirante,2023,102821.862,10093.44,10187,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921500,Monte Santo,2023,590805.465,12365.12,47780,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921609,Morpará,2023,102667.043,12839.8,7996,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921708,Morro do Chapéu,2023,1565321.407,46595.27,33594,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921807,Mortugaba,2023,132840.361,11921.42,11143,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2921906,Mucugê,2023,599591.173,49401.93,12137,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922003,Mucuri,2023,3127407.236,82350.03,37977,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922052,Mulungu do Morro,2023,283456.447,21552.35,13152,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922102,Mundo Novo,2023,219477.472,12682.89,17305,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922201,Muniz Ferreira,2023,86329.424,12006.87,7190,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922250,Muquém do São Francisco,2023,266937.053,25561.34,10443,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922300,Muritiba,2023,375976.5,13097.03,28707,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922409,Mutuípe,2023,511682.019,25536.86,20037,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922508,Nazaré,2023,463720.766,17136.76,27060,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922607,Nilo Peçanha,2023,201028.331,16664.87,12063,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922656,Nordestina,2023,184561.855,9963.93,18523,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922706,Nova Canaã,2023,227966.485,16621.69,13715,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922730,Nova Fátima,2023,121798.973,15287.93,7967,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922755,Nova Ibiá,2023,127888.329,19672.1,6501,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922805,Nova Itarana,2023,89839.984,11547.56,7780,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922854,Nova Redenção,2023,93115.338,12352.79,7538,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2922904,Nova Soure,2023,341841.659,14104.71,24236,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923001,Nova Viçosa,2023,699743.948,17711.0,39509,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923035,Novo Horizonte,2023,137372.055,12307.12,11162,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923050,Novo Triunfo,2023,130774.308,11780.41,11101,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923100,Olindina,2023,296049.094,13080.42,22633,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923209,Oliveira dos Brejinhos,2023,420123.901,20281.14,20715,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923308,Ouriçangas,2023,110003.255,14256.51,7716,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923357,Ourolândia,2023,318032.238,16527.17,19243,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923407,Palmas de Monte Alto,2023,291638.714,14525.29,20078,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923506,Palmeiras,2023,153919.434,14887.27,10339,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923605,Paramirim,2023,310453.443,15254.95,20351,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923704,Paratinga,2023,327812.862,11206.51,29252,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923803,Paripiranga,2023,559998.86,21049.42,26604,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2923902,Pau Brasil,2023,135358.895,14445.99,9370,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924009,Paulo Afonso,2023,4258890.934,37732.71,112870,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924207,Pedro Alexandre,2023,178830.493,12815.72,13954,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924108,Pedrão,2023,68923.76,11054.33,6235,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924306,Piatã,2023,220691.887,10987.35,20086,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924405,Pilão Arcado,2023,367179.251,10384.91,35357,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924504,Pindaí,2023,285212.565,19361.39,14731,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924603,Pindobaçu,2023,215103.251,11271.98,19083,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924652,Pintadas,2023,132344.778,12817.9,10325,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924678,Piraí do Norte,2023,157000.634,14306.6,10974,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924702,Piripá,2023,92317.178,10066.21,9171,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924801,Piritiba,2023,218911.43,12462.22,17566,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924900,Planaltino,2023,88316.286,11009.26,8022,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925006,Planalto,2023,324874.126,13922.78,23334,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925204,Pojuca,2023,3036558.676,94490.87,32136,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925253,Ponto Novo,2023,246409.882,13736.75,17938,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925303,Porto Seguro,2023,5009893.696,29763.04,168326,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925402,Potiraguá,2023,151243.46,14720.99,10274,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925105,Poções,2023,681871.458,14119.47,48293,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925501,Prado,2023,776982.13,22197.59,35003,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925600,Presidente Dutra,2023,167732.785,11086.11,15130,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925709,Presidente Jânio Quadros,2023,122013.542,9667.5,12621,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925758,Presidente Tancredo Neves,2023,417933.455,15069.35,27734,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2924058,Pé de Serra,2023,166031.463,12537.3,13243,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925808,Queimadas,2023,321603.264,12375.07,25988,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925907,Quijingue,2023,277904.407,10996.53,25272,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925931,Quixabeira,2023,117642.285,12434.45,9461,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2925956,Rafael Jambeiro,2023,422266.249,21476.26,19662,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926004,Remanso,2023,573383.292,14127.61,40586,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926103,Retirolândia,2023,175547.914,12859.71,13651,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926400,Riacho de Santana,2023,406699.912,13242.81,30711,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926202,Riachão das Neves,2023,1896806.255,87644.68,21642,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926301,Riachão do Jacuípe,2023,565913.377,16950.62,33386,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926509,Ribeira do Amparo,2023,199747.093,14202.72,14064,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926608,Ribeira do Pombal,2023,918879.756,17154.16,53566,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926657,Ribeirão do Largo,2023,134073.859,13765.28,9740,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927002,Rio Real,2023,1275891.66,36080.87,35362,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926707,Rio de Contas,2023,198436.418,15051.31,13184,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926806,Rio do Antônio,2023,143762.314,10935.82,13146,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2926905,Rio do Pires,2023,119203.331,11355.94,10497,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927101,Rodelas,2023,162518.115,15766.21,10308,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927200,Ruy Barbosa,2023,537945.952,19020.79,28282,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927309,Salinas da Margarida,2023,250080.573,16686.5,14987,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927408,Salvador,2023,76698777.218,31724.15,2417678,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927606,Santa Brígida,2023,161580.395,10797.22,14965,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927507,Santa Bárbara,2023,229692.146,10962.78,20952,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927705,Santa Cruz Cabrália,2023,649501.528,22254.64,29185,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927804,Santa Cruz da Vitória,2023,77736.69,16606.86,4681,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2927903,Santa Inês,2023,113747.756,11043.47,10300,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928059,Santa Luzia,2023,165145.314,11884.38,13896,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928109,Santa Maria da Vitória,2023,696761.133,18048.94,38604,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928406,Santa Rita de Cássia,2023,389399.755,14216.86,27390,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928505,Santa Terezinha,2023,165368.92,15838.42,10441,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928000,Santaluz,2023,678132.686,17923.9,37834,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928208,Santana,2023,426642.509,17234.6,24755,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928307,Santanópolis,2023,84482.199,9692.77,8716,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928604,Santo Amaro,2023,1375771.156,24562.08,56012,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928703,Santo Antônio de Jesus,2023,3028413.726,29386.38,103055,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928802,Santo Estêvão,2023,1295366.193,24779.37,52276,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929602,Sapeaçu,2023,343804.522,19139.59,17963,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929750,Saubara,2023,179571.811,15699.58,11438,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929800,Saúde,2023,120917.66,11540.15,10478,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929909,Seabra,2023,861824.933,18670.38,46160,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930006,Sebastião Laranjeiras,2023,123933.498,13240.76,9360,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930105,Senhor do Bonfim,2023,1260521.545,16914.53,74523,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930204,Sento Sé,2023,1566194.071,41049.28,38154,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930303,Serra Dourada,2023,261412.036,15317.71,17066,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930402,Serra Preta,2023,175258.44,9738.74,17996,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930154,Serra do Ramalho,2023,521085.967,15226.64,34222,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930501,Serrinha,2023,1420688.878,17662.57,80435,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930600,Serrolândia,2023,153750.111,11529.82,13335,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930709,Simões Filho,2023,8508321.271,74270.21,114559,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930774,Sobradinho,2023,908544.285,35664.15,25475,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930808,Souto Soares,2023,177202.729,10390.68,17054,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929701,Sátiro Dias,2023,352993.391,22051.06,16008,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928901,São Desidério,2023,8525861.621,259713.1,32828,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2928950,São Domingos,2023,109019.733,12938.49,8426,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929107,São Felipe,2023,282890.888,13947.19,20283,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929206,São Francisco do Conde,2023,26505736.857,684319.23,38733,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929008,São Félix,2023,198066.092,17963.55,11026,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929057,São Félix do Coribe,2023,276484.259,18196.94,15194,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929255,São Gabriel,2023,193552.547,10406.05,18600,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929305,São Gonçalo dos Campos,2023,1673385.933,42350.26,39513,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929354,São José da Vitória,2023,71407.246,13435.04,5315,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929370,São José do Jacuípe,2023,154211.16,15138.03,10187,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929404,São Miguel das Matas,2023,207568.001,20085.93,10334,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2929503,São Sebastião do Passé,2023,957089.48,23367.58,40958,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930758,Sítio do Mato,2023,154007.5,11486.24,13408,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930766,Sítio do Quinto,2023,168209.084,12201.44,13786,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2930907,Tabocas do Brejo Velho,2023,341963.364,28546.9,11979,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931004,Tanhaçu,2023,315576.937,15023.18,21006,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931053,Tanque Novo,2023,297435.262,17335.08,17158,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931103,Tanquinho,2023,83841.325,10864.5,7717,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931202,Taperoá,2023,254682.252,14114.51,18044,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931301,Tapiramutá,2023,174264.684,11016.86,15818,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931350,Teixeira de Freitas,2023,3670771.175,25278.01,145216,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931400,Teodoro Sampaio,2023,123381.217,17353.2,7110,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931509,Teofilândia,2023,238097.542,11243.74,21176,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931608,Teolândia,2023,279612.06,18237.15,15332,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931707,Terra Nova,2023,164870.724,15268.64,10798,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931806,Tremedal,2023,172959.458,10626.0,16277,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2931905,Tucano,2023,823511.194,16897.39,48736,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932002,Uauá,2023,318312.473,12905.43,24665,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932200,Ubaitaba,2023,316059.303,17962.0,17596,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932309,Ubatã,2023,264213.165,16416.87,16094,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932101,Ubaíra,2023,305086.784,16379.62,18626,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932408,Uibaí,2023,177264.992,13197.22,13432,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932457,Umburanas,2023,238955.363,17516.15,13642,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932507,Unas,2023,453710.985,25024.05,18131,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932606,Urandi,2023,232370.405,15133.21,15355,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932705,Uruçuca,2023,384146.077,17933.99,21420,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932804,Utinga,2023,297919.476,18303.09,16277,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933000,Valente,2023,350571.309,14390.09,24362,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2932903,Valença,2023,2194454.273,25619.69,85655,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933174,Varzedo,2023,172935.392,17445.31,9913,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933208,Vera Cruz,2023,709330.481,16678.75,42529,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933257,Vereda,2023,116334.1,19379.33,6003,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933307,Vitória da Conquista,2023,12666570.589,34152.84,370879,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933158,Várzea Nova,2023,573060.128,42839.21,13377,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933059,Várzea da Roça,2023,152109.586,11022.43,13800,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933109,Várzea do Poço,2023,154661.072,19091.6,8101,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933406,Wagner,2023,115311.179,12134.19,9503,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933455,Wanderley,2023,230491.553,17773.87,12968,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933505,Wenceslau Guimarães,2023,424519.835,17345.75,24474,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2933604,Xique-Xique,2023,780079.645,17429.22,44757,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900405,Água Fria,2023,174798.461,12057.56,14497,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
+2900504,Érico Cardoso,2023,102934.025,9707.09,10604,IBGE PIB dos Municípios (base TXT oficial),https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip
