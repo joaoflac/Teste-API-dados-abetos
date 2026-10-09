@@ -257,13 +257,26 @@ Um dado estrutural marcante no mercado baiano é a desconcentração das operado
 
 *Nota:* Os provedores locais de pequeno porte foram os grandes responsáveis pela interiorização da fibra óptica nos 417 municípios da Bahia.
 
-### 6.4 Cobertura territorial e densidade
+### 6.4 Cobertura territorial e densidade de banda larga fixa
 - **Cobertura:** Todos os **417 municípios da Bahia** possuem acessos registrados no cadastro mensal;
 - **Densidade SCM:** Mede a proporção de acessos por 100 domicílios. Em Salvador e polos industriais atinge mais de 75 acessos por 100 domicílios, enquanto municípios rurais do semiárido apresentam densidades inferiores a 20 acessos por 100 domicílios.
 
-### 6.5 Possibilidades para CT&I
-- **Índice de Conectividade Avançada:** Mensurar o percentual de domicílios com fibra óptica e velocidade acima de 34 Mbps por município;
-- **Identificação de Desertos Digitais:** Mapear áreas com dependência residual de satélite/rádio para subsidiar programas estaduais de infovias (redes ópticas comunitárias e institucionais);
+### 6.5 Cobertura da Telefonia Móvel (SMP 4G) — Território vs. Moradores (Recurso 1449ea53-fe84-4547-8ac8-f6a465995958)
+O dataset oficial de cobertura móvel 4G da Anatel traz métricas territoriais cruciais para o diagnóstico de conectividade da SECTI:
+1. **% Moradores Cobertos (Alcance Demográfico):**
+   - **Média na Bahia:** **73,90%** (mediana 76,37%);
+   - **Mais atendidos:** Lauro de Freitas (100,0%), Madre de Deus (100,0%), Itaparica (100,0%), Salvador (99,99%) e Salinas da Margarida (99,96%);
+   - **Menos atendidos:** Jucuruçu (29,66%), Baianópolis (30,04%), Ribeirão do Largo (30,89%), Ibitiara (32,28%) e Itaguaçu da Bahia (34,98%);
+2. **% Área Coberta (Alcance Territorial):**
+   - **Média na Bahia:** **35,36%** (mediana 28,02%);
+   - Municípios urbanizados e de pequena extensão geográfica atingem > 90% (Lauro de Freitas 100%, Muritiba 99,6%, Itaparica 98,9%);
+   - Municípios com extensões territoriais gigantescas no Semiárido e Oeste baiano possuem baixa cobertura geográfica (Barra 3,10%, Santa Rita de Cássia 3,74%, Pilão Arcado 3,84%), embora concentrem o sinal na sede urbana;
+3. **Implicação para Inclusão Digital e Políticas SECTI:**
+   - Evidencia que a cobertura comercial foca nos núcleos urbanos povoados, deixando amplos vazios rurais e eixos produtivos sem sinal 4G, justificando intervenções estaduais em infovias e conectividade rural e escolar.
+
+### 6.6 Possibilidades para CT&I
+- **Índice de Conectividade Avançada:** Mensurar o percentual de domicílios com fibra óptica e velocidade acima de 34 Mbps cruzado com a cobertura 4G municipal;
+- **Identificação de Desertos Digitais:** Mapear áreas com dependência residual de satélite/rádio e baixa cobertura móvel para subsidiar programas estaduais de infovias (redes ópticas comunitárias e institucionais);
 - **Capacidade Habilitadora para Inovação:** Avaliar se a infraestrutura local suporta a implementação de teletrabalho, ensino remoto, sistemas em nuvem e startups de base digital.
 
 ---

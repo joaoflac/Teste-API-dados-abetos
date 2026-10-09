@@ -973,6 +973,57 @@ acessos por 100 domicílios
 
 ---
 
+## 7.2 Cobertura de telefonia móvel (SMP 4G) por município — % de território e % de moradores cobertos
+
+**Indicador da planilha:** Cobertura de telefonia móvel (SMP 4G) — % de território coberto (`% área coberta`), % de moradores cobertos (`% moradores cobertos`) e % de domicílios cobertos (`% domicílios cobertos`).
+
+**Portal oficial e identificador do recurso:**
+- Portal de Dados Abertos / Anatel (dados.gov.br)
+- **Recurso:** `1449ea53-fe84-4547-8ac8-f6a465995958`
+- **Painel de origem:** Painel de Cobertura Móvel da Anatel (Sistemas Mosaico / modelos ITU-R P.1812 com base censitária IBGE)
+
+**Dado prioritário:**
+- Código IBGE do município (`Código Município`);
+- Nome do município (`Município`);
+- UF (`BA`);
+- Operadora (`Todas`);
+- Tecnologia (`4G`);
+- `% área coberta` (proporção do território geográfico municipal com sinal 4G);
+- `% moradores cobertos` (proporção dos residentes atendidos pelo sinal);
+- `% domicílios cobertos` (proporção dos domicílios atendidos);
+- `Área km2`, `Moradores`, `Domicílios` (denominadores de referência).
+
+**Campos registrados na validação da planilha:**
+```text
+Código Município
+Município
+UF
+Região
+Operadora
+Tecnologia
+% área coberta
+% moradores cobertos
+% domicílios cobertos
+Área km2
+Moradores
+Domicílios
+```
+
+**Granularidade:**
+```text
+Município (417 municípios da Bahia)
+```
+
+**Regras metodológicas e de validação:**
+- **Preservar a distinção entre cobertura de território e moradores:** O percentual de território (`% área coberta`, média de 35,4% na Bahia) reflete a expansão física e infraestrutura em rodovias e zonas rurais, enquanto o percentual de moradores (`% moradores cobertos`, média de 73,9% na Bahia) mede o alcance populacional. Ambas as colunas devem ser mantidas no painel da SECTI;
+- **Tratamento de duplicatas no arquivo bruto:** O recurso bruto trazia 421 linhas, contendo 4 registros duplicados decorrentes de variações históricas de grafia com valores zerados/hífen (`Araçás`, `Iuiu`, `Muquém do São Francisco`, `Santa Terezinha`), os quais foram filtrados, consolidando exatamente 417 municípios únicos com dados válidos;
+- **Normalização numérica:** Converter valores de texto com vírgula (`% domicílios cobertos` e `Área km2`) para float decimal;
+- **Integração territorial:** Agregar aos 27 Territórios de Identidade da Bahia pelo código IBGE municipal.
+
+**Status na planilha:** Validado (417 municípios da Bahia na aba `ANATEL_Cobertura_Movel`).
+
+---
+
 # 8. Indicadores derivados da planilha — resumo de dependências
 
 | Indicador | Dados-base | Regra |
@@ -1024,7 +1075,9 @@ SICONFI
 ## Etapa 4 — Conectividade
 ```text
 ANATEL
-└── densidade SCM por 100 domicílios
+├── densidade SCM por 100 domicílios
+├── acessos de banda larga fixa (fibra e velocidade)
+└── cobertura móvel SMP 4G (% território e % moradores)
 ```
 
 ## Etapa 5 — Energia
@@ -1121,6 +1174,8 @@ collected_at
 - [ ] mês e ano preservados.
 - [ ] densidade mantida na unidade oficial.
 - [ ] não confundir densidade com velocidade ou cobertura.
+- [ ] cobertura móvel: 417 municípios presentes sem duplicatas residuais.
+- [ ] manter % de área coberta e % de moradores cobertos como métricas distintas.
 
 ---
 
@@ -1153,6 +1208,7 @@ collected_at
 ## ANATEL
 - https://www.gov.br/anatel/pt-br/dados/dados-abertos
 - https://www.anatel.gov.br/dadosabertos/PDA/Acessos/Densidades.pdf
+- https://dados.gov.br (recurso 1449ea53-fe84-4547-8ac8-f6a465995958 — Cobertura Móvel SMP 4G)
 
 ---
 

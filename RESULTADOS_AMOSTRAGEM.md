@@ -76,6 +76,7 @@ Recortes territoriais ou de agente (UF = BA, distribuidora = COELBA, lista de mu
 | **`siconfi_6.3_6.4_dca_IE_BA_2024_ciencia_tecnologia_por_municipio`** | 6.3, 6.4 | 415 | Todos os municípios com DCA 2024 | 🏷️ Classificado (colunas CT&I) | Função 19, subfunções 571/572/573 e 126 viram colunas de valor |
 | `anatel_7.1_densidade_scm_BA_amostra` | 7.1 | 162 | 5 mun. de referência × 2021, 2022, 2025, 2026 | ⬜ Sem variável | — (indicador inteiro é infraestrutura TIC) |
 | `anatel_acessos_bl_fixa_2026_BA_amostra` | 7.1 (complementar) | 40 | 40 maiores linhas (ago/2026) nos mun. de referência | 🔶 Não filtrado | `Meio de Acesso = Fibra`, `Tecnologia ∈ {FTTH, FTTB}`, `Faixa de Velocidade = > 34Mbps` (auxiliar) |
+| `anatel_7.2_cobertura_movel_4g_BA` | 7.2 | 417 | Completo: todos os 417 municípios da BA, Tecnologia 4G | ⬜ Sem variável | — (conectividade móvel: % território e % moradores cobertos) |
 
 **Em uma frase por fonte:**
 - **IBGE:** nenhum dataset tem variável CT&I. Serve de denominador e base territorial.
@@ -83,7 +84,7 @@ Recortes territoriais ou de agente (UF = BA, distribuidora = COELBA, lista de mu
 - **ANEEL:** só o **P&D** é CT&I por inteiro. O SIGA tem recorte auxiliar (solar/eólica). INDGER, SAMP e INDQUAL são contexto.
 - **BNDES:** operações classificadas por regra explícita (`cti_nivel`). Só o agregado 5.5 é filtrado.
 - **SICONFI:** o RREO de Salvador é filtrado por texto da conta. O painel DCA dos 415 municípios traz a Função 19 como coluna.
-- **ANATEL:** sem filtro CT&I. Fibra e alta velocidade são recortes auxiliares de infraestrutura TIC.
+- **ANATEL:** sem filtro CT&I. Banda larga fixa (fibra/alta velocidade) e cobertura móvel 4G (% área e % moradores) são recortes de infraestrutura digital habilitadora.
 
 ---
 
@@ -387,6 +388,54 @@ Para 2023–2025, recalcular com `acessos ÷ domicílios (Censo 2022) × 100` e 
 | `Meio de Acesso` | = Fibra | 2.079.476 (88,8%) |
 | `Tecnologia` | ∈ {FTTH, FTTB} | 1.877.773 + 8.455 |
 | `Faixa de Velocidade` | = > 34Mbps | 2.176.069 (92,9%) |
+
+### 8.3 `anatel_7.2_cobertura_movel_4g_BA.csv` — Cobertura da Telefonia Móvel SMP 4G (7.2)
+
+**Origem:** Recurso `1449ea53-fe84-4547-8ac8-f6a465995958` (Painel de Cobertura Móvel / Dados Abertos da Anatel).
+
+| Item | Detalhe |
+|---|---|
+| Arquivo gerado | `amostras/anatel_7.2_cobertura_movel_4g_BA.csv` |
+| Aba na planilha | `ANATEL_Cobertura_Movel` em `TERRITORIOS_SECTI_Amostras_CTI.xlsx` |
+| Conteúdo | `Código Município`, `Município`, `UF`, `Região`, `Operadora`, `Tecnologia`, `% área coberta`, `% moradores cobertos`, `% domicílios cobertos`, `Área km2`, `Moradores`, `Domicílios` |
+| Recorte | Todos os **417 municípios da Bahia**, operadora `Todas`, tecnologia `4G` |
+| **Filtro CT&I** | ⬜ **Sem variável categórica.** Métrica de infraestrutura digital habilitadora |
+
+#### Estatísticas e destaques na Bahia
+
+| Indicador | Média BA | Mínimo | Mediana | Máximo |
+|---|---:|---:|---:|---:|
+| **% Moradores cobertos** | **73,90%** | 29,66% (Jucuruçu) | 76,37% | 100,00% (Lauro de Freitas, Madre de Deus, Itaparica) |
+| **% Área coberta** | **35,36%** | 3,10% (Barra) | 28,02% | 100,00% (Lauro de Freitas) |
+| **% Domicílios cobertos** | **71,83%** | 27,24% (Jucuruçu) | 74,43% | 100,00% (Lauro de Freitas, Madre de Deus, Itaparica) |
+
+- **Top 5 municípios em % de moradores cobertos (4G):**
+  1. Lauro de Freitas (100,00% moradores \| 100,00% área)
+  2. Madre de Deus (100,00% moradores \| 97,87% área)
+  3. Itaparica (100,00% moradores \| 98,93% área)
+  4. Salvador (99,99% moradores \| 89,39% área)
+  5. Salinas da Margarida (99,96% moradores \| 96,67% área)
+
+- **Bottom 5 municípios em % de moradores cobertos (4G):**
+  1. Jucuruçu (29,66% moradores \| 7,04% área)
+  2. Baianópolis (30,04% moradores \| 4,27% área)
+  3. Ribeirão do Largo (30,89% moradores \| 9,16% área)
+  4. Ibitiara (32,28% moradores \| 8,11% área)
+  5. Itaguaçu da Bahia (34,98% moradores \| 4,48% área)
+
+- **Amostra nos municípios de referência SECTI:**
+  - Salvador: 99,99% moradores cobertos \| 89,39% área
+  - Feira de Santana: 97,29% moradores cobertos \| 60,67% área
+  - Camaçari: 97,22% moradores cobertos \| 66,22% área
+  - Vitória da Conquista: 91,48% moradores cobertos \| 32,59% área
+  - Barreiras: 91,15% moradores cobertos \| 9,06% área
+  - Paulo Afonso: 91,24% moradores cobertos \| 18,37% área
+  - Ilhéus: 91,01% moradores cobertos \| 30,55% área
+  - Juazeiro: 86,41% moradores cobertos \| 12,89% área
+
+#### Regras de limpeza
+O arquivo original continha 421 linhas para a UF BA. Foram identificadas 4 duplicatas com grafias variantes e valores zerados/hífen (`Araçás`, `Iuiu`, `Muquém do São Francisco`, `Santa Terezinha` com moradores = 0 e % = `-`). Essas 4 linhas foram expurgadas, mantendo exatamente os 417 municípios oficiais da Bahia com dados 100% preenchidos.
+
 
 ---
 

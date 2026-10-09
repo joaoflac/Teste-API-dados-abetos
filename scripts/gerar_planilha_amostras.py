@@ -79,6 +79,9 @@ ABAS = [
     ("ANATEL_Acessos", "ANATEL", "amostras/anatel_acessos_bl_fixa_2026_BA_amostra.csv",
      "Acessos por prestadora, tecnologia, meio de acesso e velocidade (jan–ago/2026)", "40 maiores linhas, municípios de referência",
      "🔶 Não filtrado", "Meio de Acesso = Fibra; Faixa > 34Mbps (auxiliar)"),
+    ("ANATEL_Cobertura_Movel", "ANATEL", "amostras/anatel_7.2_cobertura_movel_4g_BA.csv",
+     "Cobertura de telefonia móvel 4G: % de área coberta, % de moradores e % de domicílios cobertos",
+     "417 municípios (completo BA) × Tecnologia 4G (Todas)", "⬜ Sem variável", "—"),
 ]
 FILTROS = ("Filtros_CTI", "Todas", "categorias_cti/filtros_cti_consolidado.csv",
            "Lista única de filtros CT&I: fonte, campo, operador, valores, nível e justificativa", "—", "—", "—")

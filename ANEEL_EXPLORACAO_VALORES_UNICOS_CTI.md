@@ -81,6 +81,7 @@ Distribuição das variáveis contínuas de potência para os 1.163 registros da
 *Nota:* O valor máximo corresponde ao complexo da UHE Paulo Afonso IV (2.462,40 MW). A diferença entre média e mediana na potência fiscalizada decorre das 474 usinas em fase de "Construção não iniciada", cujo valor de potência fiscalizada em operação é 0 kW.
 
 ### Possibilidades de CT&I
+
 - **Mapeamento de Polos Energéticos:** Identificar municípios que concentram geração de grande porte, capazes de atrair plantas industriais eletrointensivas e centros de supercomputação;
 - **Clusters de Transição Tecnológica:** Avaliar a substituição gradual de usinas a óleo diesel por microrredes limpas no interior baiano;
 - **Cruzamento Territorial com ICTs:** Avaliar se regiões com alta expansão outorgada (capacidade futura) contam com presença de cursos técnicos e superiores em engenharia elétrica e energias renováveis.

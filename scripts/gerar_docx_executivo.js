@@ -28,6 +28,7 @@ const ABA = {
   "DCA Anexo I-C (receita)": "SICONFI_Receita", "RREO Anexo 02 (despesa por função)": "SICONFI_RREO_CTI",
   "DCA Anexo I-E (despesa por função)": "SICONFI_DCA_CTI",
   "Densidade de banda larga fixa": "ANATEL_Densidade", "Acessos de banda larga fixa": "ANATEL_Acessos",
+  "Cobertura móvel (SMP 4G)": "ANATEL_Cobertura_Movel",
 };
 const AZUL = "1F3864", AZUL_CLARO = "DCE6F2", CINZA = "F2F2F2", VERDE = "E2F0D9", AMARELO = "FFF2CC", VERMELHO = "FBE4D5";
 const W = 9638; // largura útil A4 com margens de 2 cm
@@ -122,7 +123,7 @@ C.push(tabela(
     ["ANEEL", "Energia: geração renovável, P&D do setor elétrico e qualidade da rede", "Sim, no P&D (dataset inteiro)", "Usina, conjunto elétrico ou distribuidora", "Validado"],
     ["BNDES", "Crédito: financiamento à inovação e à modernização produtiva", "Sim: flag de inovação e linhas", "Município (416)", "Validado (2002–2026)"],
     ["SICONFI", "Gasto público: despesa municipal em Ciência e Tecnologia", "Sim: Função 19", "Município (415)", "Validado (2024)"],
-    ["ANATEL", "Conectividade: banda larga fixa, fibra e velocidade", "Não (infraestrutura TIC)", "Município (417)", "Validado com ressalvas"],
+    ["ANATEL", "Conectividade: banda larga fixa (fibra/velocidade) e móvel (cobertura 4G)", "Não (infraestrutura TIC)", "Município (417)", "Validado"],
   ], [1.1, 3, 1.9, 1.9, 1.5]));
 
 // 2. Estrutura dos dados
@@ -138,7 +139,7 @@ if (EXCEL) {
     ["ANEEL_… (7 abas)", "Usinas (SIGA), dados comerciais, mercado, P&D, DEC/FEC por conjunto e por município, de-para conjunto–município", "Energia e P&D do setor elétrico"],
     ["BNDES_… (3 abas)", "Operações não automáticas, indiretas automáticas e o painel completo de CT&I por município e ano", "Crédito à inovação"],
     ["SICONFI_… (3 abas)", "Receita, despesa do RREO filtrada por CT&I e painel de despesa CT&I dos 415 municípios", "Gasto público municipal em CT&I"],
-    ["ANATEL_… (2 abas)", "Densidade de banda larga e acessos por tecnologia e velocidade", "Infraestrutura digital"],
+    ["ANATEL_… (3 abas)", "Densidade de banda larga, acessos detalhados e cobertura móvel 4G (% área e moradores)", "Infraestrutura digital"],
   ], [2, 4.6, 2.4]));
   C.push(h2("2.2 Como ler cada aba de dados"));
   C.push(bl("**Linha 1:** descrição do dataset, arquivo de origem e um link \"← LEIA-ME\" para voltar ao índice."));
@@ -319,11 +320,12 @@ C.push(nota("Cuidados: (1) usar o DCA, não o RREO: no RREO a linha da subfunç�
 
 // ANATEL
 C.push(h2("3.6 ANATEL — Conectividade e infraestrutura digital"));
-C.push(p("**Papel:** mostra a infraestrutura de banda larga fixa de cada município: quantos acessos existem por 100 domicílios, qual a tecnologia (fibra, rádio, satélite) e a velocidade. É a condição habilitadora para startups, teletrabalho, ensino remoto e serviços em nuvem."));
+C.push(p("**Papel:** mostra a infraestrutura de telecomunicações de cada município, abrangendo banda larga fixa (densidade domiciliar, fibra óptica, velocidade) e conectividade móvel 4G (% de território e % de população coberta). É a condição habilitadora para startups, conectividade rural, teletrabalho, ensino digital e serviços públicos em nuvem."));
 C.push(h3("O que cada dataset retorna"));
 C.push(tabela(["Dataset", "O que retorna", "Cobertura", "Filtro CT&I"], [
   ["Densidade de banda larga fixa", "Acessos por 100 domicílios, por município e mês", "417 municípios (com lacunas, ver nota)", "⬜ Sem variável"],
   ["Acessos de banda larga fixa", "Acessos por prestadora, município, tecnologia, meio de acesso, faixa de velocidade e mês", "417 municípios, jan–ago/2026", "🔶 Não filtrado: fibra e alta velocidade"],
+  ["Cobertura móvel (SMP 4G)", "Cobertura 4G por município: % de território coberto, % de moradores e % de domicílios cobertos", "417 municípios da Bahia", "⬜ Sem variável"],
 ], [2.2, 4, 1.9, 1.7], { cor: corFiltro }));
 C.push(h3("Variáveis categóricas e relação com CT&I"));
 C.push(tabela(["Variável", "Valores na Bahia (acessos, ago/2026)", "Uso em CT&I"], [
@@ -333,7 +335,12 @@ C.push(tabela(["Variável", "Valores na Bahia (acessos, ago/2026)", "Uso em CT&I
   ["Porte da Prestadora", "Pequeno porte 1,71 mi (72,8%) · Grande porte 636 mil", "Recorte"],
   ["Tipo de Produto / Tipo de Pessoa", "Internet, Linha dedicada, M2M · Pessoa física, Pessoa jurídica", "Recorte"],
 ], [2.2, 5, 1.8]));
-C.push(nota("Cuidado: a série publicada de densidade está vazia em 2023 e 2024, só tem dezembro em 2025 e traz valores incorretos entre dez/2025 e mar/2026. A partir de abr/2026 os valores voltam a ser coerentes (Salvador ≈ 21 acessos por 100 domicílios). Para o valor atual, usar a série a partir de abr/2026."));
+C.push(h3("Cobertura Móvel 4G — Território vs. População (Recurso 1449ea53-fe84-4547-8ac8-f6a465995958)"));
+C.push(p("O dataset de cobertura móvel 4G da Anatel traz duas métricas fundamentais para o diagnóstico de conectividade territorial da SECTI:"));
+C.push(bl("**% Moradores Cobertos (média BA: 73,9%):** mede o alcance populacional. Lauro de Freitas, Madre de Deus e Itaparica têm 100%; Salvador atinge 99,99%; Feira de Santana tem 97,3%; Vitória da Conquista tem 91,5%. Os municípios com menor cobertura atendem apenas cerca de 30% da população (Jucuruçu 29,7%, Baianópolis 30,0%, Ribeirão do Largo 30,9%)."));
+C.push(bl("**% Área Coberta (média BA: 35,4%):** mede a proporção física do município com sinal 4G. Apenas municípios de pequeno porte territorial ou altamente conurbados atingem ampla cobertura de área (Lauro de Freitas 100%, Muritiba 99,6%, Itaparica 98,9%). Municípios com grande extensão territorial no Semiárido e Oeste concentram o sinal na sede urbana e possuem menos de 5% de área coberta (Barra 3,1%, Santa Rita de Cássia 3,7%, Pilão Arcado 3,8%)."));
+C.push(p("**Relevância para a SECTI:** Essa discrepância demonstra que a cobertura móvel comercial atende predominantemente os núcleos urbanos, deixando vazios nas zonas rurais e eixos agropecuários. Esse diagnóstico subsidia políticas de interiorização da inovação, redes comunitárias e programas de conectividade para escolas rurais."));
+C.push(nota("Cuidado: a série publicada de densidade de banda larga fixa está vazia em 2023 e 2024, só tem dezembro em 2025 e traz valores incorretos entre dez/2025 e mar/2026. A partir de abr/2026 os valores voltam a ser coerentes (Salvador ≈ 21 acessos por 100 domicílios). Para o valor atual, usar a série a partir de abr/2026."));
 
 // 4. Matriz de filtros
 C.push(h1("4. Matriz consolidada de filtros de CT&I"));
@@ -391,6 +398,7 @@ C.push(tabela(["Termo", "Significado"], [
   ["Conjunto elétrico", "Área da rede da distribuidora usada pela ANEEL para apurar DEC e FEC"],
   ["SIGA", "Sistema de Informações de Geração da ANEEL (cadastro de usinas)"],
   ["SCM", "Serviço de Comunicação Multimídia (banda larga fixa)"],
+  ["SMP", "Serviço Móvel Pessoal (telefonia celular e internet móvel: 3G, 4G, 5G)"],
   ["FTTH", "Fibra óptica até a casa do usuário"],
   ["FUNTTEL / FUST", "Fundos setoriais de telecomunicações usados para financiar tecnologia"],
   ["Código IBGE", "Código de 7 dígitos que identifica cada município; chave de cruzamento entre as fontes"],
