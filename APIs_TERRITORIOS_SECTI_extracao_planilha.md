@@ -877,6 +877,17 @@ desembolso_per_capita
 **Regra anual**
 - preferir o RREO de período 6 quando a intenção for usar o acumulado anual.
 
+**Regra de extração estruturada de Função e Subfunção (sem regex no consumo)**
+- Como o SICONFI retorna o código e o nome fundidos na coluna `conta` (ex.: `"19 - Ciência e Tecnologia"`, `"19.572 - Desenvolvimento Tecnológico e Engenharia"`), o pipeline de ingestão deriva e armazena duas colunas dedicadas:
+  - `funcao`: código de 2 dígitos (ex.: `"19"`);
+  - `subfuncao`: código de 3 dígitos (ex.: `"571"`, `"572"`, `"573"`, `"126"`).
+- O filtro de CT&I opera por variáveis categóricas padronizadas, sem dependência de regex:
+  - `funcao == "19"` (Principal — Função 19 C&T total);
+  - `subfuncao em {"571", "572", "573"}` (Principal — subfunções de C&T);
+  - `subfuncao == "126"` (Auxiliar — TI interna da prefeitura);
+  - `subfuncao em {"363", "364"}` (Auxiliar — Ensino profissional e superior);
+  - `funcao == "24"` (Auxiliar — Comunicações).
+
 **Fonte**
 - https://apidatalake.tesouro.gov.br/docs/siconfi/
 

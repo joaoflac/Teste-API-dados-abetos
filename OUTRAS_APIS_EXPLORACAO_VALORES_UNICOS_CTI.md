@@ -187,6 +187,8 @@ A classificação funcional programática padrão identifica as seguintes contas
 - **Subfunção 126 — Tecnologia da Informação (Função 04 - Administração):**
   - `04.126 - Tecnologia da Informação`: Gastos com sistemas de gestão, infraestrutura de servidores, segurança da informação e digitalização de serviços públicos municipais (**CT&I Auxiliar / Digitalização**).
 
+*Nota metodológica sobre filtros:* Como a API do Tesouro agrupa código e descrição textual no mesmo campo `conta`, o pipeline do projeto extrai e cria as variáveis estruturadas `funcao` (ex.: `"19"`) e `subfuncao` (ex.: `"571"`, `"572"`, `"573"`, `"126"`). Isso permite que todos os filtros de CT&I operem por igualdade direta e pertinência em listas (`in`), sem necessidade de expressões regulares (regex) no consumo final.
+
 ### 5.2 Estágios da despesa
 O anexo I-E da Declaração de Contas Anuais (DCA) registra três fases da execução da despesa:
 1. `Despesas Empenhadas`: Compromisso de gasto formalizado;

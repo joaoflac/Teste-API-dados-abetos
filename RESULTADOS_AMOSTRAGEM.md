@@ -323,15 +323,15 @@ Recortes territoriais ou de agente (UF = BA, distribuidora = COELBA, lista de mu
 | Recorte | 415 municípios (2 sem DCA 2024); estágio **Despesas Liquidadas** |
 | **Filtro CT&I** | 🏷️ **Classificado em colunas.** As linhas não são filtradas (todos os municípios aparecem); as colunas CT&I são somas das contas filtradas |
 
-**Filtros que geram as colunas:**
+**Filtros estruturados que geram as colunas (campos `funcao` e `subfuncao` derivados):**
 
-| Coluna | Filtro sobre `conta` do DCA I-E | Nível |
+| Coluna | Variável e regra de filtro | Nível |
 |---|---|---|
-| `liquidado_funcao19_CT` | começa com `19 - ` (Função 19, Ciência e Tecnologia) | **Principal** |
-| `liquidado_subf_571_572_573` | subfunção ∈ {571 Desenv. Científico, 572 Desenv. Tecnológico e Engenharia, 573 Difusão do Conhecimento} | Principal (detalhe) |
-| `liquidado_subf_126_TI` | subfunção = 126 (Tecnologia da Informação) | Auxiliar (TI da prefeitura, não é fomento) |
+| `liquidado_funcao19_CT` | `funcao == "19"` (Função 19, Ciência e Tecnologia total) | **Principal** |
+| `liquidado_subf_571_572_573` | `subfuncao in ["571", "572", "573"]` (Desenv. Científico, Tecnológico e Difusão) | Principal (detalhe) |
+| `liquidado_subf_126_TI` | `subfuncao == "126"` (Tecnologia da Informação da prefeitura) | Auxiliar (TI interna) |
 
-Outros filtros auxiliares disponíveis em `categorias_cti/siconfi_funcoes_subfuncoes_BA_relacao_cti.csv`: `12.364` Ensino Superior, `12.363` Ensino Profissional e Função `24` Comunicações.
+Outros filtros auxiliares disponíveis em `categorias_cti/siconfi_funcoes_subfuncoes_BA_relacao_cti.csv`: `subfuncao in ["363", "364"]` (Ensino Superior/Profissional) e `funcao == "24"` (Comunicações).
 
 **Resultado 2024:** só **8 de 415** municípios liquidaram despesa na Função 19, somando R$ 126,49 mi:
 

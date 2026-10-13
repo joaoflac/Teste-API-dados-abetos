@@ -13,12 +13,12 @@ INEP,MICRODADOS_CADASTRO_CURSOS_2024,TP_GRAU_ACADEMICO,igual,3 (Tecnológico),Au
 INEP,MICRODADOS_CADASTRO_CURSOS_2024,TP_DIMENSAO,igual,1 (presencial) — separar 2/3/4 (EAD),Regra obrigatória,Não somar polo EAD com presencial; vagas/inscritos EAD não são calculados por município,Sim
 INEP,MICRODADOS_ED_SUP_IES_2024,TP_ORGANIZACAO_ACADEMICA,em,4 (IF); 5 (CEFET),Auxiliar,Instituições de educação tecnológica,Sim
 INEP,MICRODADOS_ED_SUP_IES_2024,"QT_DOC_EX_DOUT, QT_DOC_EX_MEST, IN_REPOSITORIO_INSTITUCIONAL, IN_ACESSO_PORTAL_CAPES",—,—,Variável de capacidade CT&I,Titulação docente e infraestrutura de pesquisa por IES (sem município de lotação),Sim
-SICONFI,DCA Anexo I-E (despesa por função),conta,começa com,"19 - (Função 19 Ciência e Tecnologia, total)",Principal,Função orçamentária oficial de C&T (Portaria MOG 42/1999),Sim (8 municípios BA em 2024)
-SICONFI,DCA Anexo I-E (despesa por função),conta,regex,^\d{2}\.(571|572|573),Principal (detalhe),Subfunções Desenvolvimento Científico / Tecnológico e Engenharia / Difusão do Conhecimento — o DCA agrupa subfunções pequenas em 'FUxx - Demais Subfunções',Sim (572 e 573)
-SICONFI,DCA Anexo I-E (despesa por função),conta,regex,^\d{2}\.126,Auxiliar,Tecnologia da Informação do próprio ente (gestão; não é fomento a CT&I),Sim (39 municípios)
-SICONFI,DCA Anexo I-E (despesa por função),conta,regex,^12\.(363|364),Auxiliar,Ensino profissional e superior,Sim
-SICONFI,DCA Anexo I-E (despesa por função),conta,começa com,24 - (Comunicações),Auxiliar,Inclui 24.722 Telecomunicações,Sim
-SICONFI,RREO Anexo 02,conta,igual,Ciência e Tecnologia,Principal (com ressalva),RREO não traz código da função na linha; subfunções como 'Desenvolvimento Tecnológico e Engenharia' aparecem sem a função-mãe — preferir DCA,Sim (Salvador)
+SICONFI,DCA Anexo I-E (despesa por função),funcao,igual,19,Principal,Função orçamentária oficial de C&T (Portaria MOG 42/1999) — campo derivado do código de 2 dígitos,Sim (8 municípios BA em 2024)
+SICONFI,DCA Anexo I-E (despesa por função),subfuncao,em,"571, 572, 573",Principal (detalhe),"Subfunções C&T: Desenv. Científico (571), Desenv. Tecnológico e Engenharia (572) e Difusão do Conhecimento (573) — campo derivado de 3 dígitos",Sim (572 e 573)
+SICONFI,DCA Anexo I-E (despesa por função),subfuncao,igual,126,Auxiliar,Tecnologia da Informação do próprio ente (gestão interna; não é fomento a CT&I) — campo derivado de 3 dígitos,Sim (39 municípios)
+SICONFI,DCA Anexo I-E (despesa por função),subfuncao,em,"363, 364",Auxiliar,Ensino Profissional (363) e Ensino Superior (364) — campo derivado de 3 dígitos,Sim
+SICONFI,DCA Anexo I-E (despesa por função),funcao,igual,24,Auxiliar,Função 24 Comunicações (inclui subfunção 722 Telecomunicações) — campo derivado de 2 dígitos,Sim
+SICONFI,RREO Anexo 02,conta,igual,Ciência e Tecnologia,Principal (com ressalva),RREO não traz código numérico na linha da despesa; para filtros estruturados por código usar DCA Anexo I-E,Sim (Salvador)
 ANATEL,Acessos_Banda_Larga_Fixa_AAAA_Colunas.csv,Meio de Acesso,igual,Fibra,Infraestrutura TIC (auxiliar),Conectividade avançada,Sim
 ANATEL,Acessos_Banda_Larga_Fixa_AAAA_Colunas.csv,Tecnologia,em,FTTH; FTTB,Infraestrutura TIC (auxiliar),Fibra até a casa/prédio,Sim
 ANATEL,Acessos_Banda_Larga_Fixa_AAAA_Colunas.csv,Faixa de Velocidade,igual,> 34Mbps,Infraestrutura TIC (auxiliar),Alta velocidade,Sim
