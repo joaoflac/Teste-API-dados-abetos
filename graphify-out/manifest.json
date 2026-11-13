@@ -1,0 +1,116 @@
+{
+  "scripts/aneel_decfec_ba.py": {
+    "mtime": 1791389971.3714335,
+    "seen": 1794580073.5009832,
+    "ast_hash": "7310d42a19306afaa5ee46f86368db1e",
+    "semantic_hash": "7310d42a19306afaa5ee46f86368db1e"
+  },
+  "scripts/aneel_probe.py": {
+    "mtime": 1791388185.0088274,
+    "seen": 1794580073.5009909,
+    "ast_hash": "58223abe473400d89889e6c8100189e8",
+    "semantic_hash": "58223abe473400d89889e6c8100189e8"
+  },
+  "scripts/bndes_download_ba.py": {
+    "mtime": 1791388185.009706,
+    "seen": 1794580073.5009944,
+    "ast_hash": "c390c641a9181dba3ae17f0bf11950fb",
+    "semantic_hash": "c390c641a9181dba3ae17f0bf11950fb"
+  },
+  "scripts/extrair_amostras_aneel_ba.py": {
+    "mtime": 1791388208.1864855,
+    "seen": 1794580073.5009966,
+    "ast_hash": "e4068d886718d577907dd9b638ba6c72",
+    "semantic_hash": "e4068d886718d577907dd9b638ba6c72"
+  },
+  "scripts/gerar_amostras.py": {
+    "mtime": 1791391095.0151405,
+    "seen": 1794580073.5009983,
+    "ast_hash": "3a40691fb201d4409f43f83f0df91b3c",
+    "semantic_hash": "3a40691fb201d4409f43f83f0df91b3c"
+  },
+  "scripts/gerar_docx_executivo.js": {
+    "mtime": 1792172228.8682556,
+    "seen": 1794580073.5009997,
+    "ast_hash": "814315dc81005fa26b196974a825036b",
+    "semantic_hash": "814315dc81005fa26b196974a825036b"
+  },
+  "scripts/gerar_planilha_amostras.py": {
+    "mtime": 1792172228.8697815,
+    "seen": 1794580073.501001,
+    "ast_hash": "fbb8676c7e1b32e250583ec716bf6de6",
+    "semantic_hash": "fbb8676c7e1b32e250583ec716bf6de6"
+  },
+  "scripts/httpzip.py": {
+    "mtime": 1791388185.011474,
+    "seen": 1794580073.5010026,
+    "ast_hash": "1a90c78a2522fb17d9326ebc6c33ffbe",
+    "semantic_hash": "1a90c78a2522fb17d9326ebc6c33ffbe"
+  },
+  "scripts/ibge_pib_per_capita_oficial.py": {
+    "mtime": 1791390132.158872,
+    "seen": 1794580073.5010037,
+    "ast_hash": "f1125e1832389b1da3bbc7cb1bb27df2",
+    "semantic_hash": "f1125e1832389b1da3bbc7cb1bb27df2"
+  },
+  "scripts/siconfi_dca_ba.py": {
+    "mtime": 1791388185.0129168,
+    "seen": 1794580073.5010047,
+    "ast_hash": "243d87b317f715d2f5f086e4b9fdf46e",
+    "semantic_hash": "243d87b317f715d2f5f086e4b9fdf46e"
+  },
+  "ANEEL_EXPLORACAO_VALORES_UNICOS_CTI.md": {
+    "mtime": 1792172228.8455186,
+    "seen": 1794580073.5010064,
+    "ast_hash": "e611c289d57f369f0ed2c9a1e15b4c79",
+    "semantic_hash": "e611c289d57f369f0ed2c9a1e15b4c79"
+  },
+  "APIs_TERRITORIOS_SECTI_extracao_planilha.md": {
+    "mtime": 1792172228.847085,
+    "seen": 1794580073.5010083,
+    "ast_hash": "da7fb67d0911cefaac64e1ed82d5e075",
+    "semantic_hash": "da7fb67d0911cefaac64e1ed82d5e075"
+  },
+  "OUTRAS_APIS_EXPLORACAO_VALORES_UNICOS_CTI.md": {
+    "mtime": 1792172228.8486474,
+    "seen": 1794580073.50101,
+    "ast_hash": "9316d721a943eeffef668ea7049b7080",
+    "semantic_hash": "9316d721a943eeffef668ea7049b7080"
+  },
+  "RESULTADOS_AMOSTRAGEM.md": {
+    "mtime": 1792172228.849655,
+    "seen": 1794580073.5010111,
+    "ast_hash": "8c367beeaa4c4897f1069bbe8978cc51",
+    "semantic_hash": "8c367beeaa4c4897f1069bbe8978cc51"
+  },
+  "automacao-hop-postgres/PLANO.md": {
+    "mtime": 1794579942.8499784,
+    "seen": 1794580073.5010126,
+    "ast_hash": "1f97230f16ded0959895f943b3eeb2d9",
+    "semantic_hash": "1f97230f16ded0959895f943b3eeb2d9"
+  },
+  "graphify-out/converted/1449ea53-fe84-4547-8ac8-f6a465995958_df5f48d0.md": {
+    "mtime": 1794579890.1795528,
+    "seen": 1794580073.501014,
+    "ast_hash": "925adae232b59db7c5c5f7f39e30bb81",
+    "semantic_hash": "925adae232b59db7c5c5f7f39e30bb81"
+  },
+  "graphify-out/converted/TERRITORIOS_SECTI_Resumo_Executivo_Dados_1d5f63e8.md": {
+    "mtime": 1794579892.5771568,
+    "seen": 1794580073.5010152,
+    "ast_hash": "0e2ef65f4e3b3553207b45e3c75f7860",
+    "semantic_hash": "0e2ef65f4e3b3553207b45e3c75f7860"
+  },
+  "graphify-out/converted/TERRITORIOS_SECTI_Resumo_Executivo_Planilha_332cb148.md": {
+    "mtime": 1794579892.627571,
+    "seen": 1794580073.5010166,
+    "ast_hash": "0bd580bb857dc1885b1886e1a8125f24",
+    "semantic_hash": "0bd580bb857dc1885b1886e1a8125f24"
+  },
+  "TERRITORIOS_SECTI_Resumo_Executivo_Dados.pdf": {
+    "mtime": 1794578122.7478247,
+    "seen": 1794580073.501018,
+    "ast_hash": "5b8d4fa57640afae79243415b9c51d92",
+    "semantic_hash": "5b8d4fa57640afae79243415b9c51d92"
+  }
+}
