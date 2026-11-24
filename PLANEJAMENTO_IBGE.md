@@ -4,6 +4,8 @@ Documento vivo: registra decisões, testes e o desenho das cargas do IBGE para o
 (repo `territorios_secti`, branch `redesign`). Contexto geral da orquestração em
 `orquestracao/PLANO_ORQUESTRACAO_ETL.md`. Atualizar o **Registro de decisões** (§8) a cada mudança.
 
+> **Ver também:** `automacao-hop-postgres/PLANO.md` (INEP, a primeira fonte que consome `ibge.municipio`). Os padrões deste documento (detecção em 3 níveis §7A, rastreabilidade §7B, schemas `meta`/`etl`) valem para todas as fontes.
+
 ---
 
 ## 1. Papel do IBGE no projeto
@@ -318,6 +320,89 @@ Fica no **mesmo banco** PostgreSQL, em schemas separados. Bancos separados no Po
 
 ---
 
+## 7C. Origem do dado, auditoria e chaves estrangeiras (implementado em 24/11)
+
+SQL: `orquestracao/sql/04_fk_ibge.sql` e `05_auditoria.sql`. Testes: `orquestracao/testes/05_teste_auditoria.sql` (e `03_`, ajustado).
+
+**Dois escritores.** O ETL (Python que simula o Hop) e a API de CRUD do painel. O banco não adivinha quem escreve: o escritor declara o contexto **no início da transação**.
+
+| Quem | Como declara | `_origem` na linha |
+|---|---|---|
+| ETL | conexão aberta com `options='-c app.origem=etl -c app.usuario=orquestrador_simulado'`; `app.execucao_id` por carga | `etl` |
+| API | em cada requisição, **dentro da mesma transação do CRUD**: `SELECT audit.contexto('api', '<usuario>', '<request_id>')` (vale só até o `COMMIT`, indispensável com pool de conexões) | `api` |
+| Qualquer outro (psql, migração, API que esqueceu o contexto) | nada | `direto_sql`, visível e nunca silencioso |
+
+**O que fica registrado**
+- **Na linha** (4 tabelas `ibge.*`): `_criado_origem` (como entrou, não muda mais), `_origem` e `_modificado_por` (última alteração). Linhas anteriores à auditoria ficaram como `etl`, porque o orquestrador era o único escritor.
+- **No log `audit.evento`**: um registro por INSERT/UPDATE/DELETE, com `antes`, `depois`, `campos_alterados`, `origem`, `usuario`, `request_id`, `execucao_id`, papel do banco, IP e aplicação. UPDATE que não muda nenhum valor não gera evento.
+- **Na carga** (`etl.execucao`): `disparo` (`agendado` | `manual` | `forcado`; o orquestrador lê `ETL_DISPARO`), `usuario` e `host`.
+- `meta.v_linha_origem` passou a mostrar `_criado_origem`, `_origem`, `_modificado_por` e `carga_disparo`.
+
+**Log como schema, não como banco separado.** O trigger grava na mesma transação do dado (se o dado sofre rollback, o log também) e o painel cruza linha e log com JOIN. Banco separado exigiria `dblink` e perderia as duas garantias.
+
+**Papel da API.** `api_crud` (sem LOGIN no repositório) lê e escreve nos dados e lê o log; não é dono das tabelas, então não consegue `DISABLE TRIGGER` nem alterar `audit.evento` (testado). Dono e superusuário conseguem: no Postgres portátil de teste o usuário `etl` é superusuário, então o teste prova o mecanismo, não a proteção.
+
+**Conflito entre API e ETL (decisão a confirmar): a fonte vence.** Uma linha alterada pela API recebe `_hash = 'api:...'`, nunca igual ao da fonte. O próximo MERGE que cobrir aquela partição a sobrescreve, e a versão da API fica em `audit.evento` e `etl.historico`. Mas a edição **não é desfeita na hora**: com a detecção em 3 níveis, o ETL só toca a partição quando a fonte muda (ex.: o PIB 2015 editado pela API fica assim até o IBGE republicar o arquivo). Uma linha **inserida** pela API dentro de um escopo recarregado é excluída pelo MERGE e pode acionar a trava de exclusão em massa. Se a SECTI precisar de correções manuais permanentes, falta um campo de bloqueio (`_bloqueado_etl`) ou uma tabela de sobreposições.
+
+**Chaves estrangeiras.**
+- `populacao`, `pib_municipal` e `malha` → `ibge.municipio(codigo_ibge)`; `_execucao_id` das quatro tabelas → `etl.execucao(id)`. Sem linhas órfãs na carga atual.
+- **Ordem de carga:** `ibge.municipio` vem antes das filhas (o orquestrador foi reordenado; num banco vazio a ordem antiga violaria a FK).
+- O ETL não consegue mais excluir um município que tenha filhas (`RESTRICT`): a carga aborta com rollback, o que exige decisão humana.
+- Continuam relações lógicas, sem FK possível: `etl.recurso.tabela_destino`, `parametros->>'fonte_tabela'` (jsonb), `pib_municipal.edicao` → `meta.layout_ftp` e `etl.exclusao`/`etl.historico` (tabela + chave genéricas).
+- Tabelas novas (INEP) ganham a auditoria com `SELECT audit.ativar('inep.curso', '{co_curso}')` e FKs para `ibge.municipio` no próprio DDL.
+
+**Limites conhecidos.** `etl.historico` e `etl.exclusao` repetem parte do que `audit.evento` guarda para escritas do ETL (mantido de propósito: não mexi em `merge_tabela`). `audit.evento` não tem retenção nem partição. O trigger não cobre `TRUNCATE`. As tabelas `stg.*` não são auditadas.
+
+---
+
+## 7D. INEP: dimensões estáveis, fato por ano e "ativo" derivado (implementado em 24/11)
+
+SQL: `orquestracao/sql/06_inep_modelo.sql`. Carga: `orquestracao/orquestrador_inep.py`. Teste: `orquestracao/testes/06_teste_inep.sql`. Plano do INEP: `automacao-hop-postgres/PLANO.md` §0.
+
+**Decisão: o INEP não usa soft delete.** O plano de 13/11 mandava `ativo = false`; a análise do Opus, medida num banco descartável, mostrou por que não:
+- Consulta que esquece `ativo` erra em silêncio (547 contra 347 cursos; 34 municípios com contagem errada; 132 contra 115 campi).
+- A trava de exclusão em massa não pega desativação (200 de 547 cursos desativados sem aviso).
+- Um curso que volta ao censo não era reativado; e a edição da curadoria era desfeita pela recarga.
+- A desativação não aparece em `etl.exclusao` nem em `etl.historico`.
+- **O escopo "ano do censo" não funcionava com chave sem ano**, nem no soft nem no hard delete (3 cursos sumiram e 0 foram tratados).
+
+**Desenho**
+
+| Peça | Tabelas | Carga |
+|---|---|---|
+| Dimensões, nunca apagadas | `inep.ies`, `ies_local` (campus = par IES + município), `curso`, `cine_classificacao` | `etl.merge_tabela(..., p_excluir => false)`: só INSERT e UPDATE |
+| Fato por ano | `inep.curso_censo (co_curso, ano)` com vagas, ingressantes, matrículas, concluintes e o rótulo CINE do ano | MERGE com exclusão só do ano carregado, auditada, trava de **20%** |
+| Regra da SECTI | `inep.regra_cti` (`incluir` / `excluir` / `revisar`) | semente do CSV só para rótulos sem regra; depois é curada pela API |
+| Leitura | `inep.v_curso_atual`, `inep.v_campus_com_curso` | embutem o "ativo": censo vigente, regra `incluir`, sede na BA, não oculto |
+
+- **Censo vigente** = maior ano com carga `ok` em `etl.execucao`, não `max(ano)`: uma carga parcial ou com erro de um censo novo nunca passa a valer.
+- **Curadoria:** `curso.oculto_curadoria` fica fora do `_hash` e fora das colunas de valor do MERGE; o ETL nunca a toca (testado com `--forcar` sobre 2024).
+- **Filtro CT&I na view, não na carga:** `curso` guarda o universo das áreas 05 a 09 (935 cursos em 2024). Mudar `regra_cti` vale na hora (rótulo `0714E04` para `excluir`: 547 para 533).
+- **A API não lê as tabelas-base:** `api_crud` lê as views, edita `regra_cti` e só altera `oculto_curadoria` e `motivo_oculto` em `curso`.
+
+**Medido com os censos reais (BA, presencial, `QT_CURSO = 1`, 2021 a 2024)**
+
+| Transição | Permanecem | Saíram | Novos | Mesmo nome / município / grau | Mudaram de IES | Mudaram de rótulo |
+|---|---:|---:|---:|---|---:|---:|
+| 2021 → 2022 | 1.923 (97,8%) | 44 | 107 | 100% | 0 | 1 |
+| 2022 → 2023 | 1.891 (93,2%) | 139 | 87 | 100% | **33** | 4 |
+| 2023 → 2024 | 1.775 (89,7%) | 203 | 59 | nome 9 mudaram | 0 | **67** |
+
+`CO_CURSO` nunca se repetiu dentro de um ano e identifica o mesmo curso entre anos. Mas **atributos mudam**: 33 cursos trocaram de IES (por isso `curso.co_ies` reflete o último censo) e o rótulo muda por ano (por isso ele fica em `curso_censo`). Saem do censo 2,2%, 7,0% e 10,3% dos cursos por ano (áreas 05-09: 1,7%, 6,9% e 9,0%), o que obrigou a trava de 10% do IBGE a virar 20% no INEP. 17 códigos somem e voltam.
+
+**Resultado da carga real (banco do zero):** funil 720.349 → 40.715 (UF 29) → 1.851 (presencial) → 1.834 (`QT_CURSO = 1`, 17 ABI fora) → 552 (rótulo `incluir`) → **547** (sede na BA); 144 IES e 216 campi; a view, com `exigir_sede_ba = true` (como na simulação de 13/11), devolve exatamente os 547 cursos e os 132 campi. Com a UNIVASF permanecendo (`false`, decisão de 24/11) são 552 cursos e 133 campi.
+
+**Tipos de curso × Supabase do painel:** os 5 de `tipo_cursos` têm o mesmo nome das áreas CINE 05 a 09. Dos 550 presenciais do Supabase, 542 casam com os 547 por (curso, município), todos com o mesmo tipo. Os 8 restantes: 5 cursos do UNIMAM (Supabase: Governador Mangabeira; INEP: Cruz das Almas) e 3 de rótulos `revisar` (Geologia em Barreiras e Salvador, Engenharia Agrícola e Ambiental em Itabuna). **Decisões de 24/11:** (1) a **UNIVASF permanece** (sede em PE, campus na BA): `exigir_sede_ba = false`, então a view tem 552 cursos e 133 campi; (2) o **dataset cru do INEP manda** em município, IES e curso (os 5 cursos do UNIMAM ficam em Cruz das Almas); o Supabase é só referência de comparação, não fonte; (3) os 6 rótulos `revisar` (10 cursos, 765 matrículas em 2024) **ficam fora da view** até a SECTI decidir.
+
+**Incertezas que continuam**
+- Só há 4 censos: o comportamento de `CO_CURSO` no censo 2025 é desconhecido.
+- EAD não foi testado (fora do escopo).
+- **Colunas do INEP:** as 30 colunas que o orquestrador lê (20 de cursos, 10 de IES) existem nos censos 2021 a 2024, com os mesmos domínios de valores (modalidade 1/2, rede 1/2, grau 1/2/3, `QT_CURSO` 0/1). O que muda: o arquivo de cursos foi de 200 para 223 colunas (as novas são cotas, não usadas), `CO_CINE_ROTULO` chega sempre com aspas literais, e o grau das ABI é vazio em 2021, 2023 e 2024 mas `0` em 2022 (por isso a ABI se identifica por `QT_CURSO = 0`, não pelo grau). O orquestrador aborta se uma coluna usada sumir.
+- Um curso que muda de IES entre censos reaparece em outro campus, e os números de anos anteriores continuam ligados ao `co_curso`, não ao campus antigo.
+- O recurso é por ano (`inep_censo_superior_<ano>`): `meta.v_status_dataset` mostra uma linha por censo carregado.
+
+---
+
 ## 8. Registro de decisões
 
 | Data | Decisão |
@@ -337,6 +422,9 @@ Fica no **mesmo banco** PostgreSQL, em schemas separados. Bancos separados no Po
 | 2026-11-19 | **Todo o armazenamento sugerido está carregado** (`orquestracao/sql/03_ibge_modelo.sql` + orquestrador): `ibge.municipio` 417 (com tipologias), `ibge.populacao` 9.591, `ibge.pib_municipal` 5.838 (2010–2023), `ibge.malha` 417, `meta.*` (6 fontes, 50 variáveis, 45 períodos, 54 eventos do calendário, 43 campos de layout), views `meta.v_status_dataset`, `meta.v_linha_origem` e `meta.v_dicionario` (descrições via `COMMENT ON`). |
 | 2026-11-19 | **Incidente e trava:** o teste sintético usava anos e códigos reais e, pela exclusão por escopo, apagou as estimativas reais de 2024/2025 (reparadas pelo orquestrador em 1 rodada). Correções: (1) teste isolado em anos/códigos fictícios; (2) **trava de exclusão em massa** nas funções de carga: mais de 10 exclusões e acima de 10% do escopo abortam a carga com rollback. Protege também contra API que devolva dados incompletos. Testada: barrou 414/417 e 412/417. |
 | 2026-11-19 | Graphify instalado (grafo de conhecimento do repo para economizar tokens). Extração semântica dos .md pendente: `/graphify .`. |
+| 2026-11-24 | **Reconciliação com o plano do INEP** (`automacao-hop-postgres/PLANO.md`, feito em outra máquina em 13/11): `ibge.municipio` é a dimensão de município do INEP (FK de `ies_local` e `curso`; filtro dos 417 códigos lê dela); o INEP segue os schemas `etl`/`stg`/`meta` e terá schema `inep` (`06_inep_modelo.sql`). Em aberto: INEP quer *soft delete* (`ativo`), `etl.merge_tabela()` exclui por escopo; Hop 2.10.0 (compose) × 2.20.0 (decidido no INEP). |
+| 2026-11-24 | **Origem do dado, auditoria e FKs (§7C).** FKs de `populacao`, `pib_municipal` e `malha` para `ibge.municipio` e de `_execucao_id` para `etl.execucao` (`04_fk_ibge.sql`). Auditoria por trigger com contexto declarado pelo escritor (`etl` | `api` | `direto_sql`), log `audit.evento` como schema no mesmo banco, colunas `_criado_origem`/`_origem`/`_modificado_por` e `etl.execucao.disparo` (`05_auditoria.sql`). Papel `api_crud` para a API de CRUD. Conflito API × ETL: a fonte vence na recarga da partição (a confirmar). Orquestrador reordenado: município antes das filhas. DDL do INEP passa a `06_inep_modelo.sql`. Testado em Postgres 17.6 (testes 03 e 05, mais subida do zero com 01 a 05). O orquestrador Python também foi executado (banco vazio, rodada sem mudança, `--simular`, edição pela API e FTP republicado): resultados em artifact. Achados: a simulação precisou criar o município fictício (FK) e o teste 05 filtrava mal. |
+| 2026-11-24 | **INEP sem soft delete (§7D).** Desenho híbrido do Opus: dimensões que nunca se apagam (`etl.merge_tabela` ganhou `p_excluir`), fato por ano `inep.curso_censo` com trava de 20%, regra CT&I aplicada em view, "ativo" derivado, curadoria fora do `_hash`. Medido com os censos 2021 a 2024 reais. Carga real feita (`orquestrador_inep.py`, `06_inep_modelo.sql`): 547 cursos e 132 campi, idênticos à simulação. Tipos de curso conferidos com o Supabase do painel. |
 
 ---
 
@@ -351,3 +439,4 @@ Fica no **mesmo banco** PostgreSQL, em schemas separados. Bancos separados no Po
 4. Implementar a descoberta da edição nova do FTP (listar `ftp.ibge.gov.br/Pib_Municipios/`).
 5. ~~Testar o MERGE no Postgres~~: feito em 19/11 com Postgres portátil e `orquestrador_simulado.py`. Próximo: incluir o PIB do FTP no orquestrador.
 6. Decidir se a malha vai para PostGIS ou fica como GeoJSON simplificado para o front-end.
+7. Entregar a `ibge.municipio` ao INEP: tabela de correspondência `id_municipio` (Supabase, serial 1–417) ↔ `codigo_ibge`, por nome normalizado (ver `automacao-hop-postgres/PLANO.md` §0 e §8).

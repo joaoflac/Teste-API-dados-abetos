@@ -78,16 +78,16 @@
     "semantic_hash": "9316d721a943eeffef668ea7049b7080"
   },
   "RESULTADOS_AMOSTRAGEM.md": {
-    "mtime": 1792172228.849655,
-    "seen": 1794580073.5010111,
-    "ast_hash": "8c367beeaa4c4897f1069bbe8978cc51",
-    "semantic_hash": "8c367beeaa4c4897f1069bbe8978cc51"
+    "mtime": 1795538008.106559,
+    "seen": 1795546148.69143,
+    "ast_hash": "f9702e2f7baa195706c27eca358ac8f6",
+    "semantic_hash": ""
   },
   "automacao-hop-postgres/PLANO.md": {
-    "mtime": 1794579942.8499784,
-    "seen": 1794580073.5010126,
-    "ast_hash": "1f97230f16ded0959895f943b3eeb2d9",
-    "semantic_hash": "1f97230f16ded0959895f943b3eeb2d9"
+    "mtime": 1795544939.0034697,
+    "seen": 1795546148.6914327,
+    "ast_hash": "9523f10eb7ad4771395f587b0d500438",
+    "semantic_hash": ""
   },
   "graphify-out/converted/1449ea53-fe84-4547-8ac8-f6a465995958_df5f48d0.md": {
     "mtime": 1794579890.1795528,
@@ -112,5 +112,119 @@
     "seen": 1794580073.501018,
     "ast_hash": "5b8d4fa57640afae79243415b9c51d92",
     "semantic_hash": "5b8d4fa57640afae79243415b9c51d92"
+  },
+  ".claude/settings.json": {
+    "mtime": 1795538008.0981915,
+    "seen": 1795546148.6888034,
+    "ast_hash": "006012ec5a3dce23a1175d927b6408ad",
+    "semantic_hash": ""
+  },
+  "automacao-hop-postgres/simulacao/simular_check_mudanca.py": {
+    "mtime": 1794589177.745336,
+    "seen": 1795546148.6888103,
+    "ast_hash": "18ea7bee5689e3d7cb7a56775659e3c8",
+    "semantic_hash": ""
+  },
+  "automacao-hop-postgres/simulacao/simular_orquestracao.py": {
+    "mtime": 1794587964.72575,
+    "seen": 1795546148.688813,
+    "ast_hash": "372383f5bb6f55ff85647112c85c1a4c",
+    "semantic_hash": ""
+  },
+  "orquestracao/docker-compose.yml": {
+    "mtime": 1795538008.1155953,
+    "seen": 1795546148.6888158,
+    "ast_hash": "265de05a75f02fdce22b6bbe9048d5a4",
+    "semantic_hash": ""
+  },
+  "orquestracao/orquestrador_inep.py": {
+    "mtime": 1795544898.705364,
+    "seen": 1795546148.688818,
+    "ast_hash": "6e2dc0029961c91af0b08bbcb0b5647c",
+    "semantic_hash": ""
+  },
+  "orquestracao/orquestrador_simulado.py": {
+    "mtime": 1795541053.1140256,
+    "seen": 1795546148.6888194,
+    "ast_hash": "a768c83b5945ea5bc4263325e1fcd02b",
+    "semantic_hash": ""
+  },
+  "orquestracao/probe_identificadores_mudanca_metadados.json": {
+    "mtime": 1795538008.1247358,
+    "seen": 1795546148.6888208,
+    "ast_hash": "b3ad98d240040470a50383d6844ea77e",
+    "semantic_hash": ""
+  },
+  "pg-portatil/pg.ps1": {
+    "mtime": 1795544983.207387,
+    "seen": 1795546148.688822,
+    "ast_hash": "8459d56934c088d89c33d80d0b722ad1",
+    "semantic_hash": ""
+  },
+  "scripts/etl_verificar_mudanca.py": {
+    "mtime": 1795538008.1381805,
+    "seen": 1795546148.689524,
+    "ast_hash": "55947797cb40496532ea2e5e6734e871",
+    "semantic_hash": ""
+  },
+  "scripts/ibge_base_municipal.py": {
+    "mtime": 1795538008.1505823,
+    "seen": 1795546148.6903718,
+    "ast_hash": "342eeddc47b204fa9510464ad053c2b0",
+    "semantic_hash": ""
+  },
+  "scripts/probe_identificadores_mudanca.py": {
+    "mtime": 1795538008.1516483,
+    "seen": 1795546148.6905515,
+    "ast_hash": "655109376db1229ff54428a2af850a27",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1795546137.099964,
+    "seen": 1795546148.6911786,
+    "ast_hash": "53df032be096f611c4f86ef621897da1",
+    "semantic_hash": ""
+  },
+  "MER_IBGE_INEP.md": {
+    "mtime": 1795544939.0034697,
+    "seen": 1795546148.6911826,
+    "ast_hash": "46a3bce7ad0e46c2fdf8274d28ce1424",
+    "semantic_hash": ""
+  },
+  "PENDENCIAS_E_PERGUNTAS.md": {
+    "mtime": 1795546136.4519024,
+    "seen": 1795546148.691425,
+    "ast_hash": "b4bdf6d0787fcde157e6b5eadbd70bfd",
+    "semantic_hash": ""
+  },
+  "PLANEJAMENTO_IBGE.md": {
+    "mtime": 1795544949.9813192,
+    "seen": 1795546148.6914275,
+    "ast_hash": "915d4ed33d4dfe60c2bb5aeb865a46f5",
+    "semantic_hash": ""
+  },
+  "automacao-hop-postgres/analise/cine_hierarquia_cti.txt": {
+    "mtime": 1794584436.3886957,
+    "seen": 1795546148.6914349,
+    "ast_hash": "36fb7173ff0ab5c5836ced4ab17a2481",
+    "semantic_hash": ""
+  },
+  "graphify-out/converted/TERRITORIOS_SECTI_Amostras_CTI_1b1ba1ae.md": {
+    "mtime": 1794579892.4003947,
+    "seen": 1795546148.6916196,
+    "ast_hash": "c8873046e66969e8845454852b4572b3",
+    "semantic_hash": ""
+  },
+  "orquestracao/PLANO_ORQUESTRACAO_ETL.md": {
+    "mtime": 1795544250.7441158,
+    "seen": 1795546148.6919734,
+    "ast_hash": "2c2bcdfc483d0e52d9a4b8ba86f56dcb",
+    "semantic_hash": ""
+  },
+  "pg-portatil/README.md": {
+    "mtime": 1795545030.996058,
+    "seen": 1795546148.6919756,
+    "ast_hash": "e99728ad7839f2f80e0920e02aefc3d7",
+    "semantic_hash": ""
   }
 }

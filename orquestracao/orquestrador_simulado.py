@@ -42,6 +42,11 @@ POPULACAO = [
     dict(id="ibge_4709_censo", agregado=4709, variavel=93, tipo="censo", fonte="IBGE/SIDRA 4709", produto_id=22827),
 ]
 CTX = {}  # dados compartilhados entre recursos na mesma rodada (ex.: linhas do FTP)
+# Como esta rodada foi iniciada (etl.execucao.disparo): agendado (cron/Hop) | manual | forcado. O cron define ETL_DISPARO=agendado.
+DISPARO = os.environ.get("ETL_DISPARO", "manual")
+# Contexto de auditoria (05_auditoria.sql): toda escrita desta conexão é rotulada origem=etl. Vai na abertura da conexão para valer
+# em todas as transações e não ser desfeito por rollback. Sem isto o banco rotula as escritas como direto_sql.
+OPCOES_AUDITORIA = "-c app.origem=etl -c app.usuario=orquestrador_simulado"
 
 
 def dsn():
@@ -144,9 +149,11 @@ def carregar_meta(conn):
 def executar(conn, rid, digital_novo, escopo, carregar):
     """Passos 0 (decisão já tomada), 1-2 (carregar) e 3 (finalizar) com log e tratamento de erro."""
     with conn.cursor() as cur:
-        cur.execute("INSERT INTO etl.execucao (recurso_id, escopo, digital_novo) VALUES (%s, %s, %s) RETURNING id",
-                    (rid, json.dumps(escopo), json.dumps(digital_novo)))
-        exe = cur.fetchone()[0]; conn.commit()
+        cur.execute("INSERT INTO etl.execucao (recurso_id, escopo, digital_novo, disparo) VALUES (%s, %s, %s, %s) RETURNING id",
+                    (rid, json.dumps(escopo), json.dumps(digital_novo), DISPARO))
+        exe = cur.fetchone()[0]
+        # a auditoria (audit.registrar) grava esta carga em cada evento; nível de sessão, pois o commit abaixo e os rollbacks não o desfazem
+        cur.execute("SELECT set_config('app.execucao_id', %s, false)", (str(exe),)); conn.commit()
         if escopo is None:
             cur.execute("SELECT etl.finalizar(%s, 'sem_mudanca')", (exe,))
             cur.execute("UPDATE etl.checkpoint SET verificado_em = now() WHERE recurso_id = %s", (rid,))
@@ -348,6 +355,9 @@ def preparar_simulacao(conn):
         cur.execute("""UPDATE ibge.populacao SET populacao = populacao + 1, _hash = md5(row(populacao + 1, fonte)::text)
                        WHERE tipo='estimativa' AND ano=2025 AND codigo_ibge IN (2927408, 2910800)""")
         cur.execute("DELETE FROM ibge.populacao WHERE tipo='estimativa' AND ano=2025 AND codigo_ibge = 2905701")
+        # a FK (04_fk_ibge.sql) exige o município; ele é removido no fim da simulação (limpar_simulacao)
+        cur.execute("""INSERT INTO ibge.municipio (codigo_ibge, municipio, uf, _hash)
+                       VALUES (2999999, 'Município fictício (simulação)', 'BA', 'x') ON CONFLICT DO NOTHING""")
         cur.execute("""INSERT INTO ibge.populacao (codigo_ibge, ano, tipo, populacao, fonte, _hash)
                        VALUES (2999999, 2025, 'estimativa', 1, 'IBGE/SIDRA 6579', 'x') ON CONFLICT DO NOTHING""")
         cur.execute("""UPDATE etl.checkpoint SET digital = jsonb_set(digital, '{2025}', '"01/01/2000"')
@@ -362,6 +372,13 @@ def preparar_simulacao(conn):
           "checkpoints envelhecidos\n")
 
 
+def limpar_simulacao(conn):
+    """Remove o município fictício; a população dele já foi excluída pelo MERGE (era o caso 'sumiu da fonte')."""
+    with conn.cursor() as cur:
+        cur.execute("DELETE FROM ibge.municipio WHERE codigo_ibge = 2999999")
+        conn.commit()
+
+
 def resumo(conn):
     with conn.cursor() as cur:
         print("\nConteúdo do banco:")
@@ -371,16 +388,20 @@ def resumo(conn):
 
 
 if __name__ == "__main__":
-    with psycopg.connect(dsn()) as conn:
+    with psycopg.connect(dsn(), options=OPCOES_AUDITORIA) as conn:
         if "--simular" in sys.argv:
             preparar_simulacao(conn)
         t = time.time()
-        log("workflow", "início")
+        log("workflow", f"início (disparo: {DISPARO})")
         carregar_meta(conn)
+        # ORDEM: ibge.municipio primeiro. populacao, pib_municipal e malha têm FK para ela (04_fk_ibge.sql);
+        # num banco vazio, carregar uma filha antes violaria a FK. O recurso do município lê o FTP sozinho (ftp_linhas_ba).
+        recurso_municipio(conn)
         for r in POPULACAO:
             recurso_populacao(conn, r)
         recurso_pib(conn)
-        recurso_municipio(conn)
         recurso_malha(conn)
+        if "--simular" in sys.argv:
+            limpar_simulacao(conn)
         log("workflow", f"fim ({time.time() - t:.1f}s)")
         resumo(conn)

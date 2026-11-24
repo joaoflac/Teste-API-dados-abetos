@@ -64,12 +64,15 @@ switch ($acao) {
     'psql'   { Set-Senha; & "$B\psql.exe" @CON -d painel }
     'backup' {
         Set-Senha; New-Item -ItemType Directory -Force (Split-Path $BK) | Out-Null
-        & "$B\pg_dump.exe" @CON -d painel --no-owner --no-privileges --exclude-table-data='stg.*' -f $BK
+        # sem --no-privileges: as permissões do papel da API (api_crud) precisam voltar na restauração (o papel em si não vai no dump)
+        & "$B\pg_dump.exe" @CON -d painel --no-owner --exclude-table-data='stg.*' -f $BK
         Write-Host ("Backup: {0} ({1:N0} KB). Faça commit deste arquivo." -f $BK, ((Get-Item $BK).Length / 1KB))
     }
     'restaurar' {
         Set-Senha
         & "$B\dropdb.exe" @CON --if-exists painel; & "$B\createdb.exe" @CON painel
+        # papéis são do cluster, não do banco: o dump referencia api_crud nos GRANT, então ele precisa existir antes (sem LOGIN)
+        & "$B\psql.exe" @CON -d painel -q -c 'DO $$ BEGIN IF NOT EXISTS (SELECT 1 FROM pg_roles WHERE rolname = ''api_crud'') THEN CREATE ROLE api_crud NOLOGIN; END IF; END $$'
         & "$B\psql.exe" @CON -d painel -q -v ON_ERROR_STOP=1 -f $BK
         Write-Host 'Banco painel restaurado a partir do backup.'
     }

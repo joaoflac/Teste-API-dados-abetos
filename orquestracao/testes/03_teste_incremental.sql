@@ -4,9 +4,14 @@
 -- Rodar:  psql -h localhost -p 5433 -U etl -d painel -f orquestracao/testes/03_teste_incremental.sql
 -- Esperado: carga 1 = 4 inseridos; carga 2 = 1 inserido, 1 atualizado, 1 excluído; carga 3 = nada;
 --           1900 nunca é tocado; o valor antigo de Salvador 1901 vai para etl.historico.
+-- Com 04_fk_ibge.sql e 05_auditoria.sql: os municípios fictícios precisam existir (FK) e o script age como ETL
+-- (sem contexto 'etl' o trigger trocaria o _hash e a carga 3 já não seria "nada muda"). Limpa também audit.evento.
 \set ON_ERROR_STOP on
+SELECT audit.contexto('etl', 'teste_03', NULL, false);
 INSERT INTO etl.recurso (id, fonte, modo, metodo, tabela_destino)
 VALUES ('teste_pop', 'IBGE', 'ETL_API', 'ibge_per', 'ibge.populacao') ON CONFLICT DO NOTHING;
+INSERT INTO ibge.municipio (codigo_ibge, municipio, uf, _hash)
+SELECT c, 'Teste ' || c, 'BA', 'teste' FROM unnest(ARRAY[9900001, 9900002, 9900003]) c ON CONFLICT DO NOTHING;
 DELETE FROM ibge.populacao WHERE codigo_ibge IN (9900001, 9900002, 9900003) AND ano IN (1900, 1901) AND fonte = 'teste';
 DELETE FROM etl.exclusao WHERE linha->>'fonte' = 'teste';
 DELETE FROM etl.historico WHERE linha_anterior->>'fonte' = 'teste';
@@ -49,5 +54,7 @@ END $$;
 DELETE FROM ibge.populacao WHERE fonte = 'teste';
 DELETE FROM etl.historico WHERE linha_anterior->>'fonte' = 'teste';
 DELETE FROM etl.exclusao WHERE linha->>'fonte' = 'teste';
+DELETE FROM ibge.municipio WHERE codigo_ibge IN (9900001, 9900002, 9900003);
 DELETE FROM etl.execucao WHERE recurso_id = 'teste_pop';
 DELETE FROM etl.recurso WHERE id = 'teste_pop';
+DELETE FROM audit.evento WHERE chave->>'codigo_ibge' IN ('9900001', '9900002', '9900003');

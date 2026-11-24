@@ -12,13 +12,9 @@ O código do painel fica em outro repositório: `territorios_secti`, branch `red
 
 ## Tarefa atual (atualizar ao fim de cada sessão)
 
-**Foco: planejar só o IBGE.** O documento de referência é `PLANEJAMENTO_IBGE.md`; registrar ali toda decisão nova (§8).
-Próximos passos, em ordem (§9 do documento):
-1. Ampliar o leitor do FTP do PIB dos Municípios para o layout completo (tipologias, VAB, atividades).
-2. SQL de `ibge.municipio`, `ibge.populacao` e `ibge.pib_municipal`, com funções de carga MERGE.
-3. Acrescentar tipologias e atividades a `base/ibge_base_municipal_BA.csv`.
-4. Descoberta automática da edição nova do FTP.
-5. ~~Testar o MERGE~~: feito com Postgres portátil e `orquestracao/orquestrador_simulado.py` (simula o Hop). Próximo: incluir o PIB do FTP no orquestrador.
+**Foco: IBGE e INEP já carregam no Postgres (24/11); próximos: BNDES, SICONFI, ANATEL, ANEEL.** Há dois planos, feitos em máquinas diferentes e reconciliados em 24/11: `PLANEJAMENTO_IBGE.md` (registrar decisões em §8) e `automacao-hop-postgres/PLANO.md` (INEP; o §0 mapeia os nomes dele para os da orquestração). Ambos seguem `orquestracao/PLANO_ORQUESTRACAO_ETL.md`.
+**Em aberto:** (0) confirmar "a fonte vence" na edição manual via API; (b) Hop 2.10.0 no compose × 2.20.0 decidido no INEP; os 6 rótulos `revisar` do INEP. **Resolvido em 24/11:** soft delete do INEP (descartado; desenho híbrido, `PLANEJAMENTO_IBGE.md` §7D).
+**Próximos passos:** ver `PENDENCIAS_E_PERGUNTAS.md`. Resumo: (1) a SECTI decide os rótulos `revisar` do INEP, Radiologia e as licenciaturas (A1 a A9); (2) confirmar "a fonte vence" na edição pela API e o contrato de views com o painel (C1, C4, C5); (3) série histórica por rótulo recodificado e teste do `baixar_zip` (D1, D2); (4) próximas fontes: BNDES, SICONFI, ANATEL, ANEEL (D8). IBGE e INEP já carregam no Postgres e passam nos testes (`orquestracao/testes/03_`, `05_`, `06_`).
 
 ## Decisões já tomadas (não reabrir sem motivo)
 
@@ -30,19 +26,28 @@ Próximos passos, em ordem (§9 do documento):
 - **Verificar antes de baixar:** cada recurso tem um identificador de mudança (ETag/304, hash do CKAN, `modificacao` por período do IBGE, `extrato_entregas` do SICONFI, CRC32 dos arquivos dentro do ZIP da ANATEL). Ver `orquestracao/PLANO_ORQUESTRACAO_ETL.md`.
 - **Detecção em 3 níveis** (conjunto → partição → linha): o Hop nunca baixa e substitui tudo; baixa só a partição alterada e grava só as linhas com `_hash` diferente (`PLANEJAMENTO_IBGE.md` §7A).
 - **Rastreabilidade por linha:** toda tabela tem `_hash`, `_criado_em`, `_modificado_em`, `_modificado_fonte_em` e `_execucao_id`. Fonte, URL e histórico ficam no catálogo `meta`/`etl`, no mesmo banco (§7B).
+- **INEP (`automacao-hop-postgres/PLANO.md`, `PLANEJAMENTO_IBGE.md` §7D):** Supabase atual é **só leitura**; Postgres novo recebe só **presencial** da Bahia (`CO_UF = 29` e `CO_MUNICIPIO` ∈ `ibge.municipio`); ABI (`QT_CURSO = 0`) fora do catálogo e dos indicadores; CT&I = **lista de rótulos CINE** (`inep.regra_cti`) aplicada na view; campus = par (`co_ies`, `co_municipio`). **Sem soft delete:** dimensões nunca apagadas (`p_excluir => false`), fato por ano `inep.curso_censo`, "ativo" derivado em `inep.v_curso_atual`; quem lê usa as views. **Decidido em 24/11:** a UNIVASF permanece (`exigir_sede_ba = false`: 552 cursos, 133 campi); o dataset cru do INEP manda e o Supabase é só referência; rótulos `revisar` ficam fora da view. **Em aberto:** os 6 rótulos `revisar` (Ecologia, Geologia, Agrimensura, Eng. agrícola, Optometria, Saúde coletiva) e as escolhas de política CT&I da SECTI (Radiologia, BI em Saúde, Arquitetura, licenciaturas).
+- **Município é do IBGE:** nenhuma outra fonte cria tabela de município; tudo faz FK para `ibge.municipio`.
+- **Origem do dado e auditoria (`PLANEJAMENTO_IBGE.md` §7C):** quem escreve declara o contexto na transação (`audit.contexto`: `etl` ou `api`; sem contexto = `direto_sql`). O log é o schema `audit` no mesmo banco, alimentado por trigger. O CRUD do painel entra pelo papel `api_crud`. **A fonte vence:** o ETL sobrescreve edição da API quando recarrega a partição (a confirmar). Município carrega antes das filhas (FKs).
 - **Carga incremental:** MERGE por chave e `_hash`. A exclusão só alcança linhas **dentro do escopo baixado** e é auditada em `etl.exclusao`. O checkpoint só avança se a carga terminar bem.
 
 ## Mapa do repositório
 
 | Caminho | Conteúdo |
 |---|---|
+| `PENDENCIAS_E_PERGUNTAS.md` | **Lista viva do que falta**: decisões de política CT&I (com a recomendação do Opus), perguntas à SECTI e ao consultor, decisões técnicas e trabalho técnico pendente. Começar por aqui ao retomar |
 | `PLANEJAMENTO_IBGE.md` | **Plano vivo do IBGE**: API × FTP, layout do TXT, tipologias, atividades, modelo de tabelas, registro de decisões |
+| `automacao-hop-postgres/` | **Plano do INEP**: `PLANO.md` (filtros, funil, orquestração, regra CT&I), `analise/` (CINE, `regra_cti_rotulos.csv`, cursos ambíguos), `simulacao/` (scripts Python stdlib e CSVs de saída). Sem infraestrutura própria: usa `orquestracao/` |
+| `TERRITORIOS_SECTI_Resumo_Executivo_*.docx/.pdf` | Resumos executivos das amostras (gerados por `scripts/gerar_docx_executivo.js`) |
 | `orquestracao/PLANO_ORQUESTRACAO_ETL.md` | Identificadores de mudança por fonte, fluxo do Hop, padrão de carga e exclusão |
 | `orquestracao/sql/` | `01_controle.sql` (schema `etl`), `02_carga_incremental.sql` (MERGE com escopo) |
 | `orquestracao/testes/` | Teste do MERGE com dados sintéticos |
 | `orquestracao/orquestrador_simulado.py` | Simula o workflow do Hop (passos 0–3) com dados reais do IBGE |
+| `orquestracao/orquestrador_inep.py` | INEP no orquestrador comum: Passo 0 (ETag/Last-Modified/ano seguinte), leitura do ZIP em streaming, validação, MERGE por tabela e checkpoint. `python orquestracao/orquestrador_inep.py <ano> [--zip arquivo] [--verificar] [--forcar]`. Censos 2021 a 2024 carregados e testados em 24/11 |
 | `pg-portatil/` | Postgres 17.6 portátil **dentro do repo**: `pg.ps1` (instalar, start, stop, status, psql, backup, restaurar) e `backup/painel.sql` (versionado) |
 | `orquestracao/sql/03_ibge_modelo.sql` | `ibge.municipio`, `ibge.pib_municipal`, `ibge.malha`, schema `meta`, `etl.merge_tabela()` genérica com trava de exclusão |
+| `orquestracao/sql/04_fk_ibge.sql`, `05_auditoria.sql` | FKs do schema `ibge`; auditoria por trigger (`audit.evento`, `audit.contexto()`, `audit.ativar()`), colunas `_origem`, papel `api_crud`. Detalhe em `PLANEJAMENTO_IBGE.md` §7C |
+| `orquestracao/sql/06_inep_modelo.sql` | Modelo do INEP: `inep.ies`, `ies_local`, `curso`, `curso_censo`, `cine_classificacao`, `regra_cti` e as views `v_curso_atual` e `v_campus_com_curso`. Testes em `orquestracao/testes/06_teste_inep.sql` |
 | `orquestracao/meta/layout_pib_municipios_2010_2023.csv` | Layout do TXT do FTP (lido pelo orquestrador; versionado por edição) |
 | `orquestracao/docker-compose.yml` | Postgres 17.6 + Apache Hop (ainda não executado) |
 | `RESULTADOS_AMOSTRAGEM.md` | Resultado da amostragem de todas as fontes (documento principal das amostras) |
@@ -56,6 +61,12 @@ Próximos passos, em ordem (§9 do documento):
 | `scripts/httpzip.py` | Lê ZIP remoto por HTTP Range (CRC e extração de um arquivo interno) |
 
 ## Ambiente (Windows)
+
+**Duas máquinas, ambientes diferentes** (mesmo repo, branch `b2`):
+- **Máquina do IBGE:** `py -3.12`, graphify em `%APPDATA%\Python\Python312\Scripts`, Postgres portátil e orquestrador simulado (detalhes abaixo).
+- **Máquina do INEP:** (em 24/11 ganhou Postgres portátil e Python 3.12 em `%LOCALAPPDATA%ProgramsPythonPython312`, com requests e psycopg via `pip --user`; o launcher `py` não os enxerga, chame o `python.exe` direto e sem `-I`) sem Python de sistema, sem Java, sem Docker (falta *Virtual Machine Platform*, sem admin); tem `curl`, o graphify em `~/.local/bin` e o zip do INEP em `C:\Users\joao.vinicius\dados-inep\2024\` (fora do repo). Para rodar o Postgres aqui: `git pull`, `pg.ps1 instalar`, `pg.ps1 restaurar`. Para os scripts Python, instalar o Python 3.12 por usuário.
+
+Os itens abaixo descrevem a máquina do IBGE, salvo indicação contrária.
 
 - **graphify 0.9.112** (`graphifyy[sql]`), instalado com `py -3.12 -m pip install --user`; executável em `%APPDATA%\Python\Python312\Scripts` (já no PATH do usuário). Grafo em `graphify-out/`. Hoje só tem **código e SQL** (AST); a **extração semântica dos .md ainda não foi feita**: rodar `/graphify .` numa sessão (usa subagentes e consome tokens uma vez). Após mudar código: `graphify update .`. CSV, XLSX e DOCX não são indexados.
 - **Python:** usar `py -3.12` (pandas, requests e graphifyy instalados com `--user`). Para acentos no terminal, exportar `PYTHONIOENCODING=utf-8`.

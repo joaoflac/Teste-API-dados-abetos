@@ -2,7 +2,9 @@
 
 Planejamento das cargas que vão alimentar o painel (repo `territorios_secti`, branch `redesign`).
 Destino: VPS Ubuntu com **PostgreSQL 17** e **Apache Hop** em contêineres (`docker-compose.yml`).
-Testes feitos em 19/11/2026 a partir desta máquina.
+Testes feitos em 19/11/2026 (máquina com Python 3.12 e Postgres portátil).
+
+> **Ver também:** `../PLANEJAMENTO_IBGE.md` (primeira fonte detalhada, modelo `ibge.*`/`meta.*`) e `../automacao-hop-postgres/PLANO.md` (INEP: filtros CT&I, funil, simulação; seu §0 mapeia os nomes dele para os daqui). Este documento é a **referência comum**: schemas `etl`, `stg`, `meta` e um schema por fonte (`ibge`, `inep`, `bndes`…). Infraestrutura (compose, SQL, Hop) mora em `orquestracao/`.
 
 ## 1. Princípio: verificar antes de baixar
 
@@ -58,9 +60,9 @@ Arquivos gerados: `probe_identificadores_mudanca.csv` (cabeçalhos) e `probe_ide
 
 ## 3. Carga incremental e exclusão pontual (`sql/`)
 
-Arquivos: `sql/01_controle.sql` (controle), `sql/02_carga_incremental.sql` (padrão de carga) e `testes/03_teste_incremental.sql` (teste).
+Arquivos: `sql/01_controle.sql` (controle), `sql/02_carga_incremental.sql` (padrão de carga), `sql/03_ibge_modelo.sql` (`etl.merge_tabela()` e modelo IBGE), `sql/04_fk_ibge.sql` (FKs), `sql/05_auditoria.sql` (origem do dado e log por trigger: `PLANEJAMENTO_IBGE.md` §7C) e `testes/03_` e `05_` (testes).
 
-Cada tabela final tem colunas de controle: `_hash` (MD5 do conteúdo), `_carregado_em`, `_atualizado_em` e `_execucao_id`. A carga usa `MERGE` do PostgreSQL 17:
+Cada tabela final tem colunas de controle: `_hash` (MD5 do conteúdo), `_criado_em`, `_modificado_em`, `_modificado_fonte_em` e `_execucao_id` (detalhe em `PLANEJAMENTO_IBGE.md` §7B; a versão anterior de cada linha alterada vai para `etl.historico`). A carga usa `MERGE` do PostgreSQL 17:
 
 | Situação | Ação |
 |---|---|
@@ -79,7 +81,7 @@ A cláusula `WHEN NOT MATCHED BY SOURCE AND <escopo>` é o que garante a exclus�
 | IBGE agregados | `codigo_ibge, variavel, ano` | anos alterados |
 | IBGE localidades/malhas | `codigo_ibge` | recurso inteiro |
 | SICONFI | `cod_ibge, exercicio, periodo, anexo, conta, coluna` | entes/períodos reenviados |
-| INEP | `CO_IES` / `CO_CURSO, CO_MUNICIPIO` | ano do censo |
+| INEP | dimensões: `co_ies`, `(co_ies, co_municipio)`, `co_curso`; fato: `(co_curso, ano)` | dimensões **sem exclusão** (`p_excluir => false`); fato: só o ano do censo carregado, trava de 20% (a rotatividade real chega a ~10% ao ano). Ver `PLANEJAMENTO_IBGE.md` §7D |
 | ANATEL | `ano, mes, codigo_ibge, empresa, tecnologia, velocidade…` | arquivo interno alterado (ano) |
 | ANEEL | SIGA `CodCEG`; P&D `DscCodProjeto`; INDGER `NumCNPJ, CodMunicipioIBGE, DatReferenciaInformada` | recurso (UF=BA) |
 | BNDES | **sem chave natural** (`numero_do_contrato` se repete: 30 linhas → 16 contratos): `_hash + _ocorrencia` | UF=BA |
@@ -108,6 +110,10 @@ hop/
 O Passo 0 pode ficar em Python (executado pelo Hop com a action *Shell*) ou ser reescrito com transforms `HTTP Client` e `JSON Input`. Começar com o Python, que já está testado.
 
 ## 6. Pendências
+
+0. **Versão do Hop:** o `docker-compose.yml` fixa `apache/hop:2.10.0` (Java 17); o plano do INEP decidiu a estável mais recente, 2.20.0 (Java 21). Confirmar que a imagem existe e alinhar a tag.
+0b. ~~INEP: conflito de exclusão~~ **resolvido (24/11)**: `etl.merge_tabela()` ganhou `p_excluir`; não há soft delete (`PLANEJAMENTO_IBGE.md` §7D).
+0c. ~~Tabelas de controle do INEP~~: o funil e as contagens por tabela ficam em `etl.execucao.escopo`.
 
 1. ~~**Teste do MERGE no Postgres**~~: feito em 19/11 com Postgres 17.6 portátil (`pg-portatil/pg.ps1`) e `orquestrador_simulado.py`. Para testar o Hop real em Docker:
    ```

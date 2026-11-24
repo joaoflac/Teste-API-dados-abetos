@@ -2,6 +2,39 @@
 
 Documento vivo. Registrar decisões, achados e pendências aqui. Datas em AAAA-MM-DD.
 
+> **Ver também:** `../PLANEJAMENTO_IBGE.md` (IBGE, tabela-mestre de municípios) e `../orquestracao/PLANO_ORQUESTRACAO_ETL.md` (orquestração comum a todas as fontes). Este documento cobre **só o INEP**: análise, filtros CT&I e simulação. A infraestrutura (compose, SQL, Hop) é a de `orquestracao/`.
+
+## 0. Alinhamento com a orquestração (2026-11-24)
+
+Este plano nasceu em 2026-11-13, antes do modelo do IBGE existir. O IBGE já tem SQL rodando (`orquestracao/sql/01`–`03`, testado em Postgres 17.6). **Vale o que está implementado; os nomes deste plano são mapeados para ele.** Onde o texto abaixo usa o nome da esquerda, ler o da direita:
+
+| Neste plano (rascunho 13/11) | Na orquestração (vigente) |
+|---|---|
+| `controle.fonte_controle` (etag, last_modified, tamanho, status) | `etl.recurso` (catálogo) + `etl.checkpoint.digital` (jsonb com ETag, Last-Modified e tamanho) |
+| `controle.parametro` (ano, `uf`, `modalidade`, `exigir_sede_ba`) | `etl.recurso.parametros` (jsonb) do recurso `inep_censo_superior_<ano>`; `exigir_sede_ba` é lido pela view `inep.v_curso_atual` |
+| `staging.*` | `stg.*` |
+| `territorio.*` (`ies`, `ies_local`, `curso`, `regra_cti`, `cine_classificacao`) | schema `inep.*` |
+| `territorio.municipio` + `codigo_ibge` a preencher | **`ibge.municipio`** já existe (417, `codigo_ibge`). `ies_local` e `curso` fazem FK para ela; o filtro 2 (417 códigos) lê dela |
+| "gerar correspondência `id_municipio` ↔ `codigo_ibge`" (§8) | cruzar o `id_municipio` serial do Supabase com `ibge.municipio` por nome normalizado |
+| `sql/001_*.sql` | `orquestracao/sql/NN_*.sql`; o DDL do INEP é o **`06_inep_modelo.sql`, feito e testado em 24/11** (01 a 03 = base e IBGE, 04 = FKs, 05 = auditoria) |
+| Catálogo, verificação e carga | **feito (24/11)**: `orquestracao/orquestrador_inep.py` registra `etl.recurso` e `meta.*`, sonda o ZIP (ETag, data, tamanho) e o ano seguinte, lê o ZIP em streaming, valida e carrega com `etl.merge_tabela()`; o checkpoint só avança se a carga termina bem. Censos 2021 a 2024 carregados de verdade. Aparece em `meta.v_status_dataset` |
+| Auditoria e origem do dado | cada tabela `inep.*` liga `SELECT audit.ativar('inep.curso', '{co_curso}')` (colunas `_origem`, log em `audit.evento`) e declara FK para `ibge.municipio` no DDL. Ver `PLANEJAMENTO_IBGE.md` §7C |
+| Pasta `automacao-hop-postgres/{docker-compose.yml, sql/, hop/}` (§6.2) | **não criar aqui**: `orquestracao/{docker-compose.yml, sql/, hop/}`. Esta pasta fica só com `analise/` e `simulacao/` do INEP |
+| Colunas de controle `primeira_carga`, `ultimo_ano_visto`, `ativa` | somam-se às de toda tabela: `_hash`, `_criado_em`, `_modificado_em`, `_modificado_fonte_em`, `_execucao_id` (`PLANEJAMENTO_IBGE.md` §7B) |
+| Carga, MERGE e exclusão | `etl.merge_tabela()` e `etl.exclusao`/`etl.historico` (`PLANO_ORQUESTRACAO_ETL.md` §3) |
+
+**Decisão (2026-11-24): não há soft delete.** O desenho híbrido recomendado pelo Opus e confirmado com os censos reais 2021-2024 substituiu o "`ativo = false`" de §9b e §9c. Detalhes e medições em `PLANEJAMENTO_IBGE.md` §7D.
+- **Dimensões que nunca se apagam** (`ies`, `ies_local`, `curso`, `cine_classificacao`): só upsert, via `etl.merge_tabela(..., p_excluir => false)`. Sem coluna `ativo`, `primeira_carga` ou `ultimo_ano_visto` (derivam de `curso_censo`).
+- **Fato por ano** `inep.curso_censo (co_curso, ano)`: vagas, ingressantes, matrículas, concluintes e o **rótulo CINE do ano**. O curso que sai do censo X apenas não tem linha em X. A exclusão (auditada em `etl.exclusao`) fica limitada ao ano carregado e a trava é de 20%.
+- **"Ativo" é derivado** em `inep.v_curso_atual` e `inep.v_campus_com_curso`: censo vigente + `regra_cti.status = 'incluir'` + sede na BA (parâmetro) + não oculto pela curadoria (`curso.oculto_curadoria`, fora do `_hash`). O ano vigente vem da última carga que terminou `ok`, não de `max(ano)`.
+- **Funil, diff e validação:** o funil de cada carga fica em `etl.execucao.escopo->'funil'` (com as contagens por tabela em `->'tabelas'`); não foram criadas `controle.execucao_funil` nem `controle.carga_diff`.
+- **O filtro CT&I deixou de ser da carga:** `curso` guarda o universo das áreas 05 a 09 (935 cursos em 2024) e a regra é aplicada na view, então mudar `regra_cti` vale na hora, sem recarregar.
+- **Medido nos censos reais (BA, presencial, `QT_CURSO = 1`):** `CO_CURSO` é identidade estável (nome, município e grau idênticos entre anos, 100%), mas 33 cursos mudaram de IES entre 2022 e 2023 e 67 mudaram de rótulo CINE entre 2023 e 2024. Saem do censo, por ano: 2,2%, 7,0% e 10,3% (áreas 05-09: 1,7%, 6,9% e 9,0%); 17 códigos somem e voltam. Por isso a trava do `curso_censo` é 20%, não 10%.
+
+**Hop:** este plano decidiu a versão estável mais recente (2.20.0, Java 21), mas `orquestracao/docker-compose.yml` fixa `apache/hop:2.10.0` (Java 17). Divergência registrada; trocar a tag só depois de confirmar que a imagem 2.20.0 existe.
+
+**Ambiente por máquina:** o que está dito aqui como "esta máquina" vale para a máquina em que o INEP foi analisado: sem Python de sistema, sem Docker (falta *Virtual Machine Platform*) e com o zip em `C:\Users\joao.vinicius\dados-inep\2024\`. A outra máquina tem `py -3.12`, o Postgres portátil rodando (`pg-portatil/`) e o orquestrador simulado. O "Caminho B" (§6.2) **já foi feito** nela. Em qualquer máquina: `git pull`, `pg.ps1 instalar` e `pg.ps1 restaurar`.
+
 ## 1. Objetivo
 Automatizar a ingestão de dados oficiais (INEP primeiro) no banco do TERRITÓRIOS SECTI, detectando antes se a origem mudou, para não extrair à toa. Comparar o que já existe no Supabase com o que a fonte traz e apontar faltas (ex.: código IES).
 
@@ -32,7 +65,7 @@ Nota: "não modificado" é **304**, não 204 (204 = sem conteúdo). Exige `If-No
 | SICONFI | ETag + `If-None-Match` | 304 confirmado |
 | ANATEL zip (1 GB) | ETag + `If-Modified-Since` | 304 confirmado; Last-Modified 2026-11-04 |
 | BNDES / ANEEL | CKAN `package_show` → `metadata_modified`, `resources[].last_modified` | sem ETag; BNDES CSV 2026-11-11, ANEEL SIGA 2026-11-01 |
-| IBGE | novo período em `/agregados/{id}/periodos` | sem ETag/Last-Modified; `HEAD` = 405 |
+| IBGE | API: `modificacao` por período em `/agregados/{id}/periodos` (sem ETag; `HEAD` = 405). **FTP do PIB: ETag, Last-Modified e 304** | detalhe em `PLANEJAMENTO_IBGE.md` §3 e §7 |
 | dados.gov.br | — | 401, exige token |
 
 ANEEL: servidor derruba TLS com SNI (já documentado no repo); não contornar sem decisão explícita.
@@ -50,6 +83,8 @@ ANEEL: servidor derruba TLS com SNI (já documentado no repo); não contornar se
 2. Se mudou: baixa → `staging` → relatório de diferenças contra produção.
 3. Upsert em produção só após aprovação (manual no início).
 4. Agendamento fora do Hop: cron / Agendador de Tarefas do Windows chamando `hop-run`.
+
+> Nomes de schema, tabelas de controle e pastas das seções 5 a 9c são do rascunho de 13/11; **usar o mapeamento do §0**.
 
 ### 6.1 Postgres local → VPS (decidido 2026-11-13)
 - O schema é o que migra. Mantê-lo **como código**: scripts SQL numerados e versionados (`sql/001_...sql`, `002_...`), aplicados em ordem, para repetir igual local e na VPS. Nada de alterar tabela só pela interface.
@@ -86,12 +121,13 @@ ANEEL: servidor derruba TLS com SNI (já documentado no repo); não contornar se
 ## 8. Pendências / perguntas em aberto
 - [x] Onde roda o PostgreSQL? **Decidido (2026-11-13):** Postgres novo e local para teste; depois migra para uma VPS, pelo menos o schema completo. Não conecta no Postgres do Supabase.
 - [x] Hop: **Decidido (2026-11-13):** usar a versão estável mais recente. Confirmar o número exato na instalação e registrar aqui.
-- [ ] Onde Postgres e Hop serão instalados localmente (nativo no Windows ou Docker Desktop)? Está instalado algum dos dois?
+- [x] Onde Postgres e Hop serão instalados localmente? **Resolvido (2026-11-19, outra máquina):** Postgres 17.6 portátil em `pg-portatil/`, porta 5433, sem admin. Hop continua sem instalação local (só no `docker-compose.yml`, não executado).
 - [x] Migração para a VPS: **Decidido (2026-11-13):** vai só o schema, sem conteúdo; o Hop carrega os dados na VPS. Usar `pg_dump --schema-only` ou, melhor, os próprios SQL numerados (§6.1).
 - [ ] Docker na VPS: não exige Docker local, mas recomendado rodar o Postgres local em Docker com a **mesma imagem/versão** da VPS (ex.: `postgres:17`), para não haver diferença de versão. Decidir.
 - [ ] Confirmar RLS de escrita da chave pública.
 - [ ] Confirmar `CO_CURSO`: unicidade por município/polo (precisa do zip INEP completo).
-- [ ] Gerar correspondência `id_municipio` ↔ `codigo_ibge`.
+- [ ] Gerar correspondência `id_municipio` (Supabase) ↔ `codigo_ibge`, cruzando com `ibge.municipio` (já carregada; ver §0).
+- [x] Conflito soft delete × exclusão por escopo: **resolvido (2026-11-24)** pelo desenho híbrido (§0). Falta a versão do Hop (§0).
 
 ## 9. Próximos passos
 1. Baixar INEP 2024 (pasta isolada), filtrar BA, cruzar com `lista_cursos_cti` e `lista_ativos_cti` por nome + município → relatório de faltas/divergências.
@@ -306,3 +342,6 @@ flowchart TD
 - 2026-11-13 — Docker Desktop falhou (sem admin, falta "Virtual Machine Platform"); seguimos com Caminho B (user-space) e pedido à TI em paralelo. Hop 2.20.0 exige Java 21.
 - 2026-11-13 — INEP: filtro em duas camadas aprovado; Supabase só leitura; 17 linhas `QT_CURSO = 0` = ABI; decisão: ABI fora do catálogo e dos indicadores CT&I (só `staging` com `eh_abi`).
 - 2026-11-13 — INEP: inspeção do zip por `Range` (§9b): sem código de campus, IES deve vir dos cursos na BA, 156/174 campi já casam por sigla/nome.
+- 2026-11-24 — Reconciliação com o planejamento do IBGE (feito em outra máquina, 2026-11-19): nomes de schema/tabela mapeados para os da orquestração (§0); `ibge.municipio` passa a ser a dimensão de município do INEP; Postgres portátil já existe (Caminho B concluído); conflito soft delete × exclusão por escopo e divergência de versão do Hop deixados em aberto (§0).
+- 2026-11-24 — INEP: UNIVASF permanece (`exigir_sede_ba = false`; view com 552 cursos e 133 campi); o dataset cru do INEP manda (UNIMAM fica em Cruz das Almas; Supabase só referência); rótulos `revisar` ficam fora da view até a SECTI decidir.
+- 2026-11-24 — INEP: soft delete descartado; desenho híbrido (dimensões sem DELETE, fato por ano, "ativo" derivado em view) implementado em `06_inep_modelo.sql` e `orquestrador_inep.py`; censos 2021-2024 carregados; a view reproduz exatamente os 547 cursos e 132 campi da simulação.

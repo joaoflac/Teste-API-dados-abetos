@@ -13,10 +13,13 @@ CREATE SCHEMA IF NOT EXISTS meta;
 -- Linhas iguais: nada. Alteradas: versão anterior -> etl.historico, UPDATE no lugar.
 -- Ausentes na fonte dentro do escopo: DELETE + etl.exclusao. Fora do escopo: intocadas.
 -- =====================================================================================================
+--   p_excluir = false  DIMENSÕES que nunca se apagam (INEP: ies, curso): só INSERT e UPDATE; o ramo DELETE nem existe no MERGE.
+--                      "Ativo" não é gravado: é derivado em view a partir do fato por ano (PLANEJAMENTO_IBGE.md §7D).
 DROP FUNCTION IF EXISTS etl.merge_tabela(bigint, regclass, regclass, text[], text[], text);
+DROP FUNCTION IF EXISTS etl.merge_tabela(bigint, regclass, regclass, text[], text[], text, numeric);
 CREATE OR REPLACE FUNCTION etl.merge_tabela(p_exec bigint, p_destino regclass, p_stg regclass,
                                             p_chaves text[], p_valores text[], p_escopo text DEFAULT 'true',
-                                            p_limite_exclusao_pct numeric DEFAULT 10)
+                                            p_limite_exclusao_pct numeric DEFAULT 10, p_excluir boolean DEFAULT true)
 RETURNS TABLE (inseridos int, atualizados int, excluidos int) LANGUAGE plpgsql AS $$
 DECLARE
     v_on    text := (SELECT string_agg(format('t.%1$I = s.%1$I', c), ' AND ') FROM unnest(p_chaves) c);
@@ -46,11 +49,11 @@ BEGIN
             WHEN NOT MATCHED BY TARGET THEN
                 INSERT (%4$s, _hash, _modificado_fonte_em, _execucao_id)
                 VALUES (%5$s, s._hash_novo, s.modificado_fonte_em, %6$L::bigint)
-            WHEN NOT MATCHED BY SOURCE AND %7$s THEN
-                DELETE
+            %9$s
             RETURNING merge_action() AS acao, %8$s AS chave, to_jsonb(t) AS linha
         ) SELECT * FROM m$m$,
-        p_destino, v_on, v_set, v_cols, v_vals, p_exec, replace(p_escopo, '{a}', 't'), v_chave);
+        p_destino, v_on, v_set, v_cols, v_vals, p_exec, replace(p_escopo, '{a}', 't'), v_chave,
+        CASE WHEN p_excluir THEN format('WHEN NOT MATCHED BY SOURCE AND %s THEN DELETE', replace(p_escopo, '{a}', 't')) ELSE '' END);
 
 
     -- TRAVA: fonte devolveu dados incompletos? Exclusão em massa aborta a carga inteira (rollback).
@@ -248,7 +251,8 @@ FROM etl.recurso r JOIN etl.v_status s ON s.recurso = r.id
 WHERE r.tabela_destino IS NOT NULL;
 
 -- Procedência de qualquer linha: chave -> datas da linha -> execução -> recurso/URL
-CREATE OR REPLACE VIEW meta.v_linha_origem AS
+DROP VIEW IF EXISTS meta.v_linha_origem;   -- 05_auditoria.sql a recria com colunas a mais; assim 03 pode rodar de novo
+CREATE VIEW meta.v_linha_origem AS
 WITH linhas AS (
     SELECT 'ibge.municipio' AS tabela, jsonb_build_object('codigo_ibge', codigo_ibge) AS chave,
            _criado_em, _modificado_em, _modificado_fonte_em, _execucao_id FROM ibge.municipio
