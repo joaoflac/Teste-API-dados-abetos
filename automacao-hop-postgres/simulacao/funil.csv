@@ -1,0 +1,12 @@
+﻿etapa;linhas
+0 linhas no arquivo (Brasil);720349
+0 ano = parametro;720349
+1 CO_UF = 29;40715
+2 municipio em 417;40715
+  (EAD descartado);38864
+3 presencial;1851
+  (ABI: QT_CURSO = 0, vai para staging.inep_abi);17
+4 QT_CURSO = 1;1834
+5 rotulo em regra_cti = incluir;552
+  (rotulo revisar -> pendencias);10
+6 IES com sede na BA;547

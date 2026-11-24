@@ -1,0 +1,7 @@
+﻿gate;resultado;detalhe
+co_ies nao nulo;OK;0 nulos
+todo co_ies existe em staging.inep_ies;OK;0 ausentes
+co_curso unico (presenciais);OK;0 duplicados
+municipio em 417 (100%);OK;0 fora
+faixa de linhas vs ano anterior;NAO_AVALIADO;sem carga anterior (1a carga)
+rotulos novos nas areas 05-09 sem regra;OK;0 cursos

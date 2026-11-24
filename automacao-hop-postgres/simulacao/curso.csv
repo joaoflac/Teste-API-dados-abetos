@@ -1,0 +1,548 @@
+﻿co_curso;co_ies;co_municipio;no_municipio;no_curso;co_cine_rotulo;no_cine_rotulo;co_cine_area_geral;tipo_curso (no_cine_area_geral);nivel_cti;tp_grau_academico;grau_academico;tp_rede;rede;tp_categoria_administrativa;qt_vg_total;qt_ing;qt_mat;qt_conc;nu_ano_censo;ativo
+399026;18506;2903201;Barreiras;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;30;21;67;10;2024;true
+100421;4503;2909802;Cruz das Almas;Biologia;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;86;47;190;29;2024;true
+21114;666;2910800;Feira de Santana;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;50;50;176;20;2024;true
+45498;24;2913606;Ilhéus;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;47;33;126;13;2024;true
+150053;688;2916401;Itapetinga;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;49;20;59;8;2024;true
+38881;688;2918001;Jequié;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;42;22;93;12;2024;true
+1300221;1883;2919207;Lauro de Freitas;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;2;1;2024;true
+1438415;18812;2925303;Porto Seguro;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;78;30;86;2;2024;true
+313283;578;2927408;Salvador;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;0;0;27;26;2024;true
+1111485;1185;2927408;Salvador;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;130;1;12;12;2024;true
+1205023;519;2927408;Salvador;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;240;122;172;19;2024;true
+1615797;40;2930105;Senhor do Bonfim;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;30;19;19;0;2024;true
+118024;578;2933307;Vitória da Conquista;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;47;34;114;18;2024;true
+150052;688;2933307;Vitória da Conquista;Ciências Biológicas;0511B01;Biologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;51;33;129;15;2024;true
+117151;578;2927408;Salvador;Biotecnologia;0512B02;Biotecnologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;90;60;191;30;2024;true
+118018;578;2933307;Vitória da Conquista;Biotecnologia;0512B02;Biotecnologia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;45;30;130;20;2024;true
+399040;18506;2903201;Barreiras;Química;0531Q01;Química;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;36;13;49;0;2024;true
+150310;24;2913606;Ilhéus;Química;0531Q01;Química;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;53;27;93;8;2024;true
+91749;688;2918001;Jequié;Química;0531Q01;Química;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;44;13;60;9;2024;true
+313278;578;2927408;Salvador;Química;0531Q01;Química;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;0;0;15;15;2024;true
+1146603;688;2916401;Itapetinga;Química;0531Q02;Química industrial e tecnológica;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;52;10;35;2;2024;true
+13321;578;2927408;Salvador;Geofisica;0532G01;Geofísica;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;40;22;65;6;2024;true
+1438414;18812;2925303;Porto Seguro;Oceanologia;0532O01;Oceanografia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;60;19;51;0;2024;true
+67811;578;2927408;Salvador;Oceanografia;0532O01;Oceanografia;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;52;28;97;6;2024;true
+418044;18506;2903201;Barreiras;Física;0533F01;Física;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;30;3;24;7;2024;true
+1434587;4503;2909802;Cruz das Almas;Física;0533F01;Física;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;11;0;4;0;2024;true
+21115;666;2910800;Feira de Santana;Física;0533F01;Física;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;68;29;70;1;2024;true
+20236;24;2913606;Ilhéus;Física;0533F01;Física;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;67;28;55;3;2024;true
+313273;578;2927408;Salvador;Física;0533F01;Física;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;2;2;12;10;2024;true
+118046;18506;2903201;Barreiras;Matemática;0541M01;Matemática;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;36;10;18;1;2024;true
+1258973;4503;2909802;Cruz das Almas;Matemática;0541M01;Matemática;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;55;0;5;3;2024;true
+20235;24;2913606;Ilhéus;Matemática;0541M01;Matemática;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;53;27;54;6;2024;true
+313276;578;2927408;Salvador;Matemática;0541M01;Matemática;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;0;0;4;3;2024;true
+13281;578;2927408;Salvador;Estatística;0542E01;Estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;74;57;140;10;2024;true
+118038;18506;2903201;Barreiras;Interdisciplinar Em Ciência E Tecnologia;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;80;47;88;11;2024;true
+5001451;578;2905701;Camaçari;Interdisciplinar Em Ciência, Tecnologia E Inovação;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;103;62;184;20;2024;true
+112848;4503;2909802;Cruz das Almas;Ciências Exatas E Tecnológicas - Bi/Li;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;310;189;673;73;2024;true
+1526340;4503;2909802;Cruz das Almas;Interdisciplinar Em Ciências Ambientais;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;94;30;82;7;2024;true
+1272132;4503;2910800;Feira de Santana;Interdisciplinar Em Energia E Sustentabilidade;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;300;147;392;15;2024;true
+1276439;18812;2914802;Itabuna;Interdisciplinar Em Ciências;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;252;28;127;5;2024;true
+1293069;18812;2925303;Porto Seguro;Interdisciplinar Em Ciências;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;100;25;85;8;2024;true
+1110910;578;2927408;Salvador;Interdisciplinar Em Ciência E Tecnologia;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;313;287;836;124;2024;true
+1293071;18812;2931350;Teixeira de Freitas;Interdisciplinar Em Ciências;0588P01;Programas interdisciplinares abrangendo ciências naturais, matemática e estatística;05;Ciências naturais, matemática e estatística;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;136;32;94;4;2024;true
+1602876;385;2927408;Salvador;Banco De Dados;0612B01;Banco de dados;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;0;0;2024;true
+1503831;14509;2903904;Bom Jesus da Lapa;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;40;27;97;8;2024;true
+1257511;4531;2904902;Cachoeira;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;5;146;65;155;40;2024;true
+1635543;385;2910800;Feira de Santana;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;2;2;0;0;2024;true
+1105981;2023;2911709;Guanambi;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;2;2;2024;true
+1634319;1640;2923803;Paripiranga;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;4;0;2024;true
+1602877;385;2927408;Salvador;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;12;12;14;0;2024;true
+1602878;385;2927408;Salvador;Gestão Da Tecnologia Da Informação;0612G01;Gestão da tecnologia da informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;22;22;25;5;2024;true
+59619;1643;2910800;Feira de Santana;Redes De Computadores;0612R01;Redes de computadores;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;5;50;0;0;0;2024;true
+88574;385;2927408;Salvador;Redes De Computadores;0612R01;Redes de computadores;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;0;0;2024;true
+97057;1058;2927408;Salvador;Redes De Computadores;0612R01;Redes de computadores;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;824;0;12;7;2024;true
+109798;2076;2927408;Salvador;Redes De Computadores;0612R01;Redes de computadores;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;40;0;0;0;2024;true
+1349415;14996;2927408;Salvador;Redes De Computadores;0612R01;Redes de computadores;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;20;0;0;0;2024;true
+1452931;599;2928703;Santo Antônio de Jesus;Redes De Computadores;0612R01;Redes de computadores;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;77;53;128;2;2024;true
+1442492;599;2905701;Camaçari;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;0;0;56;1;2024;true
+1635637;385;2910800;Feira de Santana;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;24;24;34;0;2024;true
+1602873;2023;2911709;Guanambi;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;21;21;25;0;2024;true
+20239;24;2913606;Ilhéus;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;92;71;283;26;2024;true
+1569016;1640;2923803;Paripiranga;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;15;15;30;2;2024;true
+13277;578;2927408;Salvador;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;90;83;413;34;2024;true
+18267;396;2927408;Salvador;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;276;44;143;8;2024;true
+20030;385;2927408;Salvador;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;122;122;305;54;2024;true
+1422296;1185;2927408;Salvador;Ciências Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;285;235;502;20;2024;true
+1635536;385;2927408;Salvador;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;8;8;13;0;2024;true
+73519;2437;2931350;Teixeira de Freitas;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;2;1;2024;true
+19042;688;2933307;Vitória da Conquista;Ciência Da Computação;0613C01;Ciência da computação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;62;49;223;19;2024;true
+18671;40;2900702;Alagoinhas;Engenharia De Software;0613E01;Engenharia de software;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;40;27;119;21;2024;true
+1669101;1718;2910800;Feira de Santana;Engenharia De Software;0613E01;Engenharia de software;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;220;39;36;0;2024;true
+1322567;519;2927408;Salvador;Engenharia De Software;0613E01;Engenharia de software;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;670;594;758;16;2024;true
+1438207;2076;2927408;Salvador;Engenharia De Software;0613E01;Engenharia de software;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;0;0;2024;true
+1606661;385;2927408;Salvador;Engenharia De Software;0613E01;Engenharia de software;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;85;85;124;0;2024;true
+1103723;1455;2900702;Alagoinhas;Sistema De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;145;55;118;3;2024;true
+1332852;3285;2900702;Alagoinhas;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;50;11;18;6;2024;true
+1548932;1227;2903201;Barreiras;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;5;88;36;90;27;2024;true
+1573117;2753;2906873;Capim Grosso;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;30;5;12;0;2024;true
+1103633;14509;2907509;Catu;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;51;25;80;2;2024;true
+1122749;599;2910727;Eunápolis;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;50;34;74;5;2024;true
+53331;1053;2910800;Feira de Santana;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;186;67;173;10;2024;true
+97443;385;2910800;Feira de Santana;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;9;9;34;7;2024;true
+1379275;599;2910800;Feira de Santana;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;80;0;80;2;2024;true
+1596557;1718;2910800;Feira de Santana;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;230;92;167;24;2024;true
+1635567;385;2910800;Feira de Santana;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;18;18;21;0;2024;true
+1163800;14509;2911709;Guanambi;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;40;40;125;11;2024;true
+1489887;2023;2911709;Guanambi;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;45;45;80;12;2024;true
+1315430;599;2914604;Irecê;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;60;52;191;8;2024;true
+57612;1642;2914802;Itabuna;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;185;87;186;10;2024;true
+1562736;14509;2916401;Itapetinga;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;55;40;88;0;2024;true
+97778;688;2918001;Jequié;Sistema De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;52;32;108;6;2024;true
+54934;1883;2919207;Lauro de Freitas;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;70;60;87;11;2024;true
+1203177;1640;2923803;Paripiranga;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;12;12;26;6;2024;true
+1569010;1640;2923803;Paripiranga;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;9;9;22;4;2024;true
+73140;2222;2924009;Paulo Afonso;Sistema De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;130;104;201;11;2024;true
+10515;519;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;0;0;4;3;2024;true
+46287;1639;2927408;Salvador;Sistema De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;7;0;0;0;2024;true
+48675;1058;2927408;Salvador;Sistema De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1360;24;50;8;2024;true
+51020;396;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;0;0;2024;true
+56172;385;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;44;44;94;24;2024;true
+103062;40;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;50;36;119;17;2024;true
+109796;2076;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;40;0;2;2;2024;true
+116590;599;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;98;86;251;13;2024;true
+1118107;396;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;234;65;131;22;2024;true
+1132918;578;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;50;49;202;13;2024;true
+1158385;1363;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;5;239;64;205;36;2024;true
+1166239;519;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;5;420;331;329;25;2024;true
+1258557;1055;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;433;53;102;8;2024;true
+1330095;1058;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;512;65;141;31;2024;true
+1404804;385;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;17;17;61;22;2024;true
+1427745;385;2927408;Salvador;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;4;4;34;24;2024;true
+1602881;385;2927408;Salvador;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;106;106;170;27;2024;true
+1164214;2067;2928703;Santo Antônio de Jesus;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;189;11;48;7;2024;true
+1452928;599;2928703;Santo Antônio de Jesus;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;72;71;170;3;2024;true
+1456952;599;2932903;Valença;Análise E Desenvolvimento De Sistemas;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;70;32;83;6;2024;true
+53333;1364;2933307;Vitória da Conquista;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;175;110;245;12;2024;true
+1118057;599;2933307;Vitória da Conquista;Sistemas De Informação;0613S01;Sistemas de informação;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;90;71;397;11;2024;true
+1675898;2474;2909802;Cruz das Almas;Sistemas Para Internet;0613S02;Sistemas para internet;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;101;18;18;0;2024;true
+88576;385;2927408;Salvador;Sistemas Para Internet;0613S02;Sistemas para internet;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;2;0;2024;true
+1457608;599;2919207;Lauro de Freitas;Jogos Digitais;0681J01;Jogos digitais;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;100;61;125;1;2024;true
+1484009;1185;2927408;Salvador;Jogos Digitais;0681J01;Jogos digitais;06;Computação e Tecnologias da Informação e Comunicação (TIC);CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;125;0;1;1;2024;true
+1268537;40;2918407;Juazeiro;Engenharia De Bioprocessos E Biotecnologia;0711E02;Engenharia de bioprocessos;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;35;21;83;11;2024;true
+1276410;18506;2919553;Luís Eduardo Magalhães;Engenharia De Biotecnologia;0711E03;Engenharia de biotecnologia;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;67;20;52;5;2024;true
+1279508;2560;2910800;Feira de Santana;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;260;10;57;11;2024;true
+150317;24;2913606;Ilhéus;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;67;43;140;24;2024;true
+1322107;1883;2919207;Lauro de Freitas;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;6;2;2024;true
+13271;578;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;111;90;393;50;2024;true
+20036;385;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;45;45;157;50;2024;true
+110289;2076;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;2;1;2024;true
+116594;599;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;75;64;239;11;2024;true
+1140253;1185;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;110;1;15;11;2024;true
+1172259;396;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;0;5;2;2024;true
+1205599;3962;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;80;21;100;19;2024;true
+1258418;396;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;0;9;3;2024;true
+1277130;519;2927408;Salvador;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;180;50;89;11;2024;true
+1300034;2437;2931350;Teixeira de Freitas;Engenharia Química;0711E05;Engenharia química;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;3;3;2024;true
+50957;1170;2905701;Camaçari;Engenharia Ambiental;0712E01;Engenharia ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;12;0;1;1;2024;true
+57691;1642;2914802;Itabuna;Engenharia Ambiental;0712E01;Engenharia ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;0;0;2024;true
+1445881;18812;2914802;Itabuna;Engenharia Ambiental E Da Sustentabilidade;0712E01;Engenharia ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;105;41;91;0;2024;true
+83326;688;2916401;Itapetinga;Engenharia Ambiental;0712E01;Engenharia ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;60;12;70;11;2024;true
+1260065;2581;2927408;Salvador;Engenharia Ambiental;0712E01;Engenharia ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;50;0;3;0;2024;true
+1118053;599;2933307;Vitória da Conquista;Engenharia Ambiental;0712E01;Engenharia ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;90;56;211;11;2024;true
+1268598;40;2900702;Alagoinhas;Engenharia Sanitária E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;40;36;138;8;2024;true
+99024;18506;2903201;Barreiras;Engenharia Sanitaria E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;60;29;88;6;2024;true
+100427;4503;2909802;Cruz das Almas;Engenharia Sanitária E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;130;59;193;17;2024;true
+1514636;18812;2914802;Itabuna;Engenharia Sanitaria E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;125;26;61;0;2024;true
+1551535;18812;2925303;Porto Seguro;Engenharia Sanitaria E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;117;22;48;1;2024;true
+13272;578;2927408;Salvador;Engenharia Sanitaria E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;60;56;191;16;2024;true
+94543;396;2927408;Salvador;Engenharia Ambiental E Sanitária;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1288;0;4;3;2024;true
+110566;2076;2927408;Salvador;Engenharia Ambiental E Sanitária;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;2;1;2024;true
+115304;385;2927408;Salvador;Engenharia Ambiental E Sanitária;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;4;4;2024;true
+118850;1185;2927408;Salvador;Engenharia Ambiental E Sanitária;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;50;18;68;16;2024;true
+1349795;396;2927408;Salvador;Engenharia Ambiental E Sanitária;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;1;6;2;2024;true
+1268596;40;2933604;Xique-Xique;Engenharia Sanitária E Ambiental;0712E02;Engenharia ambiental e sanitária;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;40;14;81;23;2024;true
+1609822;4503;2909802;Cruz das Almas;Gestão Ambiental;0712G01;Gestão ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;3;1;1;1;2024;true
+97887;385;2927408;Salvador;Gestão Ambiental;0712G01;Gestão ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;1;0;2024;true
+1550758;18812;2931350;Teixeira de Freitas;Gestão Ambiental;0712G01;Gestão ambiental;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;103;24;42;0;2024;true
+1387538;4503;2910800;Feira de Santana;Engenharia De Energias;0713E04;Engenharia de energia;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;53;3;24;9;2024;true
+1481744;599;2919207;Lauro de Freitas;Engenharia De Energia;0713E04;Engenharia de energia;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;100;78;165;0;2024;true
+1300494;12922;2900702;Alagoinhas;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;100;9;39;6;2024;true
+1276407;18506;2903904;Bom Jesus da Lapa;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;67;18;111;18;2024;true
+1327498;4503;2909802;Cruz das Almas;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;35;0;41;9;2024;true
+1059289;385;2910800;Feira de Santana;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;8;8;32;11;2024;true
+1279506;2560;2910800;Feira de Santana;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;300;16;73;9;2024;true
+1350397;4959;2910800;Feira de Santana;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;9;7;2024;true
+5000197;1718;2910800;Feira de Santana;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;255;0;2;2;2024;true
+1304987;2023;2911709;Guanambi;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;10;10;27;4;2024;true
+150315;24;2913606;Ilhéus;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;60;44;141;5;2024;true
+1330714;3268;2913606;Ilhéus;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;127;18;43;2;2024;true
+1259257;2944;2914802;Itabuna;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;2;2;2024;true
+1502292;19408;2917508;Jacobina;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;6;6;7;0;2024;true
+1404729;19260;2918001;Jequié;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;4;2;2024;true
+119058;1883;2919207;Lauro de Freitas;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;79;16;94;24;2024;true
+1161407;599;2924009;Paulo Afonso;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;80;3;191;9;2024;true
+13269;578;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;109;93;392;23;2024;true
+18913;599;2927408;Salvador;Engenharia Industrial Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;76;65;274;10;2024;true
+36133;396;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;0;16;8;2024;true
+101466;1058;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;2409;24;82;20;2024;true
+105862;385;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;120;27;134;69;2024;true
+110556;1411;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;13;5;19;0;2024;true
+120394;1185;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;140;76;208;44;2024;true
+1148237;3962;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;80;42;150;20;2024;true
+1169330;1639;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;10;0;8;0;2024;true
+1258114;396;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;16;80;25;2024;true
+1259246;3034;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;41;26;2024;true
+1427435;2076;2927408;Salvador;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;1;0;2024;true
+1349977;21553;2928703;Santo Antônio de Jesus;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;2;1;2024;true
+1351333;2067;2928703;Santo Antônio de Jesus;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;199;1;1;0;2024;true
+1501434;18708;2930105;Senhor do Bonfim;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;5;5;4;0;2024;true
+1193189;2437;2931350;Teixeira de Freitas;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;6;5;2024;true
+100806;599;2933307;Vitória da Conquista;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;110;69;353;38;2024;true
+116716;1758;2933307;Vitória da Conquista;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;175;8;46;10;2024;true
+1259162;1318;2933307;Vitória da Conquista;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;470;0;0;0;2024;true
+1404758;18625;2933307;Vitória da Conquista;Engenharia Elétrica;0713E05;Engenharia elétrica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;17;6;16;11;2024;true
+1205729;4503;2909802;Cruz das Almas;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;30;0;19;5;2024;true
+64710;666;2910800;Feira de Santana;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;130;128;476;28;2024;true
+1405982;385;2910800;Feira de Santana;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;17;17;74;17;2024;true
+1596558;1718;2910800;Feira de Santana;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;240;26;110;0;2024;true
+1322106;1883;2919207;Lauro de Freitas;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;1;0;2024;true
+55173;396;2927408;Salvador;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;644;0;8;4;2024;true
+92119;385;2927408;Salvador;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;42;42;166;55;2024;true
+117082;578;2927408;Salvador;Engenharia Da Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;75;75;249;2;2024;true
+1284869;3962;2927408;Salvador;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;127;114;384;22;2024;true
+1349796;396;2927408;Salvador;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;27;83;11;2024;true
+1377528;1185;2927408;Salvador;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;110;58;187;13;2024;true
+1427438;2076;2927408;Salvador;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;0;0;2024;true
+48040;1758;2933307;Vitória da Conquista;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;170;49;143;11;2024;true
+1280482;1318;2933307;Vitória da Conquista;Engenharia De Computação;0714E04;Engenharia de computação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;471;0;9;0;2024;true
+50958;1170;2905701;Camaçari;Engenharia De Controle E Automação;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;30;0;8;6;2024;true
+94559;396;2927408;Salvador;Engenharia De Controle E Automação;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1288;0;11;7;2024;true
+117088;578;2927408;Salvador;Engenharia De Controle E Automação De Processos;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;64;56;187;7;2024;true
+1151355;3962;2927408;Salvador;Engenharia De Controle E Automação;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;80;25;97;19;2024;true
+1258415;396;2927408;Salvador;Engenharia De Controle E Automação;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;607;4;20;6;2024;true
+1602874;385;2927408;Salvador;Engenharia De Controle E Automação;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;14;14;16;0;2024;true
+5000309;1790;2931350;Teixeira de Freitas;Engenharia De Controle E Automação;0714E05;Engenharia de controle e automação;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;50;0;8;7;2024;true
+50974;3609;2919207;Lauro de Freitas;Engenharia De Telecomunicações;0714E07;Engenharia de telecomunicações;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;2;1;2;0;2024;true
+1258823;385;2910800;Feira de Santana;Engenharia Mecatrônica;0714E09;Engenharia mecatrônica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;7;5;2024;true
+92121;385;2927408;Salvador;Engenharia Mecatrônica;0714E09;Engenharia mecatrônica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1;1;35;20;2024;true
+1057561;12922;2900702;Alagoinhas;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;100;22;69;15;2024;true
+1204027;3864;2900702;Alagoinhas;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;2;9;7;2024;true
+1276409;18506;2903904;Bom Jesus da Lapa;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;67;23;107;10;2024;true
+1173700;4503;2909802;Cruz das Almas;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;20;0;43;10;2024;true
+1059015;385;2910800;Feira de Santana;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;13;13;52;21;2024;true
+1279507;2560;2910800;Feira de Santana;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;200;37;102;14;2024;true
+1330534;4959;2910800;Feira de Santana;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;6;4;2024;true
+5000199;1718;2910800;Feira de Santana;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;240;0;2;2;2024;true
+1305305;2023;2911709;Guanambi;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;4;4;17;4;2024;true
+150316;24;2913606;Ilhéus;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;88;42;157;15;2024;true
+1259258;2944;2914802;Itabuna;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;9;5;2024;true
+1286733;19260;2918001;Jequié;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;7;3;2024;true
+1455303;599;2918001;Jequié;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;80;52;167;17;2024;true
+1178530;1883;2919207;Lauro de Freitas;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;68;51;160;33;2024;true
+13270;578;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;117;100;395;47;2024;true
+18914;599;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;75;67;243;12;2024;true
+20032;385;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;40;212;93;2024;true
+109682;1058;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;2400;32;93;23;2024;true
+1050764;3962;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;130;64;315;47;2024;true
+1113471;1185;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;241;82;200;34;2024;true
+1172325;396;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;1;10;6;2024;true
+1204151;2076;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;1;8;2;2024;true
+1258417;396;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;13;52;13;2024;true
+1259247;3034;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;56;23;2024;true
+1277134;519;2927408;Salvador;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;180;41;68;10;2024;true
+1349776;2067;2928703;Santo Antônio de Jesus;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;200;0;1;0;2024;true
+1379306;599;2930709;Simões Filho;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;50;36;143;4;2024;true
+1069346;2437;2931350;Teixeira de Freitas;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;36;34;41;3;2024;true
+1262741;18625;2933307;Vitória da Conquista;Engenharia Mecânica;0715E02;Engenharia mecânica;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;19;80;9;2024;true
+1377510;599;2914604;Irecê;Manutenção Industrial;0715M01;Manutenção industrial;07;Engenharia, produção e construção;CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;90;31;90;2;2024;true
+1070727;396;2927408;Salvador;Manutenção Industrial;0715M01;Manutenção industrial;07;Engenharia, produção e construção;CT&I núcleo (STEM);3;Tecnológico;2;Privada;4;0;0;0;0;2024;true
+1179984;3962;2927408;Salvador;Engenharia Automotiva;0716E03;Engenharia automotiva;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;0;0;24;10;2024;true
+1406520;4503;2910800;Feira de Santana;Alimentos;0721A01;Alimentos;07;Engenharia, produção e construção;CT&I núcleo (STEM);3;Tecnológico;1;Pública;1;40;25;94;10;2024;true
+1187944;599;2903201;Barreiras;Engenharia De Alimentos;0721E01;Engenharia de alimentos;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;30;14;58;2;2024;true
+21111;666;2910800;Feira de Santana;Engenharia De Alimentos;0721E01;Engenharia de alimentos;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;100;72;246;26;2024;true
+20275;688;2916401;Itapetinga;Engenharia De Alimentos;0721E01;Engenharia de alimentos;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;74;17;61;7;2024;true
+1419968;14509;2932705;Uruçuca;Engenharia De Alimentos;0721E01;Engenharia de alimentos;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;50;15;90;14;2024;true
+1385725;4503;2910800;Feira de Santana;Engenharia De Materiais;0722E01;Engenharia de materiais;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;37;0;4;2;2024;true
+1150610;3962;2927408;Salvador;Engenharia De Materiais;0722E01;Engenharia de materiais;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;0;0;4;1;2024;true
+1442732;599;2904605;Brumado;Engenharia De Minas;0724E01;Engenharia de minas;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;52;29;71;0;2024;true
+1455056;40;2905206;Caetité;Engenharia De Minas;0724E01;Engenharia de minas;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;25;0;86;0;2024;true
+1501446;18708;2930105;Senhor do Bonfim;Engenharia De Minas;0724E01;Engenharia de minas;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;4;4;16;0;2024;true
+1138830;3864;2900702;Alagoinhas;Engenharia De Petróleo;0724E02;Engenharia de petróleo;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;0;0;2024;true
+86751;578;2927408;Salvador;Engenharia De Minas;0724E02;Engenharia de petróleo;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;44;27;136;10;2024;true
+115296;1185;2927408;Salvador;Engenharia De Petróleo E Gás;0724E02;Engenharia de petróleo;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;80;0;0;0;2024;true
+1258708;385;2927408;Salvador;Engenharia De Petróleo;0724E02;Engenharia de petróleo;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;0;0;2024;true
+1263714;16459;2927408;Salvador;Engenharia De Petróleo E Gás;0724E02;Engenharia de petróleo;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;30;1;0;0;2024;true
+1661371;578;2927408;Salvador;Engenharia De Petróleo;0724E02;Engenharia de petróleo;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;24;21;13;0;2024;true
+106990;1790;2931350;Teixeira de Freitas;Petróleo E Gás;0724P01;Petróleo e gás;07;Engenharia, produção e construção;CT&I núcleo (STEM);3;Tecnológico;2;Privada;5;1;1;1;1;2024;true
+107050;1455;2900702;Alagoinhas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;145;53;125;1;2024;true
+1204026;3864;2900702;Alagoinhas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;0;1;1;2024;true
+1300495;12922;2900702;Alagoinhas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;100;14;33;2;2024;true
+1332925;3285;2900702;Alagoinhas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;35;1;14;6;2024;true
+1299427;2444;2903201;Barreiras;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;120;0;0;0;2024;true
+50956;1170;2905701;Camaçari;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;55;28;87;17;2024;true
+1609705;578;2905701;Camaçari;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;105;70;88;2;2024;true
+1204126;2753;2906873;Capim Grosso;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;0;0;2024;true
+1263046;18636;2908408;Conceição do Coité;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;1;1;2024;true
+51148;1893;2910800;Feira de Santana;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;1;1;0;2024;true
+118356;4959;2910800;Feira de Santana;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;62;6;7;2;2024;true
+1058892;385;2910800;Feira de Santana;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;9;9;21;9;2024;true
+1152643;1643;2910800;Feira de Santana;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;50;0;0;0;2024;true
+1330448;2560;2910800;Feira de Santana;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;32;14;2024;true
+1385726;4503;2910800;Feira de Santana;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;36;1;19;4;2024;true
+1304992;2023;2911709;Guanambi;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;1;0;2024;true
+82693;24;2913606;Ilhéus;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;96;63;255;25;2024;true
+1516691;40;2913903;Ipiaú;Engenharia Agroindustrial;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;40;6;30;0;2024;true
+1178529;2944;2914802;Itabuna;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;1;1;2024;true
+19737;3609;2919207;Lauro de Freitas;Engenharia De Produção Mecânica;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;7;1;12;11;2024;true
+1178531;1883;2919207;Lauro de Freitas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;60;2;25;18;2024;true
+91091;3921;2919553;Luís Eduardo Magalhães;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;110;0;10;4;2024;true
+1276411;18506;2919553;Luís Eduardo Magalhães;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;67;21;66;9;2024;true
+19496;40;2927408;Salvador;Engenharia De Produção Civil;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;50;28;120;8;2024;true
+49075;396;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1288;0;10;5;2024;true
+49081;1185;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;145;48;139;21;2024;true
+72995;385;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;40;116;53;2024;true
+117042;578;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;60;53;207;28;2024;true
+117537;2076;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;3;5;1;2024;true
+1150898;3962;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;80;31;163;39;2024;true
+1177416;1639;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;10;0;9;0;2024;true
+1193643;396;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;12;40;9;2024;true
+1204239;3034;2927408;Salvador;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;15;13;2024;true
+1332646;2067;2928703;Santo Antônio de Jesus;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;200;0;3;2;2024;true
+105903;1790;2931350;Teixeira de Freitas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;0;0;0;0;2024;true
+1069345;2437;2931350;Teixeira de Freitas;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;0;0;2024;true
+1204204;10058;2932903;Valença;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;304;6;6;0;2024;true
+1104882;1758;2933307;Vitória da Conquista;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;5;1;22;13;2024;true
+1262742;18625;2933307;Vitória da Conquista;Engenharia De Produção;0725E02;Engenharia de produção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;4;3;2024;true
+1183621;3864;2900702;Alagoinhas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;1;8;5;2024;true
+1300493;12922;2900702;Alagoinhas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;100;10;45;7;2024;true
+118051;18506;2903201;Barreiras;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;67;56;204;27;2024;true
+1299433;2444;2903201;Barreiras;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;30;5;30;16;2024;true
+1263044;18636;2908408;Conceição do Coité;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;100;1;45;7;2024;true
+1173916;4503;2909802;Cruz das Almas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;40;2;65;21;2024;true
+1185991;2474;2909802;Cruz das Almas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;109;3;35;7;2024;true
+1267596;599;2910727;Eunápolis;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;55;23;85;20;2024;true
+15404;666;2910800;Feira de Santana;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;105;102;435;50;2024;true
+87276;1053;2910800;Feira de Santana;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;12;4;94;30;2024;true
+1058179;385;2910800;Feira de Santana;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;23;23;72;32;2024;true
+1261159;2560;2910800;Feira de Santana;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;300;62;147;18;2024;true
+1330530;4959;2910800;Feira de Santana;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;62;9;22;14;2024;true
+1388229;1718;2910800;Feira de Santana;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;200;0;2;0;2024;true
+1111448;2023;2911709;Guanambi;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;26;26;69;15;2024;true
+150314;24;2913606;Ilhéus;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;2;70;46;162;9;2024;true
+1285218;2771;2913606;Ilhéus;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;186;44;161;19;2024;true
+1322668;15504;2914604;Irecê;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;115;26;87;13;2024;true
+74026;1642;2914802;Itabuna;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;190;25;148;30;2024;true
+1178528;2944;2914802;Itabuna;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;61;11;22;14;2024;true
+1292293;19408;2917508;Jacobina;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;4;4;45;11;2024;true
+1177121;1645;2918001;Jequié;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;218;4;115;22;2024;true
+1286734;19260;2918001;Jequié;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;50;47;81;20;2024;true
+1322141;3365;2918407;Juazeiro;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;80;0;33;14;2024;true
+1434213;15667;2918407;Juazeiro;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;20;0;1;0;2024;true
+1178532;1883;2919207;Lauro de Freitas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;73;65;202;39;2024;true
+1160490;1640;2923803;Paripiranga;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;5;5;51;10;2024;true
+1333855;18059;2925808;Queimadas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;20;0;2024;true
+10506;519;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;480;107;224;26;2024;true
+13267;578;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;207;156;715;80;2024;true
+20033;385;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;69;69;254;86;2024;true
+109678;1058;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;2413;46;96;23;2024;true
+1070777;396;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;880;0;23;7;2024;true
+1113477;1185;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;310;112;265;47;2024;true
+1161936;1055;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;240;0;3;3;2024;true
+1169327;1639;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;10;0;9;0;2024;true
+1190571;2470;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;100;0;1;0;2024;true
+1193184;3962;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;80;36;153;17;2024;true
+1258277;2076;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;40;1;3;1;2024;true
+1258413;396;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1140;7;7;0;2024;true
+1259245;3034;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;1;1;66;43;2024;true
+1305141;2581;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;50;0;4;0;2024;true
+1350771;14996;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;20;0;4;3;2024;true
+1364719;1394;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;20;0;3;0;2024;true
+1500119;2402;2927408;Salvador;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;0;0;86;23;2024;true
+1205861;2067;2928703;Santo Antônio de Jesus;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;198;2;24;9;2024;true
+1263709;18708;2930105;Senhor do Bonfim;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;16;16;57;27;2024;true
+1304716;16654;2930501;Serrinha;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;20;1;1;0;2024;true
+1069344;2437;2931350;Teixeira de Freitas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;35;35;71;12;2024;true
+1112377;1790;2931350;Teixeira de Freitas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;0;0;7;6;2024;true
+1555994;18812;2931350;Teixeira de Freitas;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;93;34;68;0;2024;true
+1172361;2568;2932903;Valença;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;5;265;16;54;15;2024;true
+1204205;10058;2932903;Valença;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;304;6;6;0;2024;true
+80107;1364;2933307;Vitória da Conquista;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;352;22;171;35;2024;true
+1188617;1758;2933307;Vitória da Conquista;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;170;21;78;13;2024;true
+1262740;18625;2933307;Vitória da Conquista;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;63;63;163;27;2024;true
+1264622;599;2933307;Vitória da Conquista;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;50;36;183;13;2024;true
+1322855;1318;2933307;Vitória da Conquista;Engenharia Civil;0732E01;Engenharia civil;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;2;Privada;4;471;0;0;0;2024;true
+1516531;18812;2914802;Itabuna;Engenharia De Transportes E Logística;0732E03;Engenharia de transportes;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;108;27;56;0;2024;true
+1404511;4503;2910800;Feira de Santana;Engenharia De Tecnologia Assistiva E Acessibilidade;0788P01;Programas interdisciplinares abrangendo engenharia, produção e construção;07;Engenharia, produção e construção;CT&I núcleo (STEM);1;Bacharelado;1;Pública;1;32;0;7;3;2024;true
+1299915;4503;2901007;Amargosa;Agroecologia;0811A01;Agroecologia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;1;Pública;1;0;0;0;0;2024;true
+122140;4503;2909802;Cruz das Almas;Agroecologia;0811A01;Agroecologia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;1;Pública;1;76;21;79;15;2024;true
+5001081;14509;2932705;Uruçuca;Agroecologia;0811A01;Agroecologia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;1;Pública;1;50;10;40;2;2024;true
+1103527;14509;2911709;Guanambi;Agroindústria;0811A02;Agroindústria;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;1;Pública;1;40;25;57;10;2024;true
+1351502;3268;2913606;Ilhéus;Produção De Cacau E Chocolate;0811A02;Agroindústria;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;2;Privada;4;0;0;0;0;2024;true
+1622800;18812;2914802;Itabuna;Produção De Cacau E Chocolate;0811A02;Agroindústria;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;1;Pública;1;71;14;31;0;2024;true
+1442880;599;2925303;Porto Seguro;Agroindústria;0811A02;Agroindústria;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;3;Tecnológico;1;Pública;1;40;16;42;5;2024;true
+1279617;3864;2900702;Alagoinhas;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;40;0;9;4;2024;true
+1276403;18506;2902708;Barra;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;67;43;164;22;2024;true
+20579;40;2903201;Barreiras;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;40;29;147;39;2024;true
+69306;1227;2903201;Barreiras;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;5;517;170;445;25;2024;true
+1299443;2444;2903201;Barreiras;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;70;3;27;20;2024;true
+1327473;14509;2903904;Bom Jesus da Lapa;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;40;0;146;9;2024;true
+1114064;14975;2909208;Coronel João Sá;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;70;11;41;3;2024;true
+13282;4503;2909802;Cruz das Almas;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;129;111;441;46;2024;true
+1188485;40;2910701;Euclides da Cunha;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;30;18;85;14;2024;true
+1185074;666;2910800;Feira de Santana;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;90;89;370;23;2024;true
+1349440;1893;2910800;Feira de Santana;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;40;0;4;1;2024;true
+1103559;14509;2911709;Guanambi;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;40;39;207;44;2024;true
+2113;24;2913606;Ilhéus;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;86;59;234;29;2024;true
+1332691;15504;2914604;Irecê;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;130;50;137;14;2024;true
+2442;40;2918407;Juazeiro;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;81;59;250;42;2024;true
+1365262;3365;2918407;Juazeiro;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;100;89;105;4;2024;true
+1434216;15667;2918407;Juazeiro;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;20;2;1;0;2024;true
+91095;3921;2919553;Luís Eduardo Magalhães;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;220;114;329;36;2024;true
+1589733;20605;2919553;Luís Eduardo Magalhães;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;150;74;67;0;2024;true
+1160293;1640;2923803;Paripiranga;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;47;47;172;27;2024;true
+1285544;2076;2927408;Salvador;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;40;2;0;0;2024;true
+1300032;2437;2931350;Teixeira de Freitas;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;50;50;112;19;2024;true
+1419967;14509;2931350;Teixeira de Freitas;Engenharia Agronômica;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;40;0;129;20;2024;true
+15739;688;2933307;Vitória da Conquista;Agronomia;0811A04;Agronomia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;114;86;329;30;2024;true
+86500;4503;2909802;Cruz das Almas;Zootecnia;0811Z01;Zootecnia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;84;60;220;13;2024;true
+15743;688;2916401;Itapetinga;Zootecnia;0811Z01;Zootecnia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;95;43;181;28;2024;true
+117070;578;2927408;Salvador;Zootecnia;0811Z01;Zootecnia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;100;69;218;9;2024;true
+1113375;14509;2927903;Santa Inês;Zootecnia;0811Z01;Zootecnia;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;40;32;94;5;2024;true
+86728;4503;2909802;Cruz das Almas;Engenharia Florestal;0821E01;Engenharia florestal;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;133;38;167;14;2024;true
+1438417;18812;2914802;Itabuna;Engenharia Florestal;0821E01;Engenharia florestal;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;129;15;45;2;2024;true
+91005;2437;2931350;Teixeira de Freitas;Engenharia Florestal;0821E01;Engenharia florestal;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;0;0;1;1;2024;true
+91345;688;2933307;Vitória da Conquista;Engenharia Florestal;0821E01;Engenharia florestal;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;70;29;135;12;2024;true
+1572271;18812;2914802;Itabuna;Engenharia De Aquicultura;0831A01;Aquicultura;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;104;3;4;0;2024;true
+86730;4503;2909802;Cruz das Almas;Engenharia De Pesca;0831E01;Engenharia de pesca;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;74;7;61;6;2024;true
+20581;40;2924009;Paulo Afonso;Engenharia De Pesca;0831E01;Engenharia de pesca;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;30;7;74;12;2024;true
+1166832;40;2933604;Xique-Xique;Engenharia De Pesca;0831E01;Engenharia de pesca;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;41;1;51;9;2024;true
+1279644;3864;2900702;Alagoinhas;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;60;5;32;7;2024;true
+1276404;18506;2902708;Barra;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;67;41;183;30;2024;true
+1299521;2444;2903201;Barreiras;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;100;7;30;12;2024;true
+1376432;40;2903201;Barreiras;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;40;25;125;31;2024;true
+1575867;1227;2903201;Barreiras;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;5;308;60;198;0;2024;true
+1573060;4531;2904902;Cachoeira;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;5;149;26;52;0;2024;true
+114992;4503;2909802;Cruz das Almas;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;87;75;427;47;2024;true
+112532;1053;2910800;Feira de Santana;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;272;106;454;55;2024;true
+1056749;1643;2910800;Feira de Santana;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;5;130;103;432;67;2024;true
+1364389;17896;2910800;Feira de Santana;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;30;1;1;0;2024;true
+1635576;385;2910800;Feira de Santana;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;58;58;58;0;2024;true
+1258066;2023;2911709;Guanambi;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;82;82;211;23;2024;true
+18310;24;2913606;Ilhéus;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;2;74;63;342;59;2024;true
+1366809;15504;2914604;Irecê;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;120;34;175;26;2024;true
+1322539;1642;2914802;Itabuna;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;294;40;151;12;2024;true
+1404745;2944;2914802;Itabuna;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;83;75;156;11;2024;true
+1383206;1572;2915601;Itamaraju;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;178;19;56;3;2024;true
+1502341;19408;2917508;Jacobina;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;33;33;58;0;2024;true
+1406008;3365;2918407;Juazeiro;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;100;44;137;5;2024;true
+51104;1883;2919207;Lauro de Freitas;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;273;161;464;29;2024;true
+1330666;1640;2923803;Paripiranga;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;97;97;251;22;2024;true
+13287;578;2927408;Salvador;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;1;Pública;1;159;122;713;91;2024;true
+1265455;385;2927408;Salvador;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;195;195;680;156;2024;true
+1279524;2076;2927408;Salvador;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;40;0;39;14;2024;true
+1500117;2402;2927408;Salvador;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;359;116;337;28;2024;true
+1572634;1055;2927408;Salvador;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;5;237;8;27;0;2024;true
+1574681;1185;2927408;Salvador;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;180;157;301;0;2024;true
+1303379;1364;2933307;Vitória da Conquista;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;289;99;536;76;2024;true
+1590571;1318;2933307;Vitória da Conquista;Medicina Veterinária;0841M01;Medicina veterinária;08;Agricultura, silvicultura, pesca e veterinária;CT&I ampliado;1;Bacharelado;2;Privada;4;339;104;129;0;2024;true
+100152;3285;2900702;Alagoinhas;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;100;29;67;4;2024;true
+1204179;3864;2900702;Alagoinhas;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;2;8;6;2024;true
+1257490;1227;2903201;Barreiras;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;149;104;260;22;2024;true
+1547149;2753;2906873;Capim Grosso;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;24;40;0;2024;true
+1439450;18636;2908408;Conceição do Coité;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;160;74;179;26;2024;true
+94913;2474;2909802;Cruz das Almas;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;120;47;111;2;2024;true
+1504642;2632;2910727;Eunápolis;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;0;0;68;14;2024;true
+118752;1718;2910800;Feira de Santana;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;211;44;107;11;2024;true
+1113410;13783;2910800;Feira de Santana;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;752;21;45;9;2024;true
+1188182;2560;2910800;Feira de Santana;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;250;50;223;26;2024;true
+1205037;1893;2910800;Feira de Santana;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;0;0;0;2024;true
+1258991;385;2910800;Feira de Santana;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;57;57;138;30;2024;true
+1260546;1053;2910800;Feira de Santana;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;338;94;228;17;2024;true
+100115;2023;2911709;Guanambi;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;53;53;145;28;2024;true
+79576;24;2913606;Ilhéus;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;2;55;41;168;29;2024;true
+1112244;3268;2913606;Ilhéus;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;152;38;104;14;2024;true
+1547450;24443;2914604;Irecê;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;29;29;26;0;2024;true
+1260243;1642;2914802;Itabuna;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;178;74;154;19;2024;true
+1300373;2944;2914802;Itabuna;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;125;49;48;8;2024;true
+1260401;1645;2918001;Jequié;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;169;54;164;18;2024;true
+1282930;1883;2919207;Lauro de Freitas;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;157;148;337;33;2024;true
+1324991;20605;2919553;Luís Eduardo Magalhães;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;300;41;117;17;2024;true
+1569013;1640;2923803;Paripiranga;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;26;26;78;9;2024;true
+1166253;2222;2924009;Paulo Afonso;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;75;46;145;21;2024;true
+59818;534;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;132;100;268;42;2024;true
+100136;2076;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;0;5;2;2024;true
+1103800;1055;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;540;13;67;14;2024;true
+1258710;385;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;127;127;308;56;2024;true
+1277128;519;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;240;123;147;12;2024;true
+1322461;396;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;420;32;68;2;2024;true
+1349409;14996;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;30;2;1;0;2024;true
+1364722;1394;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;20;0;2;1;2024;true
+1377526;1185;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;313;259;439;27;2024;true
+1382786;1058;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;410;70;123;7;2024;true
+1586557;2402;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;457;157;455;64;2024;true
+1594799;21978;2927408;Salvador;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;200;7;6;0;2024;true
+1048120;1790;2931350;Teixeira de Freitas;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;33;15;40;4;2024;true
+1563305;18812;2931350;Teixeira de Freitas;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;46;21;73;0;2024;true
+1261209;10058;2932903;Valença;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;304;7;8;0;2024;true
+1280828;1364;2933307;Vitória da Conquista;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;353;125;402;68;2024;true
+1283575;1318;2933307;Vitória da Conquista;Biomedicina;0914B01;Biomedicina;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;390;0;2;2;2024;true
+1260794;2474;2909802;Cruz das Almas;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;104;31;71;11;2024;true
+1072300;13783;2910800;Feira de Santana;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;580;0;0;0;2024;true
+1349559;1893;2910800;Feira de Santana;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;40;1;1;0;2024;true
+1435002;2023;2911709;Guanambi;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;20;20;35;6;2024;true
+1303896;2944;2914802;Itabuna;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;61;49;80;30;2024;true
+1383208;1572;2915601;Itamaraju;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;106;14;26;2;2024;true
+101822;2076;2927408;Salvador;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;40;3;3;0;2024;true
+116592;599;2927408;Salvador;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;1;Pública;1;50;31;106;23;2024;true
+1109528;1058;2927408;Salvador;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;580;16;54;13;2024;true
+1330906;396;2927408;Salvador;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;740;15;36;2;2024;true
+1441625;2402;2927408;Salvador;Radiologia;0914R01;Radiologia;09;Saúde e bem-estar;CT&I ampliado;3;Tecnológico;2;Privada;4;0;0;1;0;2024;true
+1330246;3864;2900702;Alagoinhas;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;60;1;17;10;2024;true
+1388163;3285;2900702;Alagoinhas;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;100;13;64;11;2024;true
+1276401;18506;2903201;Barreiras;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;53;50;175;21;2024;true
+1321456;2444;2903201;Barreiras;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;100;1;27;20;2024;true
+1547343;1227;2903201;Barreiras;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;76;43;97;0;2024;true
+1470335;20622;2905701;Camaçari;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;30;1;1;0;2024;true
+1439296;16225;2906873;Capim Grosso;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;105;24;93;19;2024;true
+1536607;18636;2908408;Conceição do Coité;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;70;34;84;0;2024;true
+94909;2474;2909802;Cruz das Almas;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;115;39;155;24;2024;true
+1593407;19284;2909802;Cruz das Almas;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;54;13;11;0;2024;true
+1504640;2632;2910727;Eunápolis;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;0;0;25;0;2024;true
+21112;666;2910800;Feira de Santana;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;2;95;91;257;22;2024;true
+1261158;2560;2910800;Feira de Santana;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;300;36;181;43;2024;true
+1322700;1053;2910800;Feira de Santana;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;340;78;280;39;2024;true
+1349321;1893;2910800;Feira de Santana;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;2;11;1;2024;true
+1388232;1718;2910800;Feira de Santana;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;220;24;61;0;2024;true
+1405888;385;2910800;Feira de Santana;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;58;58;207;67;2024;true
+1086150;2023;2911709;Guanambi;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;43;43;168;45;2024;true
+1364489;3268;2913606;Ilhéus;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;133;26;80;11;2024;true
+1322289;15504;2914604;Irecê;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;100;28;179;29;2024;true
+91677;2944;2914802;Itabuna;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;124;48;80;15;2024;true
+1260246;1642;2914802;Itabuna;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;207;53;164;21;2024;true
+1387837;1572;2915601;Itamaraju;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;179;22;41;1;2024;true
+1387038;19408;2917508;Jacobina;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;28;28;113;25;2024;true
+104584;688;2918001;Jequié;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;2;69;41;191;24;2024;true
+1322542;1645;2918001;Jequié;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;298;59;249;48;2024;true
+1325021;20606;2918407;Juazeiro;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;142;35;162;26;2024;true
+56170;1883;2919207;Lauro de Freitas;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;80;80;286;45;2024;true
+1260586;1640;2923803;Paripiranga;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;40;130;28;2024;true
+1565414;2222;2924009;Paulo Afonso;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;120;40;143;0;2024;true
+1350014;3669;2926608;Ribeira do Pombal;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;205;21;84;24;2024;true
+13285;578;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;201;157;802;81;2024;true
+90329;1058;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;1040;76;213;43;2024;true
+91161;3034;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;196;121;378;81;2024;true
+91531;40;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;2;61;43;202;30;2024;true
+110282;3588;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;10;1;3;2;2024;true
+1109519;1055;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;437;53;256;50;2024;true
+1183497;396;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;520;42;88;1;2024;true
+1258705;385;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;141;141;379;82;2024;true
+1279588;2076;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;40;2;8;1;2024;true
+1280605;2085;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;102;8;19;5;2024;true
+1303385;2402;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;270;91;396;92;2024;true
+1331380;1055;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;393;0;0;0;2024;true
+1349330;1394;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;20;0;4;2;2024;true
+1500107;2402;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;170;99;204;1;2024;true
+1594740;21978;2927408;Salvador;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;150;16;5;0;2024;true
+91007;2437;2931350;Teixeira de Freitas;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;44;44;158;29;2024;true
+1441065;2568;2932903;Valença;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;5;140;25;103;15;2024;true
+99036;578;2933307;Vitória da Conquista;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;60;38;164;27;2024;true
+117018;1758;2933307;Vitória da Conquista;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;135;41;123;26;2024;true
+1260157;1318;2933307;Vitória da Conquista;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;424;46;194;43;2024;true
+1303378;1364;2933307;Vitória da Conquista;Farmácia;0916F01;Farmácia;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;2;Privada;4;218;49;242;55;2024;true
+1292732;18812;2914802;Itabuna;Interdisciplinar Em Saúde;0988P01;Programas interdisciplinares abrangendo saúde e bem-estar;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;0;0;1;1;2024;true
+1293076;18812;2925303;Porto Seguro;Interdisciplinar Em Saúde;0988P01;Programas interdisciplinares abrangendo saúde e bem-estar;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;0;0;0;0;2024;true
+117236;578;2927408;Salvador;Interdisciplinar Em Saúde;0988P01;Programas interdisciplinares abrangendo saúde e bem-estar;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;300;261;646;186;2024;true
+1135527;4503;2928703;Santo Antônio de Jesus;Interdisciplinar Em Saúde;0988P01;Programas interdisciplinares abrangendo saúde e bem-estar;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;240;207;572;125;2024;true
+1293077;18812;2931350;Teixeira de Freitas;Interdisciplinar Em Saúde;0988P01;Programas interdisciplinares abrangendo saúde e bem-estar;09;Saúde e bem-estar;CT&I ampliado;1;Bacharelado;1;Pública;1;0;0;0;0;2024;true

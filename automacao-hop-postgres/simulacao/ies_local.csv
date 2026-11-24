@@ -1,0 +1,217 @@
+﻿co_ies;sg_ies;co_municipio;no_municipio;qtd_cursos_cti;aparece_na_api;ultimo_ano_visto;ativa
+24;UESC;2913606;Ilhéus;13;true;2024;true
+40;UNEB;2900702;Alagoinhas;2;true;2024;true
+40;UNEB;2903201;Barreiras;2;true;2024;true
+40;UNEB;2903904;Bom Jesus da Lapa;0;false;2024;true
+40;UNEB;2904605;Brumado;0;false;2024;true
+40;UNEB;2905206;Caetité;1;true;2024;true
+40;UNEB;2905701;Camaçari;0;false;2024;true
+40;UNEB;2908408;Conceição do Coité;0;false;2024;true
+40;UNEB;2910701;Euclides da Cunha;1;true;2024;true
+40;UNEB;2910727;Eunápolis;0;false;2024;true
+40;UNEB;2911709;Guanambi;0;false;2024;true
+40;UNEB;2913903;Ipiaú;1;true;2024;true
+40;UNEB;2914604;Irecê;0;false;2024;true
+40;UNEB;2914703;Itaberaba;0;false;2024;true
+40;UNEB;2917508;Jacobina;0;false;2024;true
+40;UNEB;2918407;Juazeiro;2;true;2024;true
+40;UNEB;2919207;Lauro de Freitas;0;false;2024;true
+40;UNEB;2924009;Paulo Afonso;1;true;2024;true
+40;UNEB;2927408;Salvador;3;true;2024;true
+40;UNEB;2928703;Santo Antônio de Jesus;0;false;2024;true
+40;UNEB;2929909;Seabra;0;false;2024;true
+40;UNEB;2930105;Senhor do Bonfim;1;true;2024;true
+40;UNEB;2930501;Serrinha;0;false;2024;true
+40;UNEB;2931350;Teixeira de Freitas;0;false;2024;true
+40;UNEB;2932903;Valença;0;false;2024;true
+40;UNEB;2933604;Xique-Xique;2;true;2024;true
+152;FACIC;2927408;Salvador;0;false;2024;true
+385;UNIFACS;2910800;Feira de Santana;13;true;2024;true
+385;UNIFACS;2927408;Salvador;26;true;2024;true
+396;UniRuy Wyden;2927408;Salvador;23;true;2024;true
+519;UCSAL;2927408;Salvador;8;true;2024;true
+534;EBMSP;2927408;Salvador;1;true;2024;true
+578;UFBA;2905701;Camaçari;2;true;2024;true
+578;UFBA;2927408;Salvador;25;true;2024;true
+578;UFBA;2933307;Vitória da Conquista;3;true;2024;true
+599;IFBA;2903201;Barreiras;1;true;2024;true
+599;IFBA;2904605;Brumado;1;true;2024;true
+599;IFBA;2905701;Camaçari;1;true;2024;true
+599;IFBA;2910727;Eunápolis;2;true;2024;true
+599;IFBA;2910800;Feira de Santana;1;true;2024;true
+599;IFBA;2914604;Irecê;2;true;2024;true
+599;IFBA;2917508;Jacobina;0;false;2024;true
+599;IFBA;2918001;Jequié;1;true;2024;true
+599;IFBA;2918407;Juazeiro;0;false;2024;true
+599;IFBA;2919207;Lauro de Freitas;2;true;2024;true
+599;IFBA;2924009;Paulo Afonso;1;true;2024;true
+599;IFBA;2925303;Porto Seguro;1;true;2024;true
+599;IFBA;2927408;Salvador;5;true;2024;true
+599;IFBA;2928604;Santo Amaro;0;false;2024;true
+599;IFBA;2928703;Santo Antônio de Jesus;2;true;2024;true
+599;IFBA;2930709;Simões Filho;1;true;2024;true
+599;IFBA;2932903;Valença;1;true;2024;true
+599;IFBA;2933307;Vitória da Conquista;4;true;2024;true
+666;UEFS;2910800;Feira de Santana;7;true;2024;true
+688;UESB;2916401;Itapetinga;5;true;2024;true
+688;UESB;2918001;Jequié;4;true;2024;true
+688;UESB;2933307;Vitória da Conquista;4;true;2024;true
+1053;UNEX;2910800;Feira de Santana;5;true;2024;true
+1055;Uninassau Salvador;2927408;Salvador;6;true;2024;true
+1058;Estácio Bahia;2927408;Salvador;9;true;2024;true
+1170;UNIFAMEC;2905701;Camaçari;3;true;2024;true
+1185;UNIJORGE;2927408;Salvador;13;true;2024;true
+1227;UNINASSAU;2903201;Barreiras;5;true;2024;true
+1302;FBB;2927408;Salvador;0;false;2024;true
+1318;;2933307;Vitória da Conquista;6;true;2024;true
+1363;FAVIC;2927408;Salvador;1;true;2024;true
+1364;UNEX Conquista;2933307;Vitória da Conquista;5;true;2024;true
+1394;FCA;2927408;Salvador;3;true;2024;true
+1411;F2J;2927408;Salvador;1;true;2024;true
+1455;FSSS;2900702;Alagoinhas;2;true;2024;true
+1461;ZARNS SALVADOR;2927408;Salvador;0;false;2024;true
+1524;FAMETTIG;2927408;Salvador;0;false;2024;true
+1572;FACISA;2915601;Itamaraju;3;true;2024;true
+1639;FHR;2927408;Salvador;4;true;2024;true
+1640;UniAGES;2923803;Paripiranga;9;true;2024;true
+1641;UNISBA;2927408;Salvador;0;false;2024;true
+1642;UNEX de Itabuna;2914802;Itabuna;6;true;2024;true
+1643;FAT;2910800;Feira de Santana;3;true;2024;true
+1645;UNEX de Jequié;2918001;Jequié;3;true;2024;true
+1718;;2910800;Feira de Santana;8;true;2024;true
+1758;FAINOR;2933307;Vitória da Conquista;5;true;2024;true
+1790;FASB;2931350;Teixeira de Freitas;5;true;2024;true
+1883;UNIME;2919207;Lauro de Freitas;11;true;2024;true
+1893;F. UNIRB;2910800;Feira de Santana;5;true;2024;true
+1937;FACESA;2927408;Salvador;0;false;2024;true
+2023;UNIFG;2904605;Brumado;0;false;2024;true
+2023;UNIFG;2911709;Guanambi;11;true;2024;true
+2067;UNIFACEMP;2928703;Santo Antônio de Jesus;5;true;2024;true
+2076;UNIRB;2927408;Salvador;15;true;2024;true
+2085;UNICEUSA;2927408;Salvador;1;true;2024;true
+2163;FEG;2914000;Ipirá;0;false;2024;true
+2222;UNIRIOS;2924009;Paulo Afonso;3;true;2024;true
+2402;;2927408;Salvador;6;true;2024;true
+2427;FL-BA;2927408;Salvador;0;false;2024;true
+2437;;2931350;Teixeira de Freitas;9;true;2024;true
+2444;F. UNIRB;2903201;Barreiras;5;true;2024;true
+2470;ISEC;2927408;Salvador;1;true;2024;true
+2474;UNIMAM;2909802;Cruz das Almas;5;true;2024;true
+2500;;2927408;Salvador;0;false;2024;true
+2560;FAESF/UNEF;2910800;Feira de Santana;7;true;2024;true
+2568;FAZAG;2932903;Valença;2;true;2024;true
+2581;FSS;2927408;Salvador;2;true;2024;true
+2632;UNESULBAHIA;2910727;Eunápolis;2;true;2024;true
+2753;FCG;2906873;Capim Grosso;3;true;2024;true
+2771;CESUPI;2913606;Ilhéus;1;true;2024;true
+2944;;2914802;Itabuna;8;true;2024;true
+3034;;2927408;Salvador;5;true;2024;true
+3230;FILEM;2919553;Luís Eduardo Magalhães;0;false;2024;true
+3268;FMT;2913606;Ilhéus;4;true;2024;true
+3285;FSA;2900702;Alagoinhas;4;true;2024;true
+3365;FACBRAS;2918407;Juazeiro;3;true;2024;true
+3377;FAMA;2927408;Salvador;0;false;2024;true
+3588;UNIDOMPEDRO;2903201;Barreiras;0;false;2024;true
+3588;UNIDOMPEDRO;2918001;Jequié;0;false;2024;true
+3588;UNIDOMPEDRO;2919553;Luís Eduardo Magalhães;0;false;2024;true
+3588;UNIDOMPEDRO;2927408;Salvador;1;true;2024;true
+3609;FACIIP;2919207;Lauro de Freitas;2;true;2024;true
+3669;FDP II AFYA;2926608;Ribeira do Pombal;1;true;2024;true
+3847;;2927408;Salvador;0;false;2024;true
+3864;;2900702;Alagoinhas;8;true;2024;true
+3921;;2919553;Luís Eduardo Magalhães;2;true;2024;true
+3962;SENAI CIMATEC;2927408;Salvador;9;true;2024;true
+3984;UNIVASF;2918407;Juazeiro;0;false;2024;true
+3984;UNIVASF;2924009;Paulo Afonso;0;false;2024;true
+3984;UNIVASF;2930105;Senhor do Bonfim;0;false;2024;true
+4503;UFRB;2901007;Amargosa;1;true;2024;true
+4503;UFRB;2904902;Cachoeira;0;false;2024;true
+4503;UFRB;2909802;Cruz das Almas;17;true;2024;true
+4503;UFRB;2910800;Feira de Santana;6;true;2024;true
+4503;UFRB;2928604;Santo Amaro;0;false;2024;true
+4503;UFRB;2928703;Santo Antônio de Jesus;1;true;2024;true
+4531;Uniaene;2904902;Cachoeira;2;true;2024;true
+4747;FARJ;2926301;Riachão do Jacuípe;0;false;2024;true
+4959;;2910800;Feira de Santana;4;true;2024;true
+5473;FACITE;2928109;Santa Maria da Vitória;0;false;2024;true
+10058;FFV;2932903;Valença;3;true;2024;true
+11862;;2926004;Remanso;0;false;2024;true
+11951;FASBE;2921500;Monte Santo;0;false;2024;true
+12922;FATEC/BA;2900702;Alagoinhas;4;true;2024;true
+13782;FSC;2914703;Itaberaba;0;false;2024;true
+13783;ESTÁCIO FEIRA DE SAN;2910800;Feira de Santana;2;true;2024;true
+14509;IFBAIANO;2903904;Bom Jesus da Lapa;2;true;2024;true
+14509;IFBAIANO;2907509;Catu;1;true;2024;true
+14509;IFBAIANO;2911709;Guanambi;3;true;2024;true
+14509;IFBAIANO;2916401;Itapetinga;1;true;2024;true
+14509;IFBAIANO;2927903;Santa Inês;1;true;2024;true
+14509;IFBAIANO;2930105;Senhor do Bonfim;0;false;2024;true
+14509;IFBAIANO;2930501;Serrinha;0;false;2024;true
+14509;IFBAIANO;2931350;Teixeira de Freitas;1;true;2024;true
+14509;IFBAIANO;2932705;Uruçuca;2;true;2024;true
+14509;IFBAIANO;2932903;Valença;0;false;2024;true
+14975;FANEB;2909208;Coronel João Sá;1;true;2024;true
+14996;;2927408;Salvador;3;true;2024;true
+15056;;2927408;Salvador;0;false;2024;true
+15497;UNILAB;2929206;São Francisco do Conde;0;false;2024;true
+15504;FAI;2914604;Irecê;4;true;2024;true
+15667;FACULDADE UNIRB;2918407;Juazeiro;2;true;2024;true
+16225;FARJ;2906873;Capim Grosso;1;true;2024;true
+16459;FACULDADE UNIRB;2927408;Salvador;1;true;2024;true
+16654;FACULDADE UNIRB;2930501;Serrinha;1;true;2024;true
+16918;;2910800;Feira de Santana;0;false;2024;true
+17433;FASAVIC;2933307;Vitória da Conquista;0;false;2024;true
+17498;FASA;2933307;Vitória da Conquista;0;false;2024;true
+17758;FAMEP;2910701;Euclides da Cunha;0;false;2024;true
+17876;FAES;2910727;Eunápolis;0;false;2024;true
+17896;FBT;2910800;Feira de Santana;1;true;2024;true
+18059;FSAQ;2925808;Queimadas;1;true;2024;true
+18296;Faculdade AGES;2931905;Tucano;0;false;2024;true
+18506;UFOB;2902708;Barra;2;true;2024;true
+18506;UFOB;2903201;Barreiras;8;true;2024;true
+18506;UFOB;2903904;Bom Jesus da Lapa;2;true;2024;true
+18506;UFOB;2919553;Luís Eduardo Magalhães;2;true;2024;true
+18506;UFOB;2928109;Santa Maria da Vitória;0;false;2024;true
+18625;;2933307;Vitória da Conquista;4;true;2024;true
+18628;;2919553;Luís Eduardo Magalhães;0;false;2024;true
+18636;FARESI;2908408;Conceição do Coité;4;true;2024;true
+18708;Faculdade AGES;2930105;Senhor do Bonfim;3;true;2024;true
+18812;UFSB;2914802;Itabuna;8;true;2024;true
+18812;UFSB;2925303;Porto Seguro;5;true;2024;true
+18812;UFSB;2931350;Teixeira de Freitas;5;true;2024;true
+19260;FPJ;2918001;Jequié;3;true;2024;true
+19284;FBBR;2909802;Cruz das Almas;1;true;2024;true
+19298;FPE;2910727;Eunápolis;0;false;2024;true
+19408;Faculdade AGES;2917508;Jacobina;4;true;2024;true
+19780;FPG;2911709;Guanambi;0;false;2024;true
+20537;FABASB;2930105;Senhor do Bonfim;0;false;2024;true
+20587;FPI;2914604;Irecê;0;false;2024;true
+20605;;2919553;Luís Eduardo Magalhães;2;true;2024;true
+20606;FTC Juazeiro;2918407;Juazeiro;1;true;2024;true
+20622;FACULDADE UNIRB;2905701;Camaçari;1;true;2024;true
+21103;FIEP;2927408;Salvador;0;false;2024;true
+21226;FASU;2933307;Vitória da Conquista;0;false;2024;true
+21280;FPA;2900702;Alagoinhas;0;false;2024;true
+21553;;2928703;Santo Antônio de Jesus;1;true;2024;true
+21978;EDUFOR;2927408;Salvador;2;true;2024;true
+22059;;2910727;Eunápolis;0;false;2024;true
+22076;;2900702;Alagoinhas;0;false;2024;true
+22086;FAESB;2932903;Valença;0;false;2024;true
+22088;AFYA ITABUNA;2914802;Itabuna;0;false;2024;true
+22093;Faculdade AGES;2917508;Jacobina;0;false;2024;true
+22104;Afya Guanambi;2911709;Guanambi;0;false;2024;true
+22124;;2904605;Brumado;0;false;2024;true
+22125;;2903904;Bom Jesus da Lapa;0;false;2024;true
+22139;FAMEC;2914802;Itabuna;0;false;2024;true
+22154;;2917508;Jacobina;0;false;2024;true
+22202;EstácioJuazeiro;2918407;Juazeiro;0;false;2024;true
+22443;FAN;2907202;Casa Nova;0;false;2024;true
+22763;FSC;2927408;Salvador;0;false;2024;true
+22787;FTC CAMAÇARI;2905701;Camaçari;0;false;2024;true
+23896;;2905701;Camaçari;0;false;2024;true
+24281;FEFB;2914000;Ipirá;0;false;2024;true
+24443;Faculdade AGES;2914604;Irecê;1;true;2024;true
+24471;;2932903;Valença;0;false;2024;true
+24861;;2932903;Valença;0;false;2024;true
+25222;;2925303;Porto Seguro;0;false;2024;true
+25439;FARVALLE;2901007;Amargosa;0;false;2024;true

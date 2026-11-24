@@ -1,0 +1,99 @@
+﻿sb_id;sb_curso;sb_entidade;sb_sigla;sb_municipio;sb_id_ativo;co_ies;CO_CURSO;NO_CURSO;NO_MUNICIPIO;TP_GRAU_ACADEMICO;NO_CINE_ROTULO;QT_VG_TOTAL;QT_VG_TOTAL_DIURNO;QT_VG_TOTAL_NOTURNO;QT_MAT;QT_ING;QT_CONC
+2980;Ciências Biológicas;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;99026;Ciências Biológicas;Barreiras;2;Biologia formação de professor;30;30;0;64;14;7
+2980;Ciências Biológicas;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;399026;Ciências Biológicas;Barreiras;1;Biologia;30;30;0;67;21;10
+2984;Física;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;118044;Física;Barreiras;2;Física formação de professor;30;30;0;16;4;5
+2984;Física;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;418044;Física;Barreiras;1;Física;30;30;0;24;3;7
+2987;Matemática;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;118046;Matemática;Barreiras;1;Matemática;36;36;0;18;10;1
+2987;Matemática;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;1111510;Matemática;Barreiras;2;Matemática formação de professor;36;36;0;38;7;9
+2988;Química;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;99040;Química;Barreiras;2;Química formação de professor;46;46;0;23;8;2
+2988;Química;Universidade Federal do Oeste da Bahia;UFOB;Barreiras;12;18506;399040;Química;Barreiras;1;Química;36;36;0;49;13;0
+3093;Ciências Biológicas;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;20234;Ciências Biológicas;Ilhéus;2;Biologia formação de professor;81;29;52;207;59;28
+3093;Ciências Biológicas;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;45498;Ciências Biológicas;Ilhéus;1;Biologia;47;47;0;126;33;13
+3099;Física;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;20236;Física;Ilhéus;1;Física;67;67;0;55;28;3
+3099;Física;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;41324;Física;Ilhéus;2;Física formação de professor;73;0;73;64;31;1
+3100;Matemática;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;20235;Matemática;Ilhéus;1;Matemática;53;53;0;54;27;6
+3100;Matemática;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;41490;Matemática;Ilhéus;2;Matemática formação de professor;77;0;77;120;39;9
+3102;Química;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;20237;Química;Ilhéus;2;Química formação de professor;50;50;0;80;20;6
+3102;Química;Universidade Estadual de Santa Cruz;UESC;Ilhéus;65;24;150310;Química;Ilhéus;1;Química;53;53;0;93;27;8
+3167;Farmácia;Centro Universitário Maurício de Nassau de Salvador;UNINASSAU;Salvador;118;1055;1109519;Farmácia;Salvador;1;Farmácia;437;217;220;256;53;50
+3167;Farmácia;Centro Universitário Maurício de Nassau de Salvador;UNINASSAU;Salvador;118;1055;1331380;Farmácia;Salvador;1;Farmácia;393;240;153;0;0;0
+3168;Farmácia;Centro Universitário Maurício de Nassau de Salvador;UNINASSAU;Salvador;118;1055;1109519;Farmácia;Salvador;1;Farmácia;437;217;220;256;53;50
+3168;Farmácia;Centro Universitário Maurício de Nassau de Salvador;UNINASSAU;Salvador;118;1055;1331380;Farmácia;Salvador;1;Farmácia;393;240;153;0;0;0
+3174;Engenharia Ambiental E Sanitária;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;94543;Engenharia Ambiental E Sanitária;Salvador;1;Engenharia ambiental e sanitária;1288;644;644;4;0;3
+3174;Engenharia Ambiental E Sanitária;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1349795;Engenharia Ambiental E Sanitária;Salvador;1;Engenharia ambiental e sanitária;1140;570;570;6;1;2
+3175;Engenharia Ambiental E Sanitária;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;94543;Engenharia Ambiental E Sanitária;Salvador;1;Engenharia ambiental e sanitária;1288;644;644;4;0;3
+3175;Engenharia Ambiental E Sanitária;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1349795;Engenharia Ambiental E Sanitária;Salvador;1;Engenharia ambiental e sanitária;1140;570;570;6;1;2
+3176;Engenharia Civil;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1070777;Engenharia Civil;Salvador;1;Engenharia civil;880;440;440;23;0;7
+3176;Engenharia Civil;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258413;Engenharia Civil;Salvador;1;Engenharia civil;1140;570;570;7;7;0
+3177;Engenharia Civil;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1070777;Engenharia Civil;Salvador;1;Engenharia civil;880;440;440;23;0;7
+3177;Engenharia Civil;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258413;Engenharia Civil;Salvador;1;Engenharia civil;1140;570;570;7;7;0
+3178;Engenharia De Computação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;55173;Engenharia De Computação;Salvador;1;Engenharia de computação;644;322;322;8;0;4
+3178;Engenharia De Computação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1349796;Engenharia De Computação;Salvador;1;Engenharia de computação;1140;570;570;83;27;11
+3179;Engenharia De Computação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;55173;Engenharia De Computação;Salvador;1;Engenharia de computação;644;322;322;8;0;4
+3179;Engenharia De Computação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1349796;Engenharia De Computação;Salvador;1;Engenharia de computação;1140;570;570;83;27;11
+3180;Engenharia De Controle E Automação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;94559;Engenharia De Controle E Automação;Salvador;1;Engenharia de controle e automação;1288;644;644;11;0;7
+3180;Engenharia De Controle E Automação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258415;Engenharia De Controle E Automação;Salvador;1;Engenharia de controle e automação;607;0;607;20;4;6
+3181;Engenharia De Controle E Automação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;94559;Engenharia De Controle E Automação;Salvador;1;Engenharia de controle e automação;1288;644;644;11;0;7
+3181;Engenharia De Controle E Automação;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258415;Engenharia De Controle E Automação;Salvador;1;Engenharia de controle e automação;607;0;607;20;4;6
+3182;Engenharia De Produção;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;49075;Engenharia De Produção;Salvador;1;Engenharia de produção;1288;644;644;10;0;5
+3182;Engenharia De Produção;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1193643;Engenharia De Produção;Salvador;1;Engenharia de produção;1140;570;570;40;12;9
+3183;Engenharia De Produção;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;49075;Engenharia De Produção;Salvador;1;Engenharia de produção;1288;644;644;10;0;5
+3183;Engenharia De Produção;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1193643;Engenharia De Produção;Salvador;1;Engenharia de produção;1140;570;570;40;12;9
+3184;Engenharia Elétrica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;36133;Engenharia Elétrica;Salvador;1;Engenharia elétrica;1140;570;570;16;0;8
+3184;Engenharia Elétrica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258114;Engenharia Elétrica;Salvador;1;Engenharia elétrica;1140;570;570;80;16;25
+3185;Engenharia Elétrica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;36133;Engenharia Elétrica;Salvador;1;Engenharia elétrica;1140;570;570;16;0;8
+3185;Engenharia Elétrica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258114;Engenharia Elétrica;Salvador;1;Engenharia elétrica;1140;570;570;80;16;25
+3186;Engenharia Mecânica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1172325;Engenharia Mecânica;Salvador;1;Engenharia mecânica;1140;570;570;10;1;6
+3186;Engenharia Mecânica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258417;Engenharia Mecânica;Salvador;1;Engenharia mecânica;1140;570;570;52;13;13
+3187;Engenharia Mecânica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1172325;Engenharia Mecânica;Salvador;1;Engenharia mecânica;1140;570;570;10;1;6
+3187;Engenharia Mecânica;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258417;Engenharia Mecânica;Salvador;1;Engenharia mecânica;1140;570;570;52;13;13
+3188;Engenharia Química;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1172259;Engenharia Química;Salvador;1;Engenharia química;1140;570;570;5;0;2
+3188;Engenharia Química;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258418;Engenharia Química;Salvador;1;Engenharia química;1140;570;570;9;0;3
+3189;Engenharia Química;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1172259;Engenharia Química;Salvador;1;Engenharia química;1140;570;570;5;0;2
+3189;Engenharia Química;Centro Universitário Ruy Barbosa Wyden;UniRuy;Salvador;119;396;1258418;Engenharia Química;Salvador;1;Engenharia química;1140;570;570;9;0;3
+3196;Farmácia;Centro Universitário UNIFTC;UniFTC;Salvador;120;2402;1303385;Farmácia;Salvador;1;Farmácia;270;110;160;396;91;92
+3196;Farmácia;Centro Universitário UNIFTC;UniFTC;Salvador;120;2402;1500107;Farmácia;Salvador;1;Farmácia;170;85;85;204;99;1
+3197;Farmácia;Centro Universitário UNIFTC;UniFTC;Salvador;120;2402;1303385;Farmácia;Salvador;1;Farmácia;270;110;160;396;91;92
+3197;Farmácia;Centro Universitário UNIFTC;UniFTC;Salvador;120;2402;1500107;Farmácia;Salvador;1;Farmácia;170;85;85;204;99;1
+3251;Ciências Biológicas;Universidade Federal da Bahia;UFBA;Salvador;137;578;13283;Ciências Biológicas;Salvador;2;Biologia formação de professor;0;0;0;51;0;46
+3251;Ciências Biológicas;Universidade Federal da Bahia;UFBA;Salvador;137;578;313283;Ciências Biológicas;Salvador;1;Biologia;0;0;0;27;0;26
+3264;Física;Universidade Federal da Bahia;UFBA;Salvador;137;578;13273;Física;Salvador;2;Física formação de professor;0;0;0;49;0;9
+3264;Física;Universidade Federal da Bahia;UFBA;Salvador;137;578;313273;Física;Salvador;1;Física;2;2;0;12;2;10
+3269;Matemática;Universidade Federal da Bahia;UFBA;Salvador;137;578;13276;Matemática;Salvador;2;Matemática formação de professor;0;0;0;77;0;15
+3269;Matemática;Universidade Federal da Bahia;UFBA;Salvador;137;578;313276;Matemática;Salvador;1;Matemática;0;0;0;4;0;3
+3272;Química;Universidade Federal da Bahia;UFBA;Salvador;137;578;13278;Química;Salvador;2;Química formação de professor;0;0;0;90;0;19
+3272;Química;Universidade Federal da Bahia;UFBA;Salvador;137;578;313278;Química;Salvador;1;Química;0;0;0;15;0;15
+3275;Análise E Desenvolvimento De Sistemas;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1404804;Análise E Desenvolvimento De Sistemas;Salvador;3;Sistemas de informação;17;0;17;61;17;22
+3275;Análise E Desenvolvimento De Sistemas;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1602881;Análise E Desenvolvimento De Sistemas;Salvador;3;Sistemas de informação;106;58;48;170;106;27
+3276;Análise E Desenvolvimento De Sistemas;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1404804;Análise E Desenvolvimento De Sistemas;Salvador;3;Sistemas de informação;17;0;17;61;17;22
+3276;Análise E Desenvolvimento De Sistemas;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1602881;Análise E Desenvolvimento De Sistemas;Salvador;3;Sistemas de informação;106;58;48;170;106;27
+3279;Ciência Da Computação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;20030;Ciência Da Computação;Salvador;1;Ciência da computação;122;89;33;305;122;54
+3279;Ciência Da Computação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1635536;Ciência Da Computação;Salvador;1;Ciência da computação;8;0;8;13;8;0
+3280;Ciência Da Computação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;20030;Ciência Da Computação;Salvador;1;Ciência da computação;122;89;33;305;122;54
+3280;Ciência Da Computação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1635536;Ciência Da Computação;Salvador;1;Ciência da computação;8;0;8;13;8;0
+3294;Gestão Da Tecnologia Da Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1602877;Gestão Da Tecnologia Da Informação;Salvador;3;Gestão da tecnologia da informação;12;0;12;14;12;0
+3294;Gestão Da Tecnologia Da Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1602878;Gestão Da Tecnologia Da Informação;Salvador;3;Gestão da tecnologia da informação;22;7;15;25;22;5
+3295;Gestão Da Tecnologia Da Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1602877;Gestão Da Tecnologia Da Informação;Salvador;3;Gestão da tecnologia da informação;12;0;12;14;12;0
+3295;Gestão Da Tecnologia Da Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1602878;Gestão Da Tecnologia Da Informação;Salvador;3;Gestão da tecnologia da informação;22;7;15;25;22;5
+3298;Sistemas De Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;56172;Sistemas De Informação;Salvador;1;Sistemas de informação;44;29;15;94;44;24
+3298;Sistemas De Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1427745;Sistemas De Informação;Salvador;1;Sistemas de informação;4;0;4;34;4;24
+3299;Sistemas De Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;56172;Sistemas De Informação;Salvador;1;Sistemas de informação;44;29;15;94;44;24
+3299;Sistemas De Informação;UNIVERSIDADE SALVADOR;UNIFACS;Salvador;146;385;1427745;Sistemas De Informação;Salvador;1;Sistemas de informação;4;0;4;34;4;24
+3372;Ciências Biológicas;Universidade Estadual do Sudoeste da Bahia - Campus Jequié;UESB;Jequié;87;688;20270;Ciências Biológicas;Jequié;2;Biologia formação de professor;89;46;43;144;40;20
+3372;Ciências Biológicas;Universidade Estadual do Sudoeste da Bahia - Campus Jequié;UESB;Jequié;87;688;38881;Ciências Biológicas;Jequié;1;Biologia;42;42;0;93;22;12
+3374;Química;Universidade Estadual do Sudoeste da Bahia - Campus Jequié;UESB;Jequié;87;688;20577;Química;Jequié;2;Química formação de professor;65;0;65;122;33;17
+3374;Química;Universidade Estadual do Sudoeste da Bahia - Campus Jequié;UESB;Jequié;87;688;91749;Química;Jequié;1;Química;44;44;0;60;13;9
+3377;Ciências Biológicas;Universidade Estadual do Sudoeste da Bahia - Campus Itapetinga;UESB;Itapetinga;79;688;94641;Ciências Biológicas;Itapetinga;2;Biologia formação de professor;47;0;47;79;19;13
+3377;Ciências Biológicas;Universidade Estadual do Sudoeste da Bahia - Campus Itapetinga;UESB;Itapetinga;79;688;150053;Ciências Biológicas;Itapetinga;1;Biologia;49;49;0;59;20;8
+3380;Química;Universidade Estadual do Sudoeste da Bahia - Campus Itapetinga;UESB;Itapetinga;79;688;83323;Química;Itapetinga;2;Química formação de professor;46;0;46;39;10;7
+3380;Química;Universidade Estadual do Sudoeste da Bahia - Campus Itapetinga;UESB;Itapetinga;79;688;1146603;Química;Itapetinga;1;Química industrial e tecnológica;52;0;52;35;10;2
+3385;Ciências Biológicas;Universidade do Estado da Bahia - Campus Senhor do Bonfim;UNEB;Senhor do Bonfim;163;40;83316;Ciências Biológicas;Senhor do Bonfim;2;Biologia formação de professor;24;24;0;65;0;9
+3385;Ciências Biológicas;Universidade do Estado da Bahia - Campus Senhor do Bonfim;UNEB;Senhor do Bonfim;163;40;1615797;Ciências Biológicas;Senhor do Bonfim;1;Biologia;30;30;0;19;19;0
+3427;Ciências Biológicas;Universidade Estadual de Feira de Santana;UEFS;Feira de Santana;53;666;15410;Ciências Biológicas;Feira de Santana;2;Biologia formação de professor;62;62;0;207;50;29
+3427;Ciências Biológicas;Universidade Estadual de Feira de Santana;UEFS;Feira de Santana;53;666;21114;Ciências Biológicas;Feira de Santana;1;Biologia;50;50;0;176;50;20
+3432;Física;Universidade Estadual de Feira de Santana;UEFS;Feira de Santana;53;666;18311;Física;Feira de Santana;2;Física formação de professor;99;99;0;133;38;8
+3432;Física;Universidade Estadual de Feira de Santana;UEFS;Feira de Santana;53;666;21115;Física;Feira de Santana;1;Física;68;68;0;70;29;1
+3488;Biologia;Universidade Federal do Recôncavo da Bahia;UFRB;Cruz das Almas;37;4503;100421;Biologia;Cruz das Almas;1;Biologia;86;86;0;190;47;29
+3488;Biologia;Universidade Federal do Recôncavo da Bahia;UFRB;Cruz das Almas;37;4503;115037;Biologia;Cruz das Almas;2;Biologia formação de professor;106;0;106;232;57;37
+3588;Ciências Biológicas;Universidade Estadual do Sudoeste da Bahia;UESB;Vitória da Conquista;186;688;20262;Ciências Biológicas;Vitória da Conquista;2;Biologia formação de professor;61;61;0;150;41;20
+3588;Ciências Biológicas;Universidade Estadual do Sudoeste da Bahia;UESB;Vitória da Conquista;186;688;150052;Ciências Biológicas;Vitória da Conquista;1;Biologia;51;51;0;129;33;15

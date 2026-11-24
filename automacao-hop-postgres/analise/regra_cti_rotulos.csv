@@ -1,0 +1,72 @@
+﻿co_cine_area_geral;co_cine_rotulo;no_cine_rotulo;cursos_inep_ba_presencial;casados_no_supabase;status_proposto
+05;0511B01;Biologia;14;14;incluir
+05;0512B02;Biotecnologia;2;2;incluir
+05;0521E01;Ecologia;1;0;revisar
+05;0531Q01;Química;4;4;incluir
+05;0531Q02;Química industrial e tecnológica;1;1;incluir
+05;0532G01;Geofísica;1;1;incluir
+05;0532G02;Geologia;3;2;revisar
+05;0532O01;Oceanografia;2;2;incluir
+05;0533F01;Física;5;5;incluir
+05;0541M01;Matemática;4;4;incluir
+05;0542E01;Estatística;1;1;incluir
+05;0588P01;Programas interdisciplinares abrangendo ci;9;9;incluir
+06;0612B01;Banco de dados;1;1;incluir
+06;0612G01;Gestão da tecnologia da informação;7;7;incluir
+06;0612R01;Redes de computadores;6;6;incluir
+06;0613C01;Ciência da computação;12;12;incluir
+06;0613E01;Engenharia de software;5;5;incluir
+06;0613S01;Sistemas de informação;43;43;incluir
+06;0613S02;Sistemas para internet;2;2;incluir
+06;0681J01;Jogos digitais;2;2;incluir
+07;0711E02;Engenharia de bioprocessos;1;1;incluir
+07;0711E03;Engenharia de biotecnologia;1;1;incluir
+07;0711E05;Engenharia química;13;13;incluir
+07;0712E01;Engenharia ambiental;6;6;incluir
+07;0712E02;Engenharia ambiental e sanitária;12;12;incluir
+07;0712G01;Gestão ambiental;3;3;incluir
+07;0713E04;Engenharia de energia;2;2;incluir
+07;0713E05;Engenharia elétrica;36;35;incluir
+07;0714E04;Engenharia de computação;15;14;incluir
+07;0714E05;Engenharia de controle e automação;7;7;incluir
+07;0714E07;Engenharia de telecomunicações;1;1;incluir
+07;0714E09;Engenharia mecatrônica;2;2;incluir
+07;0715E02;Engenharia mecânica;30;29;incluir
+07;0715M01;Manutenção industrial;2;2;incluir
+07;0716E03;Engenharia automotiva;1;1;incluir
+07;0721A01;Alimentos;1;1;incluir
+07;0721E01;Engenharia de alimentos;4;4;incluir
+07;0722E01;Engenharia de materiais;2;2;incluir
+07;0724E01;Engenharia de minas;3;3;incluir
+07;0724E02;Engenharia de petróleo;6;6;incluir
+07;0724P01;Petróleo e gás;1;1;incluir
+07;0725E02;Engenharia de produção;40;39;incluir
+07;0731A02;Arquitetura e urbanismo;23;0;excluir
+07;0731E03;Engenharia de agrimensura e cartográfica;1;0;revisar
+07;0732E01;Engenharia civil;59;59;incluir
+07;0732E03;Engenharia de transportes;1;1;incluir
+07;0788P01;Programas interdisciplinares abrangendo en;1;1;incluir
+08;0811A01;Agroecologia;3;3;incluir
+08;0811A02;Agroindústria;4;4;incluir
+08;0811A04;Agronomia;24;24;incluir
+08;0811E01;Engenharia agrícola;2;1;revisar
+08;0811Z01;Zootecnia;4;4;incluir
+08;0821E01;Engenharia florestal;4;4;incluir
+08;0831A01;Aquicultura;1;1;incluir
+08;0831E01;Engenharia de pesca;3;3;incluir
+08;0841M01;Medicina veterinária;29;29;incluir
+09;0911O01;Odontologia;48;0;excluir
+09;0912M01;Medicina;40;0;excluir
+09;0913E01;Enfermagem;82;0;excluir
+09;0914B01;Biomedicina;41;41;incluir
+09;0914O02;Optometria;2;0;revisar
+09;0914R01;Radiologia;11;11;incluir
+09;0915E01;Educação física;31;0;excluir
+09;0915F01;Fisioterapia;67;0;excluir
+09;0915F02;Fonoaudiologia;7;0;excluir
+09;0915N01;Nutrição;54;0;excluir
+09;0915T01;Terapia ocupacional;4;0;excluir
+09;0916F01;Farmácia;52;52;incluir
+09;0918S01;Saúde coletiva;1;0;revisar
+09;0923S01;Serviço social;17;0;excluir
+09;0988P01;Programas interdisciplinares abrangendo sa;5;5;incluir

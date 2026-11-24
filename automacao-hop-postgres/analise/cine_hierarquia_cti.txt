@@ -1,0 +1,148 @@
+ÁREAS GERAIS (BA presencial, QT_CURSO=1):
+  01 Educação — 318 cursos
+  02 Artes e humanidades — 59 cursos
+  03 Ciências sociais, comunicação e informação — 126 cursos
+  04 Negócios, administração e direito — 352 cursos
+  05 Ciências naturais, matemática e estatística — 47 cursos  <- CT&I (áreas 05–09)
+  06 Computação e Tecnologias da Informação e Comunicação (TIC) — 78 cursos  <- CT&I (áreas 05–09)
+  07 Engenharia, produção e construção — 274 cursos  <- CT&I (áreas 05–09)
+  08 Agricultura, silvicultura, pesca e veterinária — 74 cursos  <- CT&I (áreas 05–09)
+  09 Saúde e bem-estar — 462 cursos  <- CT&I (áreas 05–09)
+  10 Serviços — 44 cursos
+
+[05] Ciências naturais, matemática e estatística
+  [051] Ciências biológicas e correlatas
+    [0511] Biologia
+         0511B01 Biologia                                          14 cursos  -> incluir
+    [0512] Bioquímica e biotecnologia
+         0512B02 Biotecnologia                                      2 cursos  -> incluir
+  [052] Meio ambiente
+    [0521] Ciências ambientais
+         0521E01 Ecologia                                           1 cursos  -> revisar
+  [053] Ciências físicas
+    [0531] Química
+         0531Q01 Química                                            4 cursos  -> incluir
+         0531Q02 Química industrial e tecnológica                   1 cursos  -> incluir
+    [0532] Ciências da terra
+         0532G01 Geofísica                                          1 cursos  -> incluir
+         0532G02 Geologia                                           3 cursos  -> revisar
+         0532O01 Oceanografia                                       2 cursos  -> incluir
+    [0533] Física
+         0533F01 Física                                             5 cursos  -> incluir
+  [054] Matemática e estatística
+    [0541] Matemática
+         0541M01 Matemática                                         4 cursos  -> incluir
+    [0542] Estatística
+         0542E01 Estatística                                        1 cursos  -> incluir
+  [058] Programas interdisciplinares abrangendo ciências naturais, matemática e estatística
+    [0588] Programas interdisciplinares abrangendo ciências naturais, matemática e estatística
+         0588P01 Programas interdisciplinares abrangendo ciências   9 cursos  -> incluir
+
+[06] Computação e Tecnologias da Informação e Comunicação (TIC)
+  [061] Computação e Tecnologias da Informação e Comunicação (TIC)
+    [0612] Infraestrutura e gestão de TIC
+         0612B01 Banco de dados                                     1 cursos  -> incluir
+         0612G01 Gestão da tecnologia da informação                 7 cursos  -> incluir
+         0612R01 Redes de computadores                              6 cursos  -> incluir
+    [0613] Análise e desenvolvimento de algoritmos e aplicações
+         0613C01 Ciência da computação                             12 cursos  -> incluir
+         0613E01 Engenharia de software                             5 cursos  -> incluir
+         0613S01 Sistemas de informação                            43 cursos  -> incluir
+         0613S02 Sistemas para internet                             2 cursos  -> incluir
+  [068] Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)
+    [0681] Soluções computacionais para domínios específicos
+         0681J01 Jogos digitais                                     2 cursos  -> incluir
+
+[07] Engenharia, produção e construção
+  [071] Engenharia e profissões correlatas
+    [0711] Engenharia química e de processos
+         0711E02 Engenharia de bioprocessos                         1 cursos  -> incluir
+         0711E03 Engenharia de biotecnologia                        1 cursos  -> incluir
+         0711E05 Engenharia química                                13 cursos  -> incluir
+    [0712] Tecnologia de proteção ambiental
+         0712E01 Engenharia ambiental                               6 cursos  -> incluir
+         0712E02 Engenharia ambiental e sanitária                  12 cursos  -> incluir
+         0712G01 Gestão ambiental                                   3 cursos  -> incluir
+    [0713] Eletricidade e energia
+         0713E04 Engenharia de energia                              2 cursos  -> incluir
+         0713E05 Engenharia elétrica                               36 cursos  -> incluir
+    [0714] Eletrônica e automação
+         0714E04 Engenharia de computação                          15 cursos  -> incluir
+         0714E05 Engenharia de controle e automação                 7 cursos  -> incluir
+         0714E07 Engenharia de telecomunicações                     1 cursos  -> incluir
+         0714E09 Engenharia mecatrônica                             2 cursos  -> incluir
+    [0715] Engenharia mecânica e metalurgia
+         0715E02 Engenharia mecânica                               30 cursos  -> incluir
+         0715M01 Manutenção industrial                              2 cursos  -> incluir
+    [0716] Veículos a motor, construção naval, aeronáutica, ferroviária e metroviária
+         0716E03 Engenharia automotiva                              1 cursos  -> incluir
+  [072] Produção e processamento
+    [0721] Processamento de alimentos
+         0721A01 Alimentos                                          1 cursos  -> incluir
+         0721E01 Engenharia de alimentos                            4 cursos  -> incluir
+    [0722] Materiais
+         0722E01 Engenharia de materiais                            2 cursos  -> incluir
+    [0724] Mineração e extração
+         0724E01 Engenharia de minas                                3 cursos  -> incluir
+         0724E02 Engenharia de petróleo                             6 cursos  -> incluir
+         0724P01 Petróleo e gás                                     1 cursos  -> incluir
+    [0725] Produção e processos de fabricação
+         0725E02 Engenharia de produção                            40 cursos  -> incluir
+  [073] Arquitetura e construção
+    [0731] Arquitetura e planejamento urbano
+         0731A02 Arquitetura e urbanismo                           23 cursos  -> excluir
+         0731E03 Engenharia de agrimensura e cartográfica           1 cursos  -> revisar
+    [0732] Engenharia civil e construção
+         0732E01 Engenharia civil                                  59 cursos  -> incluir
+         0732E03 Engenharia de transportes                          1 cursos  -> incluir
+  [078] Programas interdisciplinares abrangendo engenharia, produção e construção
+    [0788] Programas interdisciplinares abrangendo engenharia, produção e construção
+         0788P01 Programas interdisciplinares abrangendo engenhar   1 cursos  -> incluir
+
+[08] Agricultura, silvicultura, pesca e veterinária
+  [081] Agricultura
+    [0811] Produção agrícola, agropecuária e zootecnia
+         0811A01 Agroecologia                                       3 cursos  -> incluir
+         0811A02 Agroindústria                                      4 cursos  -> incluir
+         0811A04 Agronomia                                         24 cursos  -> incluir
+         0811E01 Engenharia agrícola                                2 cursos  -> revisar
+         0811Z01 Zootecnia                                          4 cursos  -> incluir
+  [082] Silvicultura
+    [0821] Silvicultura
+         0821E01 Engenharia florestal                               4 cursos  -> incluir
+  [083] Pesca
+    [0831] Pesca
+         0831A01 Aquicultura                                        1 cursos  -> incluir
+         0831E01 Engenharia de pesca                                3 cursos  -> incluir
+  [084] Veterinária
+    [0841] Veterinária
+         0841M01 Medicina veterinária                              29 cursos  -> incluir
+
+[09] Saúde e bem-estar
+  [091] Saúde
+    [0911] Odontologia
+         0911O01 Odontologia                                       48 cursos  -> excluir
+    [0912] Medicina
+         0912M01 Medicina                                          40 cursos  -> excluir
+    [0913] Enfermagem
+         0913E01 Enfermagem                                        82 cursos  -> excluir
+    [0914] Tecnologia de diagnóstico e tratamento médico
+         0914B01 Biomedicina                                       41 cursos  -> incluir
+         0914O02 Optometria                                         2 cursos  -> revisar
+         0914R01 Radiologia                                        11 cursos  -> incluir
+    [0915] Promoção, prevenção, terapia e reabilitação
+         0915E01 Educação física                                   31 cursos  -> excluir
+         0915F01 Fisioterapia                                      67 cursos  -> excluir
+         0915F02 Fonoaudiologia                                     7 cursos  -> excluir
+         0915N01 Nutrição                                          54 cursos  -> excluir
+         0915T01 Terapia ocupacional                                4 cursos  -> excluir
+    [0916] Farmácia
+         0916F01 Farmácia                                          52 cursos  -> incluir
+    [0918] Saúde pública e saúde coletiva
+         0918S01 Saúde coletiva                                     1 cursos  -> revisar
+  [092] Bem-estar
+    [0923] Serviço social
+         0923S01 Serviço social                                    17 cursos  -> excluir
+  [098] Programas interdisciplinares abrangendo saúde e bem-estar
+    [0988] Programas interdisciplinares abrangendo saúde e bem-estar
+         0988P01 Programas interdisciplinares abrangendo saúde e    5 cursos  -> incluir
