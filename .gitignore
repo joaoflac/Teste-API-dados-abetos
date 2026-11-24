@@ -1,2 +1,13 @@
 node_modules/
 package-lock.json
+orquestracao/estado_checkpoint.json
+__pycache__/
+graphify-out/cache/
+
+# Postgres portátil: só scripts, README e backup vão para o git
+pg-portatil/pgsql/
+pg-portatil/data/
+pg-portatil/pgpass.txt
+pg-portatil/*.log
+# downloads da orquestração (ZIPs das fontes)
+orquestracao/cache/

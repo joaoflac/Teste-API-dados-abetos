@@ -1,0 +1,442 @@
+{
+ "data_teste": "2026-11-19T12:14:48",
+ "ibge_6579_periodos": [
+  {
+   "id": "2021",
+   "literals": [
+    "2021"
+   ],
+   "modificacao": "24/06/2024"
+  },
+  {
+   "id": "2024",
+   "literals": [
+    "2024"
+   ],
+   "modificacao": "30/12/2024"
+  },
+  {
+   "id": "2025",
+   "literals": [
+    "2025"
+   ],
+   "modificacao": "28/08/2026"
+  },
+  {
+   "id": "2026",
+   "literals": [
+    "2026"
+   ],
+   "modificacao": "28/08/2026"
+  }
+ ],
+ "ibge_6579_periodicidade": {
+  "frequencia": "anual",
+  "inicio": 2001,
+  "fim": 2026
+ },
+ "ibge_5938_periodos": [
+  {
+   "id": "2020",
+   "literals": [
+    "2020"
+   ],
+   "modificacao": "15/12/2023"
+  },
+  {
+   "id": "2021",
+   "literals": [
+    "2021"
+   ],
+   "modificacao": "19/12/2025"
+  },
+  {
+   "id": "2022",
+   "literals": [
+    "2022"
+   ],
+   "modificacao": "19/12/2025"
+  },
+  {
+   "id": "2023",
+   "literals": [
+    "2023"
+   ],
+   "modificacao": "19/12/2025"
+  }
+ ],
+ "ibge_5938_periodicidade": {
+  "frequencia": "anual",
+  "inicio": 2002,
+  "fim": 2023
+ },
+ "ibge_4709_periodos": [
+  {
+   "id": "2022",
+   "literals": [
+    "2022"
+   ],
+   "modificacao": "22/12/2023"
+  }
+ ],
+ "ibge_4709_periodicidade": {
+  "frequencia": "anual",
+  "inicio": 2022,
+  "fim": 2022
+ },
+ "siconfi_extrato_entregas_salvador_2025": [
+  {
+   "exercicio": 2025,
+   "cod_ibge": 2927408,
+   "populacao": 2610987,
+   "instituicao": "Câmara de Vereadores de Salvador - BA",
+   "entregavel": "MSC Agregada",
+   "periodo": 1,
+   "periodicidade": "M",
+   "status_relatorio": null,
+   "data_status": "2025-03-24T11:19:16Z",
+   "forma_envio": "CSV",
+   "tipo_relatorio": null
+  },
+  {
+   "exercicio": 2025,
+   "cod_ibge": 2927408,
+   "populacao": 2610987,
+   "instituicao": "Câmara de Vereadores de Salvador - BA",
+   "entregavel": "MSC Agregada",
+   "periodo": 2,
+   "periodicidade": "M",
+   "status_relatorio": null,
+   "data_status": "2025-03-24T11:20:48Z",
+   "forma_envio": "CSV",
+   "tipo_relatorio": null
+  },
+  {
+   "exercicio": 2025,
+   "cod_ibge": 2927408,
+   "populacao": 2610987,
+   "instituicao": "Câmara de Vereadores de Salvador - BA",
+   "entregavel": "MSC Agregada",
+   "periodo": 3,
+   "periodicidade": "M",
+   "status_relatorio": null,
+   "data_status": "2025-04-25T11:33:19Z",
+   "forma_envio": "CSV",
+   "tipo_relatorio": null
+  },
+  {
+   "exercicio": 2025,
+   "cod_ibge": 2927408,
+   "populacao": 2610987,
+   "instituicao": "Câmara de Vereadores de Salvador - BA",
+   "entregavel": "MSC Agregada",
+   "periodo": 4,
+   "periodicidade": "M",
+   "status_relatorio": null,
+   "data_status": "2025-05-15T15:44:29Z",
+   "forma_envio": "CSV",
+   "tipo_relatorio": null
+  },
+  {
+   "exercicio": 2025,
+   "cod_ibge": 2927408,
+   "populacao": 2610987,
+   "instituicao": "Câmara de Vereadores de Salvador - BA",
+   "entregavel": "MSC Agregada",
+   "periodo": 5,
+   "periodicidade": "M",
+   "status_relatorio": null,
+   "data_status": "2025-06-27T17:11:48Z",
+   "forma_envio": "CSV",
+   "tipo_relatorio": null
+  },
+  {
+   "exercicio": 2025,
+   "cod_ibge": 2927408,
+   "populacao": 2610987,
+   "instituicao": "Câmara de Vereadores de Salvador - BA",
+   "entregavel": "MSC Agregada",
+   "periodo": 6,
+   "periodicidade": "M",
+   "status_relatorio": null,
+   "data_status": "2025-07-18T09:47:56Z",
+   "forma_envio": "CSV",
+   "tipo_relatorio": null
+  }
+ ],
+ "bndes_ckan": [
+  {
+   "resource_id": "6f56b78c-510f-44b6-8274-78a5b7e931f4",
+   "nome": "Operações não automáticas",
+   "formato": "CSV",
+   "url": "https://dadosabertos.bndes.gov.br/dataset/10e21ad1-568e-45e5-a8af-43f2c05ef1a2/resource/6f56b78c-510f-44b6-8274-78a5b7e931f4/download/operacoes-financiamento-operacoes-nao-automaticas.csv",
+   "last_modified": "2026-11-11T16:47:59.331914",
+   "metadata_modified": "2026-11-11T16:47:59.345803",
+   "created": "2025-02-14T23:31:47.543999",
+   "hash": "d1c88f54b71721654428213b5356e4dd",
+   "size": 20197981,
+   "datastore_active": true,
+   "pacote": "operacoes-financiamento",
+   "pacote_metadata_modified": "2026-11-14T12:09:02.368554",
+   "datastore_total": 24035,
+   "datastore_campos": [
+    "_id",
+    "cliente",
+    "cnpj",
+    "descricao_do_projeto",
+    "uf",
+    "municipio",
+    "municipio_codigo",
+    "numero_do_contrato",
+    "data_da_contratacao",
+    "valor_contratado_reais",
+    "valor_desembolsado_reais",
+    "fonte_de_recurso_desembolsos",
+    "custo_financeiro",
+    "juros",
+    "prazo_carencia_meses",
+    "prazo_amortizacao_meses",
+    "modalidade_de_apoio",
+    "forma_de_apoio",
+    "produto",
+    "instrumento_financeiro",
+    "inovacao",
+    "area_operacional",
+    "setor_cnae",
+    "subsetor_cnae_agrupado",
+    "subsetor_cnae_codigo",
+    "subsetor_cnae_nome",
+    "setor_bndes",
+    "subsetor_bndes",
+    "porte_do_cliente",
+    "natureza_do_cliente",
+    "instituicao_financeira_credenciada",
+    "cnpj_da_instituicao_financeira_credenciada",
+    "tipo_de_garantia",
+    "tipo_de_excepcionalidade",
+    "situacao_do_contrato"
+   ]
+  },
+  {
+   "resource_id": "612faa0b-b6be-4b2c-9317-da5dc2c0b901",
+   "nome": "Operações indiretas automáticas",
+   "formato": "CSV",
+   "url": "https://dadosabertos.bndes.gov.br/dataset/10e21ad1-568e-45e5-a8af-43f2c05ef1a2/resource/612faa0b-b6be-4b2c-9317-da5dc2c0b901/download/operacoes-financiamento-operacoes-indiretas-automaticas.csv",
+   "last_modified": "2026-11-11T15:14:53.153921",
+   "metadata_modified": "2026-11-11T15:14:53.167962",
+   "created": "2025-02-14T21:54:12.257885",
+   "hash": "110aabb36222ecc414761868de2c2240",
+   "size": 1211017640,
+   "datastore_active": true,
+   "pacote": "operacoes-financiamento",
+   "pacote_metadata_modified": "2026-11-14T12:09:02.368554",
+   "datastore_total": 2398240,
+   "datastore_campos": [
+    "_id",
+    "cliente",
+    "cpf_cnpj",
+    "uf",
+    "municipio",
+    "municipio_codigo",
+    "data_da_contratacao",
+    "valor_da_operacao_em_reais",
+    "valor_desembolsado_reais",
+    "fonte_de_recurso_desembolsos",
+    "custo_financeiro",
+    "juros",
+    "prazo_carencia_meses",
+    "prazo_amortizacao_meses",
+    "modalidade_de_apoio",
+    "forma_de_apoio",
+    "produto",
+    "instrumento_financeiro",
+    "inovacao",
+    "area_operacional",
+    "setor_cnae",
+    "subsetor_cnae_agrupado",
+    "subsetor_cnae_codigo",
+    "subsetor_cnae_nome",
+    "setor_bndes",
+    "subsetor_bndes",
+    "porte_do_cliente",
+    "natureza_do_cliente",
+    "instituicao_financeira_credenciada",
+    "cnpj_do_agente_financeiro",
+    "situacao_da_operacao"
+   ]
+  }
+ ],
+ "aneel_ckan": [
+  {
+   "resource_id": "fd10c9d4-cb76-4020-a322-e79afb13eaf7",
+   "nome": "indger-dados-comerciais.csv",
+   "formato": "CSV",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d/resource/fd10c9d4-cb76-4020-a322-e79afb13eaf7/download/indger-dados-comerciais.csv",
+   "last_modified": "2026-11-05T05:11:23.297246",
+   "metadata_modified": "2026-11-05T05:26:53.084042",
+   "created": "2023-12-13T20:05:33.582751",
+   "hash": "bddcbbcbaa9511152dbd2e40a6cc9c63",
+   "size": 134240826,
+   "datastore_active": true,
+   "pacote": "indger-indicadores-gerenciais-da-distribuicao",
+   "pacote_metadata_modified": "2026-11-05T09:41:18.089768",
+   "datastore_total": 280055,
+   "datastore_campos": [
+    "_id",
+    "DatGeracaoConjuntoDados",
+    "NumCNPJ",
+    "SigAgente",
+    "NomAgente",
+    "NomTipoOutorga",
+    "DatReferenciaInformada",
+    "CodMunicipioIBGE",
+    "QtdUCAtiva",
+    "QtdUCAtivaFat",
+    "QtdFatura",
+    "QtdFaturaSemLeitura",
+    "QtdFaturaSemLeituraImpAcesso",
+    "QtdFaturaSemLeituraEmergencia",
+    "QtdFaturaSemLeituraPlurimensa",
+    "QtdFaturaSemLeituraFatEstimad",
+    "QtdFaturaSemLeituraFimContrat",
+    "QtdFaturaSemLeituraAusenciaTm",
+    "QtdRefaturamento",
+    "QtdFaturaAcerto",
+    "QtdFaturaAcertoFatIncorreto",
+    "QtdFaturaAcertoFatIncorDevDob",
+    "QtdFaturaAcertoFatIncorDevSEC",
+    "QtdFaturaAcertoFatIncorDevSET",
+    "QtdFaturaAcertoFatImpAcesso",
+    "QtdFaturaAcertoFatEmergencia",
+    "QtdFaturaSemLeituraFatMedia",
+    "QtdFaturaSemLeituraFatCustoDi",
+    "QtdFaturaComLeitura",
+    "QtdFaturaComAutoleitura",
+    "QtdConsComLeituraPlurimensal",
+    "QtdConsComAutoleitura",
+    "QtdRestAnteDist",
+    "QtdRestAtrasadoDist",
+    "QtdRestPendenteDist",
+    "QtdRestPendenteAtrasado",
+    "VlrRestAnte",
+    "VlrRestAtrasado",
+    "VlrRestPendente",
+    "VlrRestPendenteAtrasado",
+    "QtdSolicRessarcimentoDano",
+    "QtdRessarcIndeferido",
+    "VlrPendentePgtRessarcDanoDefe",
+    "VlrPagoRessarcDano",
+    "QtdUCSubstMedidor",
+    "QtdPostoAtendimento",
+    "QtdDiasNormal",
+    "QtdDiasCasoFortForcMaior",
+    "QtdAtendRealizPosto",
+    "QtdAtendRealizPostoDiaCasoFor",
+    "MdaTempoMedAtendimentoPosto",
+    "MdaTempoMedAtendPostoDiaFort",
+    "QtdAtendRealizMais30MinDiaNor",
+    "QtdAtendRealizMais30MinDiaFor",
+    "QtdInspecVerifProcIrregular",
+    "QtdTermosOcorrInspecao",
+    "QtdTermosOcorrInspecaoCobr",
+    "QtdTermosOcorrInspecaoEncerr",
+    "QtdProceCobrDefMedidor",
+    "QtdReligCobr",
+    "QtdUCSuspInadimplemento",
+    "QtdSuspIndev",
+    "VlrTotCompSuspIndevida",
+    "DthCarga"
+   ]
+  },
+  {
+   "resource_id": "11ec447d-698d-4ab8-977f-b424d5deee6a",
+   "nome": "siga-empreendimentos-geracao.csv",
+   "formato": "CSV",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/11ec447d-698d-4ab8-977f-b424d5deee6a/download/siga-empreendimentos-geracao.csv",
+   "last_modified": "2026-11-01T05:07:52.318843",
+   "metadata_modified": "2026-11-01T05:11:05.610469",
+   "created": "2022-02-02T14:44:29.596251",
+   "hash": "cff9c1511b25bcaa0b15131ced20ab3d",
+   "size": 7883527,
+   "datastore_active": true,
+   "pacote": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "pacote_metadata_modified": "2026-11-19T10:43:16.249826",
+   "datastore_total": 25046,
+   "datastore_campos": [
+    "_id",
+    "DatGeracaoConjuntoDados",
+    "NomEmpreendimento",
+    "IdeNucleoCEG",
+    "CodCEG",
+    "SigUFPrincipal",
+    "SigTipoGeracao",
+    "DscFaseUsina",
+    "DscOrigemCombustivel",
+    "DscFonteCombustivel",
+    "DscTipoOutorga",
+    "NomFonteCombustivel",
+    "DatEntradaOperacao",
+    "MdaPotenciaOutorgadaKw",
+    "MdaPotenciaFiscalizadaKw",
+    "MdaGarantiaFisicaKw",
+    "IdcGeracaoQualificada",
+    "NumCoordNEmpreendimento",
+    "NumCoordEEmpreendimento",
+    "DatInicioVigencia",
+    "DatFimVigencia",
+    "DscPropriRegimePariticipacao",
+    "DscSubBacia",
+    "DscMuninicpios"
+   ]
+  },
+  {
+   "resource_id": "3a7aee00-b6ee-4913-9670-f6b60f4a7bea",
+   "nome": "proj-ped-energia-eletrica.csv",
+   "formato": "CSV",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/78c2db95-fb29-4851-98f9-4d55cb5bf646/resource/3a7aee00-b6ee-4913-9670-f6b60f4a7bea/download/proj-ped-energia-eletrica.csv",
+   "last_modified": "2026-11-01T05:07:42.426537",
+   "metadata_modified": "2026-11-01T05:10:31.193557",
+   "created": "2022-04-01T20:19:33.518384",
+   "hash": "21f42bbb06ce2c019d0a1b71456a8a91",
+   "size": 1176472,
+   "datastore_active": true,
+   "pacote": "projetos-de-p-d-em-energia-eletrica",
+   "pacote_metadata_modified": "2026-11-01T05:10:31.213273",
+   "datastore_total": 3997,
+   "datastore_campos": [
+    "_id",
+    "DatGeracaoConjuntoDados",
+    "IdcSituacaoProjeto",
+    "DscCodProjeto",
+    "NomAgente",
+    "SigAgente",
+    "NumCPFCNPJ",
+    "DscChamPEDEstrategico",
+    "DscTituloProjeto",
+    "QtdMesesDuracaoPrevista",
+    "SigSegmentoSetorEletrico",
+    "SigTemaProjeto",
+    "SigFasInovacaoProjeto",
+    "SigTipoProdutoProjeto",
+    "VlrCustoTotalPrevisto",
+    "AnoCadastroPropostaProjeto",
+    "DatConclusaoProjeto",
+    "VlrCustoTotalAuditado"
+   ]
+  },
+  {
+   "resource_id": "4493985c-baea-429c-9df5-3030422c71d7",
+   "nome": "indicadores-continuidade-coletivos-2020-2029",
+   "formato": "ZIP",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/4493985c-baea-429c-9df5-3030422c71d7/download/indicadores-continuidade-coletivos-2020-2029.zip",
+   "last_modified": "2026-11-05T09:50:08.355936",
+   "metadata_modified": "2026-11-12T17:13:26.464088",
+   "created": "2022-05-27T18:50:19.792730",
+   "hash": "429a973a32d26c9f4704d6446ce5e546",
+   "size": 146137203,
+   "datastore_active": false,
+   "pacote": "indicadores-coletivos-de-continuidade-dec-e-fec",
+   "pacote_metadata_modified": "2026-11-12T17:57:14.310160"
+  }
+ ]
+}

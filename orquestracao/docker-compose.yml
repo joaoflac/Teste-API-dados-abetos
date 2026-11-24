@@ -1,0 +1,51 @@
+# Ambiente de teste local da orquestração (espelha a futura VPS Ubuntu).
+# Subir:   docker compose -f orquestracao/docker-compose.yml up -d postgres
+# Testar:  docker compose -f orquestracao/docker-compose.yml exec -T postgres psql -U etl -d painel -f /testes/03_teste_incremental.sql
+# Hop GUI web (desenho dos pipelines): docker compose -f orquestracao/docker-compose.yml up -d hop-web  -> http://localhost:8080/ui
+# Rodar um workflow (o cron da VPS chama isto):
+#   docker compose -f orquestracao/docker-compose.yml run --rm -e HOP_FILE_PATH=/project/workflows/principal.hwf hop-run
+name: painel-cti-etl
+
+services:
+  postgres:
+    image: postgres:17.6
+    environment:
+      POSTGRES_DB: painel
+      POSTGRES_USER: etl
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-troque-esta-senha}
+    ports: ["127.0.0.1:5432:5432"]          # só local; na VPS não expor
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro   # 01_controle e 02_carga rodam na 1ª subida
+      - ./testes:/testes:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U etl -d painel"]
+      interval: 5s
+      retries: 10
+
+  hop-web:                                  # interface para desenhar pipelines/workflows
+    image: apache/hop-web:2.10.0
+    ports: ["127.0.0.1:8080:8080"]
+    volumes:
+      - ./hop:/project
+    profiles: ["dev"]
+
+  hop-run:                                  # execução headless (one-shot), disparada por cron/systemd timer
+    image: apache/hop:2.10.0
+    environment:
+      HOP_PROJECT_NAME: painel_cti
+      HOP_PROJECT_FOLDER: /project
+      HOP_RUN_CONFIG: local
+      HOP_FILE_PATH: /project/workflows/principal.hwf
+      PG_HOST: postgres
+      PG_PASSWORD: ${PG_PASSWORD:-troque-esta-senha}
+    volumes:
+      - ./hop:/project
+      - downloads:/files                    # CSV/ZIP baixados (ELT) ficam aqui até o COPY
+    depends_on:
+      postgres: {condition: service_healthy}
+    profiles: ["run"]
+
+volumes:
+  pgdata:
+  downloads:

@@ -1,0 +1,158 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1795102429.686145,
+    "seen": 1795102447.85567,
+    "ast_hash": "006012ec5a3dce23a1175d927b6408ad",
+    "semantic_hash": ""
+  },
+  "orquestracao/docker-compose.yml": {
+    "mtime": 1795101536.5040061,
+    "seen": 1795102447.85567,
+    "ast_hash": "5a1af8331837f2fc429ba7487d7b6e5c",
+    "semantic_hash": ""
+  },
+  "orquestracao/probe_identificadores_mudanca_metadados.json": {
+    "mtime": 1795101288.8382769,
+    "seen": 1795102447.85567,
+    "ast_hash": "b3ad98d240040470a50383d6844ea77e",
+    "semantic_hash": ""
+  },
+  "scripts/aneel_decfec_ba.py": {
+    "mtime": 1795099082.1292832,
+    "seen": 1795102447.85567,
+    "ast_hash": "1ca5e9fef57985c3c0f96c16ea0f07eb",
+    "semantic_hash": ""
+  },
+  "scripts/aneel_probe.py": {
+    "mtime": 1795099058.007166,
+    "seen": 1795102447.85567,
+    "ast_hash": "58223abe473400d89889e6c8100189e8",
+    "semantic_hash": ""
+  },
+  "scripts/bndes_download_ba.py": {
+    "mtime": 1795099058.007166,
+    "seen": 1795102447.85567,
+    "ast_hash": "c390c641a9181dba3ae17f0bf11950fb",
+    "semantic_hash": ""
+  },
+  "scripts/etl_verificar_mudanca.py": {
+    "mtime": 1795101459.3967867,
+    "seen": 1795102447.85567,
+    "ast_hash": "55947797cb40496532ea2e5e6734e871",
+    "semantic_hash": ""
+  },
+  "scripts/extrair_amostras_aneel_ba.py": {
+    "mtime": 1795099082.1292832,
+    "seen": 1795102447.85567,
+    "ast_hash": "e4068d886718d577907dd9b638ba6c72",
+    "semantic_hash": ""
+  },
+  "scripts/gerar_amostras.py": {
+    "mtime": 1795099082.1292832,
+    "seen": 1795102447.85567,
+    "ast_hash": "f892140c9ca29d9a2bfff98bb2bbf22c",
+    "semantic_hash": ""
+  },
+  "scripts/gerar_docx_executivo.js": {
+    "mtime": 1795099082.1292832,
+    "seen": 1795102447.85567,
+    "ast_hash": "814315dc81005fa26b196974a825036b",
+    "semantic_hash": ""
+  },
+  "scripts/gerar_planilha_amostras.py": {
+    "mtime": 1795099082.1292832,
+    "seen": 1795102447.85567,
+    "ast_hash": "fbb8676c7e1b32e250583ec716bf6de6",
+    "semantic_hash": ""
+  },
+  "scripts/httpzip.py": {
+    "mtime": 1795099058.013273,
+    "seen": 1795102447.85567,
+    "ast_hash": "1a90c78a2522fb17d9326ebc6c33ffbe",
+    "semantic_hash": ""
+  },
+  "scripts/ibge_base_municipal.py": {
+    "mtime": 1795100964.4847052,
+    "seen": 1795102447.85567,
+    "ast_hash": "07bfeb353ee3352785ffd56e033b022f",
+    "semantic_hash": ""
+  },
+  "scripts/ibge_pib_per_capita_oficial.py": {
+    "mtime": 1795099082.1353302,
+    "seen": 1795102447.85567,
+    "ast_hash": "0ebf6e6c1641db594630d5e6936f8417",
+    "semantic_hash": ""
+  },
+  "scripts/probe_identificadores_mudanca.py": {
+    "mtime": 1795101261.6914444,
+    "seen": 1795102447.85567,
+    "ast_hash": "90555407aa720b404f8fb16940985e27",
+    "semantic_hash": ""
+  },
+  "scripts/siconfi_dca_ba.py": {
+    "mtime": 1795099058.013273,
+    "seen": 1795102447.85567,
+    "ast_hash": "243d87b317f715d2f5f086e4b9fdf46e",
+    "semantic_hash": ""
+  },
+  "ANEEL_EXPLORACAO_VALORES_UNICOS_CTI.md": {
+    "mtime": 1795099082.0897748,
+    "seen": 1795102447.85567,
+    "ast_hash": "e611c289d57f369f0ed2c9a1e15b4c79",
+    "semantic_hash": ""
+  },
+  "APIs_TERRITORIOS_SECTI_extracao_planilha.md": {
+    "mtime": 1795099082.0897748,
+    "seen": 1795102447.85567,
+    "ast_hash": "da7fb67d0911cefaac64e1ed82d5e075",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1795102429.6790984,
+    "seen": 1795102447.85567,
+    "ast_hash": "f746f6c68fa74bd9a0605147b83052e7",
+    "semantic_hash": ""
+  },
+  "OUTRAS_APIS_EXPLORACAO_VALORES_UNICOS_CTI.md": {
+    "mtime": 1795099082.099415,
+    "seen": 1795102447.85567,
+    "ast_hash": "9316d721a943eeffef668ea7049b7080",
+    "semantic_hash": ""
+  },
+  "PLANEJAMENTO_IBGE.md": {
+    "mtime": 1795102406.3888977,
+    "seen": 1795102447.85567,
+    "ast_hash": "2b23b62e3c01d9aab0d2eb3eedbc8552",
+    "semantic_hash": ""
+  },
+  "RESULTADOS_AMOSTRAGEM.md": {
+    "mtime": 1795100983.8641987,
+    "seen": 1795102447.85567,
+    "ast_hash": "f9702e2f7baa195706c27eca358ac8f6",
+    "semantic_hash": ""
+  },
+  "orquestracao/PLANO_ORQUESTRACAO_ETL.md": {
+    "mtime": 1795101575.049446,
+    "seen": 1795102447.85567,
+    "ast_hash": "7e281672ecba02fbc91b30c1663cd5d2",
+    "semantic_hash": ""
+  },
+  "orquestracao/sql/01_controle.sql": {
+    "mtime": 1795101510.563619,
+    "seen": 1795102457.488584,
+    "ast_hash": "853043e2226dd0a7fca2a2a6ce6eaa33",
+    "semantic_hash": ""
+  },
+  "orquestracao/sql/02_carga_incremental.sql": {
+    "mtime": 1795101510.6382318,
+    "seen": 1795102457.488584,
+    "ast_hash": "923643438f273963e4f06b7940c281c8",
+    "semantic_hash": ""
+  },
+  "orquestracao/testes/03_teste_incremental.sql": {
+    "mtime": 1795101536.4712622,
+    "seen": 1795102457.488584,
+    "ast_hash": "08bc638bee9ba67fc0c0af4f435a749d",
+    "semantic_hash": ""
+  }
+}

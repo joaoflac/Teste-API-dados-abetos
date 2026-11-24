@@ -1,0 +1,37 @@
+﻿coluna,grupo,descricao,origem
+codigo_ibge,Chave,Código IBGE do município (7 dígitos) — chave de junção com as demais fontes,https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+municipio,Identificação,Nome/UF do município,https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+uf,Identificação,Nome/UF do município,https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+codigo_uf,Identificação,Nome/UF do município,https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+codigo_microrregiao,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+microrregiao,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+codigo_mesorregiao,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+mesorregiao,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+codigo_regiao_imediata,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+regiao_imediata,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+codigo_regiao_intermediaria,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+regiao_intermediaria,Hierarquia territorial,Divisão regional IBGE (2017: imediata/intermediária; antiga: micro/meso),https://servicodados.ibge.gov.br/api/v1/localidades/estados/29/municipios
+area_km2,Território,Área (km²) e centroide (WGS84) da malha municipal,api/v3/malhas/estados/29/metadados
+centroide_lon,Território,Área (km²) e centroide (WGS84) da malha municipal,api/v3/malhas/estados/29/metadados
+centroide_lat,Território,Área (km²) e centroide (WGS84) da malha municipal,api/v3/malhas/estados/29/metadados
+populacao_censo_2022,Demografia,"População residente — Censo 2022 (agregado 4709, var 93)",https://servicodados.ibge.gov.br/api/v3/agregados/4709/periodos/2022/variaveis/93?localidades=N6[N3[29]]
+populacao_estimada_2024,Demografia,"População residente estimada (agregado 6579, var 9324)",agregado 6579
+populacao_estimada_2025,Demografia,"População residente estimada (agregado 6579, var 9324)",agregado 6579
+populacao_estimada_2026,Demografia,"População residente estimada (agregado 6579, var 9324)",agregado 6579
+pib_2022_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+pib_2023_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+vab_total_2021_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+vab_agropecuaria_2021_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+vab_industria_2021_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+vab_servicos_2021_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+vab_adm_publica_2021_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+impostos_liquidos_2021_mil_reais,Economia,PIB/VAB a preços correntes (mil R$) — agregado 5938. VAB municipal só publicado até 2021,agregado 5938
+pib_per_capita_2023_reais,Economia,PIB per capita oficial (R$),ftp PIB dos Municípios (base TXT)
+densidade_demografica_2026_hab_km2,Derivado,Calculado: densidade = pop/área; PIB/km²; participação % do setor no VAB total,derivado
+pib_por_km2_2023_mil_reais,Derivado,Calculado: densidade = pop/área; PIB/km²; participação % do setor no VAB total,derivado
+part_vab_agropecuaria_2021_pct,Derivado,Calculado: densidade = pop/área; PIB/km²; participação % do setor no VAB total,derivado
+part_vab_industria_2021_pct,Derivado,Calculado: densidade = pop/área; PIB/km²; participação % do setor no VAB total,derivado
+part_vab_servicos_2021_pct,Derivado,Calculado: densidade = pop/área; PIB/km²; participação % do setor no VAB total,derivado
+part_vab_adm_publica_2021_pct,Derivado,Calculado: densidade = pop/área; PIB/km²; participação % do setor no VAB total,derivado
+fonte,Metadado,Proveniência da linha,
+data_montagem,Metadado,Proveniência da linha,

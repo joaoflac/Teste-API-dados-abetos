@@ -104,6 +104,22 @@ Recortes territoriais ou de agente (UF = BA, distribuidora = COELBA, lista de mu
 **Ressalvas:**
 - **2.3 PIB per capita:** a tabela 6784 só tem nível Brasil (N1) e a 6579 não tem população de 2023. Por isso o valor de 2023 vem da **base oficial do PIB dos Municípios** (TXT de largura fixa), lida por `scripts/ibge_pib_per_capita_oficial.py`. O PIB desse arquivo confere 100% com a SIDRA 5938 (soma BA R$ 430,99 bi).
 - A densidade demográfica usa a população mais recente da 6579 (2026), não a de 2023.
+- **VAB municipal só até 2021:** o IBGE não divulgou VAB por município para 2022–2023 (SIDRA 5938 devolve `...` e a base TXT vem em branco). As linhas de VAB em `ibge_2.2_pib_vab_5938_BA.csv` estão vazias por isso; a base municipal usa o VAB de 2021.
+
+### Base municipal IBGE (tabela-mestre)
+
+**Decisão (19/11/2026):** o IBGE é a base de informações municipais do projeto. `base/ibge_base_municipal_BA.csv` tem uma linha por município (417) e `codigo_ibge` como chave de junção para INEP, BNDES, SICONFI, ANATEL e ANEEL. O dicionário está em `base/ibge_base_municipal_BA_dicionario.csv`.
+
+| Grupo | Colunas |
+|---|---|
+| Identificação | `codigo_ibge`, `municipio`, `uf`, `codigo_uf` |
+| Hierarquia territorial | micro/mesorregião (32/7) e região imediata/intermediária (34/10), com código e nome |
+| Território | `area_km2`, `centroide_lon`, `centroide_lat` |
+| Demografia | `populacao_censo_2022` (4709), `populacao_estimada_2024..2026` (6579) |
+| Economia | `pib_2022/2023_mil_reais`, `pib_per_capita_2023_reais` (oficial), VAB 2021 por atividade e impostos |
+| Derivados | `densidade_demografica_2026_hab_km2`, `pib_por_km2_2023_mil_reais`, `part_vab_*_2021_pct` |
+
+Gerada por `scripts/ibge_base_municipal.py` (rodar depois de `gerar_amostras.py` e `ibge_pib_per_capita_oficial.py`). Os Territórios de Identidade entram aqui quando a tabela município → TI estiver disponível.
 
 ---
 
@@ -487,6 +503,7 @@ python scripts/extrair_amostras_aneel_ba.py   # extrai SIGA, P&D, INDQUAL, INDGE
 python scripts/aneel_decfec_ba.py 2025 cache  # DEC/FEC por conjunto e município (ZIP oficial) + INDQUAL dos conjuntos ativos
 # 4. IBGE PIB per capita oficial (depois do passo 2, pois reescreve a amostra de derivados)
 python scripts/ibge_pib_per_capita_oficial.py 2023 cache
+python scripts/ibge_base_municipal.py         # base municipal IBGE (tabela-mestre)
 # 5. entregáveis: planilha única e os dois DOCX
 python scripts/gerar_planilha_amostras.py
 node scripts/gerar_docx_executivo.js TERRITORIOS_SECTI_Resumo_Executivo_Dados.docx
