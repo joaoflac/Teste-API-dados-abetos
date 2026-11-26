@@ -1,0 +1,3 @@
+nome_planilha;codigo_ibge;municipio_ibge;confirmar;observacao
+Tancredo Neves;2925758;Presidente Tancredo Neves;nao;nome abreviado (a aproximação não alcança: similaridade 0,72)
+Capela;2906857;Capela do Alto Alegre;sim;inferido (APL Ser do Sertão, Bacia do Jacuípe); a aproximação apontaria Caravelas, errado

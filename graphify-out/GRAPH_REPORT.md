@@ -1,32 +1,32 @@
-# Graph Report - Teste-API-dados-abetos  (2026-11-24)
+# Graph Report - Teste-API-dados-abetos  (2026-11-26)
 
 ## Corpus Check
-- 46 files · ~1,567,817 words
+- 51 files · ~1,663,923 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 51 file(s) not represented in the graph (top: .csv 50, (none) 1)
-- WARNING: 51 of 99 files seen (52%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
+- Unclassified: 53 file(s) not represented in the graph (top: .csv 52, (none) 1)
+- WARNING: 53 of 106 files seen (50%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
 
 ## Summary
-- 422 nodes · 633 edges · 19 communities (17 shown, 2 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 35 edges (avg confidence: 0.83)
+- 480 nodes · 749 edges · 27 communities (26 shown, 1 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 39 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `973ffbd8`
+- Built from commit: `8cc00a05`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- ANEEL — Exploração de Valores Únicos para CT&I
+- Exploracao de Valores Unicos CT&I - INEP, BNDES, SICONFI, ANATEL e IBGE
 - APIs_TERRITORIOS_SECTI_extracao_planilha.md
 - orquestrador_inep.py
-- etl_verificar_mudanca.py
+- ANEEL (fonte de dados)
 - aneel_decfec_ba.py
 - TERRITÓRIOS SECTI — Resultados da amostragem: o que há em cada dataset e quais filtros CT&I se aplicam
 - json
 - gerar_amostras.py
-- gerar_docx_executivo.js
-- environment
+- gerar_planilha_amostras.py
+- orquestrador_apl.py
 - orquestrador_simulado.py
 - environment
 - TERRITORIOS_SECTI_Amostras_CTI_1b1ba1ae.md
@@ -35,30 +35,38 @@
 - Orquestração ETL/ELT — Painel Territorial CT&I
 - MER atual: IBGE × INEP
 - PostgreSQL portátil do repositório
+- Workflow check_<fonte> (check_inep)
+- Resultados da amostragem (documento concentrador)
+- cti_nivel / cti_motivo BNDES (regra explicita de CT&I)
+- Especificacao de Extracao das APIs/Fonte da Planilha
+- Tabelas Supabase (lista_cursos_cti, lista_ativos_cti, lista_municipioxterritorio, stats_ti, firjan)
+- Planejamento — CRUD do painel e fila de validação humana
+- Planejamento — APLs (Arranjos Produtivos Locais)
+- orquestrador_inep.py
 
 ## God Nodes (most connected - your core abstractions)
-1. `log()` - 14 edges
-2. `Planejamento IBGE — Painel Territorial CT&I` - 14 edges
-3. `executar()` - 10 edges
-4. `ftp_linhas_ba()` - 10 edges
-5. `recurso_municipio()` - 10 edges
-6. `recurso_malha()` - 10 edges
-7. `TERRITORIOS SECTI Resumo Executivo (Dados, CSV version)` - 10 edges
-8. `HttpFile` - 9 edges
-9. `get()` - 8 edges
-10. `copiar()` - 8 edges
+1. `log()` - 17 edges
+2. `montar()` - 16 edges
+3. `Planejamento IBGE — Painel Territorial CT&I` - 14 edges
+4. `executar()` - 11 edges
+5. `Planejamento — CRUD do painel e fila de validação humana` - 10 edges
+6. `copiar()` - 10 edges
+7. `ftp_linhas_ba()` - 10 edges
+8. `get()` - 10 edges
+9. `recurso_malha()` - 10 edges
+10. `recurso_municipio()` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `TERRITORIOS SECTI - Resumo Executivo de Dados (PDF)` --semantically_similar_to--> `Resultados da amostragem (documento concentrador)`  [INFERRED] [semantically similar]
-  TERRITORIOS_SECTI_Resumo_Executivo_Dados.pdf → RESULTADOS_AMOSTRAGEM.md
-- `Tarefa atual (atualizar ao fim de cada sessão)` --references--> `baixar_zip()`  [INFERRED]
-  CLAUDE.md → orquestracao/orquestrador_inep.py
-- `D. Trabalho técnico pendente` --references--> `baixar_zip()`  [INFERRED]
-  PENDENCIAS_E_PERGUNTAS.md → orquestracao/orquestrador_inep.py
+- `1. O que existe hoje` --references--> `montar()`  [INFERRED]
+  PLANEJAMENTO_CRUD_CURADORIA.md → orquestracao/orquestrador_apl.py
+- `6. Fases` --references--> `montar()`  [INFERRED]
+  PLANEJAMENTO_CRUD_CURADORIA.md → orquestracao/orquestrador_apl.py
+- `3.3 Linha duvidosa: fica no CRUD, fora do painel público` --references--> `montar()`  [INFERRED]
+  PLANEJAMENTO_CRUD_CURADORIA.md → orquestracao/orquestrador_apl.py
+- `3.5 Edição humana que a recarga respeita (C1 decidido: a pessoa vence)` --references--> `ler_xlsx()`  [INFERRED]
+  PLANEJAMENTO_CRUD_CURADORIA.md → orquestracao/orquestrador_apl.py
 - `INEP (primeira fonte a automatizar)` --semantically_similar_to--> `INEP - Censo da Educacao Superior 2024`  [INFERRED] [semantically similar]
   automacao-hop-postgres/PLANO.md → OUTRAS_APIS_EXPLORACAO_VALORES_UNICOS_CTI.md
-- `Tabelas Supabase (lista_cursos_cti, lista_ativos_cti, lista_municipioxterritorio, stats_ti, firjan)` --semantically_similar_to--> `Lista SECTI de 642 cursos CT&I (pendente)`  [INFERRED] [semantically similar]
-  automacao-hop-postgres/PLANO.md → RESULTADOS_AMOSTRAGEM.md
 
 ## Import Cycles
 - None detected.
@@ -70,23 +78,23 @@
 - **Six open data sources feeding the TERRITORIOS SECTI panel** — graphify_out_converted_territorios_secti_resumo_executivo_dados_1d5f63e8_ibge, graphify_out_converted_territorios_secti_resumo_executivo_dados_1d5f63e8_inep, graphify_out_converted_territorios_secti_resumo_executivo_dados_1d5f63e8_aneel, graphify_out_converted_territorios_secti_resumo_executivo_dados_1d5f63e8_bndes, graphify_out_converted_territorios_secti_resumo_executivo_dados_1d5f63e8_siconfi, graphify_out_converted_territorios_secti_resumo_executivo_dados_1d5f63e8_anatel [EXTRACTED 1.00]
 - **Estrategia de classificacao CT&I (nivel_cti, cti_nivel, P&D ANEEL)** — resultados_amostragem_nivel_cti, resultados_amostragem_bndes_cti_nivel, resultados_amostragem_aneel_ped_projetos, resultados_amostragem_quatro_situacoes_filtro_cti [INFERRED 0.85]
 
-## Communities (19 total, 2 thin omitted)
+## Communities (27 total, 1 thin omitted)
 
-### Community 0 - "ANEEL — Exploração de Valores Únicos para CT&I"
-Cohesion: 0.06
-Nodes (35): codigo_ibge (chave territorial), Especificacao de Extracao das APIs/Fonte da Planilha, Planilha de Avaliacao das Fontes do Painel Territorial, 27 Territorios de Identidade (SECTI/SEPLAN) e 417 municipios BA, Apache Hop (workflows de ingestao), Deteccao de mudanca na origem (ETag, Last-Modified, 304, CKAN metadata_modified), Plano de automacao de ingestao Apache Hop + PostgreSQL, Tabela fonte_controle (+27 more)
+### Community 0 - "Exploracao de Valores Unicos CT&I - INEP, BNDES, SICONFI, ANATEL e IBGE"
+Cohesion: 0.31
+Nodes (9): ANATEL - Banda larga fixa e conectividade, ANEEL (referencia cruzada), Classificacao CINE Brasil (areas gerais 05-09), Exploracao de Valores Unicos CT&I - INEP, BNDES, SICONFI, ANATEL e IBGE, Funcao 19 (Ciencia e Tecnologia) e Subfuncao 126 (TI), IBGE - Base demografica, PIB/VAB e malha, INEP - Censo da Educacao Superior 2024, Nucleo STEM (CINE 05, 06, 07: 399 cursos, 67.325 matriculas) (+1 more)
 
 ### Community 1 - "APIs_TERRITORIOS_SECTI_extracao_planilha.md"
-Cohesion: 0.20
+Cohesion: 0.21
 Nodes (11): anatel(), aneel(), bndes(), classifica_bndes(), ibge(), inep(), painel_cti_municipio_ano(), reg() (+3 more)
 
 ### Community 2 - "orquestrador_inep.py"
-Cohesion: 0.07
-Nodes (15): w(), carregar_ano(), inteiro(), ler_zip(), limpa(), sondar(), dsn(), ckan() (+7 more)
+Cohesion: 0.08
+Nodes (10): w(), ckan(), http_get(), indices_zip(), salvar(), todos(), HttpFile, open_remote_zip() (+2 more)
 
-### Community 3 - "etl_verificar_mudanca.py"
-Cohesion: 0.18
-Nodes (11): ANEEL (fonte de dados), DEC/FEC e INDQUAL (954 conjuntos eletricos), ANEEL - Exploracao de Valores Unicos para CT&I, INDGER - Unidades consumidoras por municipio, P&D ANEEL (99 projetos COELBA), SAMP - Mercado de energia (COELBA), SIGA - Geracao (1.163 usinas BA), SIGA Solar e Eolica (EOL/UFV, 1.026 usinas, 74 municipios) (+3 more)
+### Community 3 - "ANEEL (fonte de dados)"
+Cohesion: 0.24
+Nodes (9): ANEEL (fonte de dados), DEC/FEC e INDQUAL (954 conjuntos eletricos), INDGER - Unidades consumidoras por municipio, P&D ANEEL (99 projetos COELBA), SAMP - Mercado de energia (COELBA), SIGA - Geracao (1.163 usinas BA), SIGA Solar e Eolica (EOL/UFV, 1.026 usinas, 74 municipios), ANEEL (CKAN datastore_search: SIGA, INDGER, SAMP, P&D, DEC/FEC) (+1 more)
 
 ### Community 4 - "aneel_decfec_ba.py"
 Cohesion: 0.05
@@ -101,16 +109,20 @@ Nodes (12): ABA, bl(), borda, bordas, C, doc, {
 }, fs (+4 more)
 
 ### Community 6 - "json"
-Cohesion: 0.07
-Nodes (11): probe(), digital(), escopo(), head(), NoSNIAdapter, NoSNIAdapter, aneel_url(), ckan_resource() (+3 more)
+Cohesion: 0.09
+Nodes (10): digital(), escopo(), head(), NoSNIAdapter, NoSNIAdapter, aneel_url(), ckan_resource(), NoSNIAdapter (+2 more)
 
 ### Community 7 - "gerar_amostras.py"
 Cohesion: 0.27
 Nodes (10): Area territorial municipal (malhas IBGE), Densidade demografica (indicador derivado), IBGE (SIDRA / API agregados / malhas), PIB municipal (agregado 5938, variavel 37), PIB per capita (tabela 6784 + base oficial XLSX fallback), Populacao municipal (agregado 6579), ANATEL (SCM densidade, banda larga fixa, cobertura 4G), IBGE (amostras 2.1 a 2.7, sem variavel CT&I) (+2 more)
 
-### Community 8 - "gerar_docx_executivo.js"
+### Community 8 - "gerar_planilha_amostras.py"
 Cohesion: 0.31
 Nodes (4): aba_dados(), cabecalho(), larguras(), valor()
+
+### Community 9 - "orquestrador_apl.py"
+Cohesion: 0.10
+Nodes (19): aproximado(), carregar(), chave_nome(), com_uf(), data_excel(), espacos(), inteiro(), ler_xlsx() (+11 more)
 
 ### Community 10 - "orquestrador_simulado.py"
 Cohesion: 0.15
@@ -144,25 +156,57 @@ Nodes (5): 1. Domínio: município, IBGE e INEP, 2. Controle e rastreabilidade, 
 Cohesion: 0.40
 Nodes (4): Comandos (`powershell -File pg-portatil\pg.ps1 <acao>`), O que vai para o git e o que não vai, PostgreSQL portátil do repositório, Recuperar em máquina nova (ou se a pasta se perder)
 
+### Community 19 - "Workflow check_<fonte> (check_inep)"
+Cohesion: 0.29
+Nodes (8): Apache Hop (workflows de ingestao), Deteccao de mudanca na origem (ETag, Last-Modified, 304, CKAN metadata_modified), Plano de automacao de ingestao Apache Hop + PostgreSQL, Tabela fonte_controle, Demais fontes futuras (IBGE, SICONFI, ANATEL, BNDES, ANEEL), PostgreSQL (destino da ingestao), Schema staging e upsert apos aprovacao, Workflow check_<fonte> (check_inep)
+
+### Community 20 - "Resultados da amostragem (documento concentrador)"
+Cohesion: 0.29
+Nodes (6): ANEEL - Exploracao de Valores Unicos para CT&I, TERRITORIOS_SECTI_Amostras_CTI.xlsx, Resultados da amostragem (documento concentrador), Scripts de reproducao (gerar_amostras.py, extrair_amostras_aneel_ba.py, ibge_pib_per_capita_oficial.py), status_validacao_fontes.csv e filtros_cti_consolidado.csv, TERRITORIOS SECTI - Resumo Executivo de Dados (PDF)
+
+### Community 21 - "cti_nivel / cti_motivo BNDES (regra explicita de CT&I)"
+Cohesion: 0.33
+Nodes (5): BNDES - Operacoes de financiamento (80.964 ops BA), BNDES (nao automaticas, indiretas automaticas, agregado 5.5), cti_nivel / cti_motivo BNDES (regra explicita de CT&I), INEP (amostras IES e cursos, microdados CSV), nivel_cti (classificacao derivada de CO_CINE_AREA_GERAL)
+
+### Community 22 - "Especificacao de Extracao das APIs/Fonte da Planilha"
+Cohesion: 0.33
+Nodes (5): codigo_ibge (chave territorial), Especificacao de Extracao das APIs/Fonte da Planilha, Planilha de Avaliacao das Fontes do Painel Territorial, 27 Territorios de Identidade (SECTI/SEPLAN) e 417 municipios BA, Modelo proposto: ies, codigo_ibge, co_curso_inep
+
+### Community 23 - "Tabelas Supabase (lista_cursos_cti, lista_ativos_cti, lista_municipioxterritorio, stats_ti, firjan)"
+Cohesion: 0.33
+Nodes (4): INEP (primeira fonte a automatizar), Supabase vicaqpcluxkwbbbwdpkg (banco atual do TERRITORIOS SECTI), Tabelas Supabase (lista_cursos_cti, lista_ativos_cti, lista_municipioxterritorio, stats_ti, firjan), Lista SECTI de 642 cursos CT&I (pendente)
+
+### Community 24 - "Planejamento — CRUD do painel e fila de validação humana"
+Cohesion: 0.14
+Nodes (13): 0. Decisões do dono (26/11), 1. O que existe hoje, 2. Objetivo, 4. API, 5. Front: curadoria dentro das abas do CRUD (sem aba separada), 6. Fases, 7.1 Onde fica cada tipo de linha, 7.2 Views que o CRUD lê (schema `api`, papel `curador`) (+5 more)
+
+### Community 25 - "Planejamento — APLs (Arranjos Produtivos Locais)"
+Cohesion: 0.20
+Nodes (9): 1. Fonte e download, 2. Recorte e dados pessoais, 3. Modelo (igual ao Supabase), 4. Cruzamento nome → `codigo_ibge` (decidido em 26/11), 5. Testes (`orquestracao/testes/07_teste_aproximacao.py`), 6. Conferência com o Supabase (só leitura, 26/11), 7. BrasilAPI (teste de 26/11; não incorporado), 8. Pendências (+1 more)
+
+### Community 26 - "orquestrador_inep.py"
+Cohesion: 0.14
+Nodes (6): probe(), carregar_ano(), inteiro(), ler_zip(), limpa(), sondar()
+
 ## Knowledge Gaps
-- **32 isolated node(s):** `Deteccao de mudanca na origem (ETag, Last-Modified, 304, CKAN metadata_modified)`, `ANATEL - Banda larga fixa e conectividade`, `Funcao 19 (Ciencia e Tecnologia) e Subfuncao 126 (TI)`, `Nucleo STEM (CINE 05, 06, 07: 399 cursos, 67.325 matriculas)`, `BNDES (nao automaticas, indiretas automaticas, agregado 5.5)` (+27 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 210 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **32 isolated node(s):** `ANATEL - Banda larga fixa e conectividade`, `Funcao 19 (Ciencia e Tecnologia) e Subfuncao 126 (TI)`, `Nucleo STEM (CINE 05, 06, 07: 399 cursos, 67.325 matriculas)`, `Deteccao de mudanca na origem (ETag, Last-Modified, 304, CKAN metadata_modified)`, `TERRITORIOS_SECTI_Amostras_CTI.xlsx` (+27 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 243 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `montar()` connect `orquestrador_apl.py` to `Planejamento — CRUD do painel e fila de validação humana`, `orquestrador_inep.py`, `orquestrador_simulado.py`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Are the 3 inferred relationships involving `montar()` (e.g. with `1. O que existe hoje` and `3.3 Linha duvidosa: fica no CRUD, fora do painel público`) actually correct?**
+  _`montar()` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `ANATEL - Banda larga fixa e conectividade`, `Funcao 19 (Ciencia e Tecnologia) e Subfuncao 126 (TI)`, `Nucleo STEM (CINE 05, 06, 07: 399 cursos, 67.325 matriculas)` to the rest of the system?**
+  _32 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `orquestrador_inep.py` be split into smaller, more focused modules?**
+  _Cohesion score 0.08108108108108109 - nodes in this community are weakly interconnected._
 - **Why does `baixar_zip()` connect `CLAUDE.md — Teste-API-dados-abetos` to `orquestrador_inep.py`?**
   _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **What connects `Deteccao de mudanca na origem (ETag, Last-Modified, 304, CKAN metadata_modified)`, `ANATEL - Banda larga fixa e conectividade`, `Funcao 19 (Ciencia e Tecnologia) e Subfuncao 126 (TI)` to the rest of the system?**
-  _32 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `ANEEL — Exploração de Valores Únicos para CT&I` be split into smaller, more focused modules?**
-  _Cohesion score 0.06282051282051282 - nodes in this community are weakly interconnected._
-- **Should `orquestrador_inep.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.06871035940803383 - nodes in this community are weakly interconnected._
 - **Should `aneel_decfec_ba.py` be split into smaller, more focused modules?**
   _Cohesion score 0.05353535353535353 - nodes in this community are weakly interconnected._
-- **Should `TERRITÓRIOS SECTI — Resultados da amostragem: o que há em cada dataset e quais filtros CT&I se aplicam` be split into smaller, more focused modules?**
-  _Cohesion score 0.11428571428571428 - nodes in this community are weakly interconnected._
-- **Should `json` be split into smaller, more focused modules?**
-  _Cohesion score 0.07439024390243902 - nodes in this community are weakly interconnected._
+- **Why does `Planejamento — CRUD do painel e fila de validação humana` connect `Planejamento — CRUD do painel e fila de validação humana` to `orquestrador_apl.py`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._

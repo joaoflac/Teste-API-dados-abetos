@@ -1,14 +1,14 @@
 {
-  "0": "ANEEL — Exploração de Valores Únicos para CT&I",
+  "0": "Exploracao de Valores Unicos CT&I - INEP, BNDES, SICONFI, ANATEL e IBGE",
   "1": "APIs_TERRITORIOS_SECTI_extracao_planilha.md",
   "2": "orquestrador_inep.py",
-  "3": "etl_verificar_mudanca.py",
+  "3": "ANEEL (fonte de dados)",
   "4": "aneel_decfec_ba.py",
   "5": "TERRITÓRIOS SECTI — Resultados da amostragem: o que há em cada dataset e quais filtros CT&I se aplicam",
   "6": "json",
   "7": "gerar_amostras.py",
-  "8": "gerar_docx_executivo.js",
-  "9": "environment",
+  "8": "gerar_planilha_amostras.py",
+  "9": "orquestrador_apl.py",
   "10": "orquestrador_simulado.py",
   "11": "environment",
   "12": "TERRITORIOS_SECTI_Amostras_CTI_1b1ba1ae.md",
@@ -17,5 +17,13 @@
   "15": "Orquestração ETL/ELT — Painel Territorial CT&I",
   "16": "MER atual: IBGE × INEP",
   "17": "PostgreSQL portátil do repositório",
-  "18": "pg.ps1"
+  "18": "pg.ps1",
+  "19": "Workflow check_<fonte> (check_inep)",
+  "20": "Resultados da amostragem (documento concentrador)",
+  "21": "cti_nivel / cti_motivo BNDES (regra explicita de CT&I)",
+  "22": "Especificacao de Extracao das APIs/Fonte da Planilha",
+  "23": "Tabelas Supabase (lista_cursos_cti, lista_ativos_cti, lista_municipioxterritorio, stats_ti, firjan)",
+  "24": "Planejamento — CRUD do painel e fila de validação humana",
+  "25": "Planejamento — APLs (Arranjos Produtivos Locais)",
+  "26": "orquestrador_inep.py"
 }
